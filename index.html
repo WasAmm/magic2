@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>magic_2</title>
   <link href='style.css' rel='stylesheet'>
+  <link href="story-1.css" rel="stylesheet">
 </head>
 
 <body>
 
   <style>
+    /*CSS*/
     /* タイトル画面 */
     #startscrean {
       position:
@@ -21,22 +23,45 @@
       background-image: url("ゲーム素材/ゲーム素材/背景/title.png");
     }
 
-    /* タイトルテキスト */
-    #startscrean_text {
-      position: absolute;
-      width: 1920px;
-      height: 100px;
-      top: 300px;
-      left: 510px;
-      font-size: 100px;
-    }
   </style>
-  
+
+  <!--  スタート画面  -->
   <div id="startscrean">
+    <!-- タイトルテキスト -->
     <div id="startscrean_text">
       Have magic power!
     </div>
+    <!-- スタートボタン -->
+    <div id="startscrean_botton">
+      ~ Tap to start ~
+    </div>
+    <!-- BGM -->
+    <audio controls src="音/挿入BGM（魔王魂）/maou_bgm_fantasy10.mp3" id="start_bgm"></audio>
   </div>
+
+  <!-- あらすじ画面１ -->
+  <div id="OP_1">
+    <!-- あらすじスキップ -->
+    <div id="storyskip_1">
+      あらすじをスキップする
+    </div>
+    <!-- あらすじ -->
+    <div id="story_1">
+      テキスト
+    </div>
+    <!-- １つ先に進む -->
+    <div id="storyfront_1">
+      １つ先にすすむ
+    </div>
+    <!-- １つ前に戻る -->
+    <div id="storyback_1">
+      タイトル画面にもどる
+    <!-- BGM -->
+    <audio controls src="音/挿入BGM（魔王魂）/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
+    </div>
+  </div>
+
+  <!-- あらすじ画面２ -->
 
 </body>
 
