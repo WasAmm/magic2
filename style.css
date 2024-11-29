@@ -1,1 +1,15 @@
-/* Add styles here */
+width_height {
+    width: 1920px;
+    height: 1080px;
+}
+
+<!--タイトル画面-->
+{
+    background-color: #faebd7;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+
+}
