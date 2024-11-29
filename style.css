@@ -1,15 +1,23 @@
-width_height {
-    width: 1920px;
-    height: 1080px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 <!--タイトル画面-->
-{
-    background-color: #faebd7;
+#startscrean{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/title.png");
 }
 
-h1 {
+<!--タイトルテキスト-->
+#startscrean_text{
+    position: absolute;
+    width: 1920px;
+    height: 664px;
+    top: 300px;
+    left: 510px;
     font-size: 100px;
-    color: black;
-
 }
