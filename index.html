@@ -6,23 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>magic_2</title>
   <link href='style.css' rel='stylesheet'>
-  <link href="story-1.css" rel="stylesheet">
+  <link href="story.css" rel="stylesheet">
+  <link href="difficulty_Easy.css" rel="stylesheet">
+  <link href="wordchoice.css" rel="stylesheet">
 </head>
 
 <body>
 
+  <!-- CSS -->
   <style>
-    /*CSS*/
     /* タイトル画面 */
     #startscrean {
-      position:
-        relative;
-      width: 1920px;
-      height: 1080px;
-      display: block;
+      display: none;
       background-image: url("ゲーム素材/ゲーム素材/背景/title.png");
     }
-
   </style>
 
   <!--  スタート画面  -->
@@ -40,9 +37,9 @@
   </div>
 
   <!-- あらすじ画面１ -->
-  <div id="OP_1">
+  <div id="OP_1" class="display_size">
     <!-- あらすじスキップ -->
-    <div id="storyskip_1">
+    <div id="storyskip_1" class="storyskip">
       あらすじをスキップする
     </div>
     <!-- あらすじ -->
@@ -50,18 +47,249 @@
       テキスト
     </div>
     <!-- １つ先に進む -->
-    <div id="storyfront_1">
+    <div id="storyfront_1" class="storyfront">
       １つ先にすすむ
     </div>
     <!-- １つ前に戻る -->
-    <div id="storyback_1">
+    <div id="storyback_1" class="storyback">
       タイトル画面にもどる
-    <!-- BGM -->
-    <audio controls src="音/挿入BGM（魔王魂）/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
+      <!-- BGM -->
+      <audio controls src="音/挿入BGM（魔王魂）/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
     </div>
   </div>
 
   <!-- あらすじ画面２ -->
+  <div id="OP_2" class="display_size">
+    <!-- あらすじスキップ -->
+    <div id="storyskip_2" class="storyskip">
+      あらすじをスキップする
+    </div>
+    <!-- あらすじ -->
+    <div id="story_2">
+      テキスト
+    </div>
+    <!-- １つ先に進む -->
+    <div id="storyfront_2" class="storyfront">
+      １つ先にすすむ
+    </div>
+    <!-- １つ前に戻る -->
+    <div id="storyback_2" class="storyback">
+      一つ前にもどる
+    </div>
+  </div>
+
+  <!-- あらすじ画面３ -->
+  <div id="OP_3" class="display_size">
+    <!-- あらすじスキップ -->
+    <div id="storyskip_3" class="storyskip">
+      あらすじをスキップする
+    </div>
+    <!-- あらすじ -->
+    <div id="story_3">
+      テキスト
+    </div>
+    <!-- １つ先に進む -->
+    <div id="storyfront_3" class="storyfront">
+      １つ先にすすむ
+    </div>
+    <!-- １つ前に戻る -->
+    <div id="storyback_3" class="storyback">
+      一つ前にもどる
+    </div>
+  </div>
+
+  <!-- あらすじ画面４ -->
+  <div id="OP_4" class="display_size">
+    <!-- あらすじスキップ -->
+    <div id="storyskip_4" class="storyskip">
+      あらすじをスキップする
+    </div>
+    <!-- あらすじ -->
+    <div id="story_4">
+      テキスト
+    </div>
+    <!-- １つ先に進む -->
+    <div id="storyfront_4" class="storyfront">
+      １つ先にすすむ
+    </div>
+    <!-- １つ前に戻る -->
+    <div id="storyback_4" class="storyback">
+      一つ前にもどる
+    </div>
+  </div>
+
+  <!-- あらすじ画面5 -->
+  <div id="OP_5" class="display_size">
+    <!-- あらすじスキップ -->
+    <div id="storyskip_5" class="storyskip">
+      あらすじをスキップする
+    </div>
+    <!-- あらすじ -->
+    <div id="story_5">
+      テキスト
+    </div>
+    <!-- １つ先に進む -->
+    <div id="storyfront_5" class="storyfront">
+      １つ先にすすむ
+    </div>
+    <!-- １つ前に戻る -->
+    <div id="storyback_5" class="storyback">
+      一つ前にもどる
+    </div>
+  </div>
+
+  <!-- 難易度選択画面 -->
+  <div id="difficulty" class="display_size">
+    <!-- Easy -->
+    <div id="difficulty_Easy" class="difficulty_text">
+      Easy
+    </div>
+    <!-- Normal -->
+    <div id="difficulty_Normal" class="difficulty_text">
+      Normal
+    </div>
+    <!-- Hard -->
+    <div id="difficulty_Hard" class="difficulty_text">
+      Hard
+    </div>
+    <!-- 画像ー魔女 -->
+    <img src="ゲーム素材/ゲーム素材/キャラクターたち/stand-by.png" class="difficulty_img">
+  </div>
+
+  <!-- 単語選択画面Easy -->
+  <div id="wordchoice_Easy" class="display_size">
+    <!-- 単語を選んでね -->
+    <div id="please_wordchoice_Easy" class="please_wordchoice">
+      君が使いたい魔法を選ぼう！
+    </div>
+
+    <!-- 枠線 -->
+    <div class="border_wordchoice">
+
+
+      <!-- ほのお -->
+      <div id="can_read_japanese_fire" class="can_read_japanese_left">
+        ほのお
+      </div>
+      <!-- 簡単‐炎 -->
+      <div id="fire_easy" name="words_word" data-word="fire" class="word">
+        fire
+      </div>
+      <!-- 画像‐炎 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Fire.png" id="img_fire" class="image_icon">
+
+      <!-- みず -->
+      <div id="can_read_japanese_water" class="can_read_japanese_left">
+        みず
+      </div>
+      <!-- 簡単‐水 -->
+      <div id="water_easy" name="words_word" data-word="water" class="word">
+        water
+      </div>
+      <!-- 画像‐水 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Water.png" id="img_water" class="image_icon">
+
+      <!-- くさ -->
+      <div id="can_read_japanese_grass" class="can_read_japanese_left">
+        くさ
+      </div>
+      <!-- 簡単‐草 -->
+      <div id="grass_easy" name="words_word" data-word="grass" class="word">
+        grass
+      </div>
+      <!-- 画像‐ -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Grass.png" id="img_grass" class="image_icon">
+
+      <!-- かみなり -->
+      <div id="can_read_japanese_thunder" class="can_read_japanese_left">
+        かみなり
+      </div>
+      <!-- 簡単‐雷 -->
+      <div id="thunder_easy" name="words_word" data-word="thunder" class="word">
+        thunder
+      </div>
+      <!-- 画像‐雷 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Thunder.png" id="img_thunder" class="image_icon">
+
+      <!-- こおり -->
+      <div id="can_read_japanese_ice" class="can_read_japanese_left">
+        こおり
+      </div>
+      <!-- 簡単‐氷 -->
+      <div id="ice_easy" name="words_word" data-word="ice" class="word">
+        ice
+      </div>
+      <!-- 画像‐氷 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Ice.png" id="img_ice" class="image_icon">
+
+      <!-- こおり -->
+      <div id="can_read_japanese_ice" class="can_read_japanese_left">
+        こおり
+      </div>
+      <!-- 簡単‐氷 -->
+      <div id="ice_easy" name="words_word" data-word="ice" class="word">
+        ice
+      </div>
+      <!-- 画像‐氷 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Ice.png" id="img_ice" class="image_icon">
+
+      <!-- かぜ -->
+      <div id="can_read_japanese_wind" class="can_read_japanese_right">
+        かぜ
+      </div>
+      <!-- 簡単‐風 -->
+      <div id="wind_easy" name="words_word" data-word="wind" class="word">
+        wind
+      </div>
+      <!-- 画像‐風 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Wind.png" id="img_wind" class="image_icon">
+
+      <!-- いわ -->
+      <div id="can_read_japanese_rock" class="can_read_japanese_right">
+        いわ
+      </div>
+      <!-- 簡単‐岩 -->
+      <div id="rock_easy" name="words_word" data-word="rock" class="word">
+        rock
+      </div>
+      <!-- 画像‐岩 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Rock.png" id="img_rock" class="image_icon">
+
+      <!-- どく -->
+      <div id="can_read_japanese_poison" class="can_read_japanese_right">
+        どく
+      </div>
+      <!-- 簡単‐ -->
+      <div id="poison_easy" name="words_word" data-word="poison" class="word">
+        poison
+      </div>
+      <!-- 画像‐ -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Poison.png" id="img_poison" class="image_icon">
+
+      <!-- ひかり -->
+      <div id="can_read_japanese_rock" class="can_read_japanese_right">
+        ひかり
+      </div>
+      <!-- 簡単‐光 -->
+      <div id="light_easy" name="words_word" data-word="light" class="word">
+        light
+      </div>
+      <!-- 画像‐光 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Light.png" id="img_light" class="image_icon">
+
+      <!-- やみ -->
+      <div id="can_read_japanese_darkness" class="can_read_japanese_right">
+        やみ
+      </div>
+      <!-- 簡単‐闇 -->
+      <div id="darkness" name="words_word" data-word="darkness" class="word">
+        darkness
+      </div>
+      <!-- 画像‐闇 -->
+      <img src="ゲーム素材/ゲーム素材/アイコン/Darkness.png" id="img_darkness" class="image_icon">
+
+    </div>
+  </div>
 
 </body>
 

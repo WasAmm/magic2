@@ -1,24 +1,29 @@
+/* タイトル画面 */
 * {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     margin: 0;
     overflow: hidden;
 }
 
-/* タイトル画面 */
-#startscrean{
+/* 画面サイズ */
+.display_size {
     position: relative;
     width: 1920px;
     height: 1080px;
+}
+
+/* タイトル画面 */
+#startscrean.display_size {
     display: none;
     background-image: url("ゲーム素材/ゲーム素材/背景/title.png");
 }
 
 /* タイトルテキスト */
-#startscrean_text{
+#startscrean_text {
     position: absolute;
     width: 1920px;
     height: 664px;
@@ -28,7 +33,7 @@ body{
 }
 
 /* スタートボタン */
-#startscrean_botton{
+#startscrean_botton {
     position: absolute;
     width: 650px;
     height: 100px;
@@ -39,6 +44,6 @@ body{
 }
 
 /*BGＭ*/
-#start_bgm{
+#start_bgm {
     display: none;
 }

@@ -1,0 +1,137 @@
+/* あらすじ画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* あらすじスキップ */
+.storyskip {
+    position: absolute;
+    width: 448px;
+    height: 39px;
+    top: 20px;
+    right: 123px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+}
+
+/* １つ先に進む */
+.storyfront {
+    position: absolute;
+    width: 287px;
+    height: 38px;
+    top: 1030px;
+    right: 114px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+}
+
+/* 一つ前にもどる */
+.storyback {
+    position: absolute;
+    width: 390px;
+    height: 38px;
+    top: 1030px;
+    left: 111px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+}
+
+/* あらすじ画面１ */
+#OP_1.display_size {
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/summary-1.png");
+}
+
+#story_1 {
+    position: absolute;
+    width: 1800px;
+    height: 268px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+}
+
+#story_bgm {
+    display: none;
+}
+
+/* あらすじ画面２ */
+#OP_2.display_size {
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/summary-2.png");
+}
+
+#story_2 {
+    position: absolute;
+    width: 1700px;
+    height: 268px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 66px;
+    line-height: 1;
+}
+
+/* あらすじ画面３ */
+#OP_3.display_size {
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/summary-3.png");
+}
+
+#story_3 {
+    position: absolute;
+    width: 1076px;
+    height: 268px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 66px;
+    line-height: 1;
+}
+
+/* あらすじ画面4 */
+#OP_4.display_size {
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/summary-4.png");
+}
+
+#story_4 {
+    position: absolute;
+    width: 1020px;
+    height: 268px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 66px;
+    line-height: 1;
+}
+
+/* あらすじ画面5 */
+#OP_5.display_size {
+    display: none;
+    background-image: url("ゲーム素材/ゲーム素材/背景/summary-5.png");
+}
+
+#story_5 {
+    position: absolute;
+    width: 1570px;
+    height: 456px;
+    top: 251px;
+    left: 243px;
+    color: white;
+    font-size: 117px;
+    line-height: 1;
+}

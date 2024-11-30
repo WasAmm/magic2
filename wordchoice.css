@@ -1,0 +1,193 @@
+/* 単語選択画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* 単語を選んでね */
+.please_wordchoice {
+    position: absolute;
+    height: 78px;
+    width: 832px;
+    top: 70px;
+    left: 616px;
+    font-size: 60px;
+}
+
+/* ふりがな */
+.can_read_japanese_left {
+    position: absolute;
+    height: 30px;
+    left: 157px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.can_read_japanese_right{
+    position: absolute;
+    height: 30px;
+    width: 325px;
+    right: 277px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+/* 単語 */
+.word {
+    position: absolute;
+    height: 84px;
+    width: 325px;
+    font-size: 84px;
+    line-height: 1;
+}
+
+/* 枠線 */
+.border_wordchoice {
+    position: absolute;
+    width: 1542px;
+    height: 772px;
+    top: 167px;
+    left: 189px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+/* アイコン */
+.image_icon {
+    position: absolute;
+    height: 116px;
+    width: 116px;
+}
+
+#wordchoice_Easy.display_size {
+    background-color: gray;
+    display: block;
+}
+
+#can_read_japanese_fire.can_read_japanese_left {
+    top: 35px;
+}
+
+#fire_easy.word {
+    top: 67px;
+    background-color: palevioletred;
+    left: 157px;
+}
+
+#img_fire {
+    top: 50px;
+    left: 622px;
+}
+
+#can_read_japanese_water.can_read_japanese_left {
+    top: 172px;
+}
+
+#water_easy.word {
+    top: 209px;
+    background-color: paleturquoise;
+    left: 157px;
+}
+
+#img_water {
+    top: 190px;
+    left: 622px;
+}
+
+#can_read_japanese_grass.can_read_japanese_left {
+    top: 312px;
+}
+
+#grass_easy.word {
+    top: 347px;
+    background-color: palegreen;
+    left: 157px;
+}
+
+#img_grass {
+    top: 328px;
+    left: 622px;
+}
+
+#can_read_japanese_thunder.can_read_japanese_left {
+    top: 450px;
+}
+
+#thunder_easy.word {
+    top: 485px;
+    background-color: palegoldenrod;
+    left: 157px;
+}
+
+#img_thunder {
+    top: 466px;
+    left: 622px;
+}
+
+#can_read_japanese_ice.can_read_japanese_left {
+    top: 588px;
+}
+
+#ice_easy.word {
+    top: 623px;
+    background-color: lightcyan;
+    left: 157px;
+}
+
+#img_ice {
+    top: 604px;
+    left: 622px;
+}
+
+#can_read_japanese_wind.can_read_japanese_right {
+    top: 35px;
+}
+
+#wind_easy.word {
+    top: 72px;
+    background-color: honeydew;
+    right: 277px;
+}
+
+#img_wind {
+    top: 52px;
+    right: 20px;
+}
+
+#can_read_japanese_rock.can_read_japanese_right {
+    top: 172px;
+}
+
+#rock_easy.word {
+    top: 209px;
+    background-color: tan;
+    right: 277px;
+}
+
+#img_rock {
+    top: 190px;
+    right: 20px;
+}
+
+#can_read_japanese_poison.can_read_japanese_right {
+    top: 312px;
+}
+
+#poison_easy.word {
+    top: 347px;
+    background-color: #4b008270;
+    right: 277px;
+}
+
+#img_poison {
+    top: 328px;
+    right: 20px;
+}
