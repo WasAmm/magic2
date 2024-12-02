@@ -30,20 +30,20 @@
     line-height: 1;
 }
 
-.can_read_japanese_right{
+.can_read_japanese_right {
     position: absolute;
     height: 30px;
     width: 325px;
-    right: 277px;
+    right: 299px;
     font-size: 30px;
     line-height: 1;
 }
 
 /* 単語 */
-.word {
+.word_easy {
     position: absolute;
     height: 84px;
-    width: 325px;
+    width: 405px;
     font-size: 84px;
     line-height: 1;
 }
@@ -76,7 +76,7 @@
     top: 35px;
 }
 
-#fire_easy.word {
+#fire_easy.word_easy {
     top: 67px;
     background-color: palevioletred;
     left: 157px;
@@ -91,7 +91,7 @@
     top: 172px;
 }
 
-#water_easy.word {
+#water_easy.word_easy {
     top: 209px;
     background-color: paleturquoise;
     left: 157px;
@@ -106,7 +106,7 @@
     top: 312px;
 }
 
-#grass_easy.word {
+#grass_easy.word_easy {
     top: 347px;
     background-color: palegreen;
     left: 157px;
@@ -121,7 +121,7 @@
     top: 450px;
 }
 
-#thunder_easy.word {
+#thunder_easy.word_easy {
     top: 485px;
     background-color: palegoldenrod;
     left: 157px;
@@ -136,7 +136,7 @@
     top: 588px;
 }
 
-#ice_easy.word {
+#ice_easy.word_easy {
     top: 623px;
     background-color: lightcyan;
     left: 157px;
@@ -151,10 +151,10 @@
     top: 35px;
 }
 
-#wind_easy.word {
+#wind_easy.word_easy {
     top: 72px;
     background-color: honeydew;
-    right: 277px;
+    right: 217px;
 }
 
 #img_wind {
@@ -166,10 +166,10 @@
     top: 172px;
 }
 
-#rock_easy.word {
+#rock_easy.word_easy {
     top: 209px;
     background-color: tan;
-    right: 277px;
+    right: 217px;
 }
 
 #img_rock {
@@ -181,13 +181,48 @@
     top: 312px;
 }
 
-#poison_easy.word {
+#poison_easy.word_easy {
     top: 347px;
     background-color: #4b008270;
-    right: 277px;
+    right: 217px;
 }
 
 #img_poison {
     top: 328px;
     right: 20px;
 }
+
+#can_read_japanese_light.can_read_japanese_right {
+    top: 450px;
+}
+
+#light_easy.word_easy {
+    top: 485px;
+    background-color: ivory;
+    right: 217px;
+}
+
+#img_light {
+    top: 466px;
+    right: 20px;
+}
+
+#can_read_japanese_darkness.can_read_japanese_right {
+    top: 588px;
+}
+
+#darkness_easy.word_easy {
+    top: 623px;
+    background-color: #00008070;
+    right: 217px;
+}
+
+#img_darkness {
+    top: 604px;
+    right: 20px;
+}
+
+
+
+
+

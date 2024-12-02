@@ -1,0 +1,44 @@
+/* 単語選択画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* 単語を選んでね */
+.please_wordchoice {
+    position: absolute;
+    height: 78px;
+    width: 832px;
+    top: 70px;
+    left: 616px;
+    font-size: 60px;
+}
+
+/* 単語 */
+.word_normal {
+    position: absolute;
+    height: 84px;
+    width: 405px;
+    font-size: 84px;
+    line-height: 1;
+}
+
+/* 枠線 */
+.border_wordchoice {
+    position: absolute;
+    width: 1542px;
+    height: 772px;
+    top: 167px;
+    left: 189px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
