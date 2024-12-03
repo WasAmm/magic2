@@ -11,6 +11,11 @@
     height: 1080px;
 }
 
+#wordchoice_Easy.display_size {
+    background-color: gray;
+    display: none;
+}
+
 /* 単語を選んでね */
 .please_wordchoice {
     position: absolute;
@@ -65,11 +70,6 @@
     position: absolute;
     height: 116px;
     width: 116px;
-}
-
-#wordchoice_Easy.display_size {
-    background-color: gray;
-    display: block;
 }
 
 #can_read_japanese_fire.can_read_japanese_left {

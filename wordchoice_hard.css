@@ -11,7 +11,7 @@
     height: 1080px;
 }
 
-#wordchoice_Normal.display_size {
+#wordchoice_Hard.display_size {
     background-color: gray;
     display: block;
 }
@@ -27,11 +27,10 @@
 }
 
 /* 単語 */
-.word_normal {
+.word_hard {
     position: absolute;
     height: 70px;
-    width: 574px;
-    font-size: 70px;
+    width: 1306px;
     line-height: 1;
 }
 
@@ -47,62 +46,46 @@
     border-color: white;
 }
 
-#fire_normal.word_normal {
+/* 画像 */
+.image_icon_hard {
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    right: 45px;
+}
+
+#fire_hard.word_hard {
     top: 67px;
     background-color: palevioletred;
     left: 11px;
 }
 
-#water_normal.word_normal {
+#img_fire_hard {
+    top: 50px;
+    right: 45px;
+}
+
+#water_hard.word_hard {
     top: 206px;
     background-color: paleturquoise;
     left: 11px;
 }
 
-#grass_normal.word_normal {
+#grass_hard.word_hard {
     top: 345px;
     background-color: palegreen;
     left: 11px;
 }
 
-#thunder_normal.word_normal {
+#thunder_hard.word_hard {
     top: 484px;
     background-color: palegoldenrod;
     left: 11px;
 }
 
-#ice_normal.word_normal {
+#ice_hard.word_hard {
     top: 622px;
     background-color: lightcyan;
     left: 11px;
 }
 
-#wind_normal.word_normal {
-    top: 67px;
-    background-color: honeydew;
-    right: 190px;
-}
-
-#rock_normal.word_normal {
-    top: 206px;
-    background-color: tan;
-    right: 190px;
-}
-
-#poison_normal.word_normal {
-    top: 345px;
-    background-color: #4b008270;
-    right: 190px;
-}
-
-#light_normal.word_normal {
-    top: 484px;
-    background-color: ivory;
-    right: 190px;
-}
-
-#darkness_normal.word_normal {
-    top: 622px;
-    background-color: #00008070;
-    right: 190px;
-}
