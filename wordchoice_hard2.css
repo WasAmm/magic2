@@ -1,0 +1,107 @@
+/* 単語選択画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#wordchoice_Hard.display_size {
+    background-color: gray;
+    display: block;
+}
+
+/* 単語を選んでね */
+.please_wordchoice {
+    position: absolute;
+    height: 78px;
+    width: 832px;
+    top: 70px;
+    left: 616px;
+    font-size: 60px;
+}
+
+/* 単語 */
+.word_hard {
+    position: absolute;
+    height: 80px;
+    width: 1306px;
+    line-height: 80px;
+    left: 41px;
+    align-items: center;
+}
+
+/* 枠線 */
+.border_wordchoice {
+    position: absolute;
+    width: 1542px;
+    height: 772px;
+    top: 167px;
+    left: 189px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+/* 画像 */
+.image_icon_hard {
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    right: 45px;
+}
+
+#fire_hard.word_hard {
+    top: 67px;
+    background-color: palevioletred;
+    font-size: 52px;
+}
+
+#img_fire_hard.image_icon_hard {
+    top: 50px;
+}
+
+#water_hard.word_hard {
+    top: 206px;
+    background-color: paleturquoise;
+    font-size: 52px;
+}
+
+#img_water_hard.image_icon_hard {
+    top: 188px;
+}
+
+#grass_hard.word_hard {
+    top: 345px;
+    background-color: palegreen;
+    font-size: 52px;
+}
+
+#img_grass_hard.image_icon_hard {
+    top: 326px;
+}
+
+#thunder_hard.word_hard {
+    top: 484px;
+    background-color: palegoldenrod;
+    font-size: 45px;
+}
+
+#img_thunder_hard.image_icon_hard {
+    top: 484px;
+}
+
+#ice_hard.word_hard {
+    top: 622px;
+    background-color: lightcyan;
+    font-size: 52px;
+}
+
+#img_ice_hard.image_icon_hard {
+    top: 622px;
+}

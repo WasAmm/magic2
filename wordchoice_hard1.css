@@ -11,7 +11,7 @@
     height: 1080px;
 }
 
-#wordchoice_Hard.display_size {
+#wordchoice_Hard1.display_size {
     background-color: gray;
     display: block;
 }
@@ -29,9 +29,11 @@
 /* 単語 */
 .word_hard {
     position: absolute;
-    height: 70px;
+    height: 80px;
     width: 1306px;
-    line-height: 1;
+    line-height: 80px;
+    left: 41px;
+    align-items: center;
 }
 
 /* 枠線 */
@@ -57,35 +59,60 @@
 #fire_hard.word_hard {
     top: 67px;
     background-color: palevioletred;
-    left: 11px;
+    font-size: 52px;
 }
 
-#img_fire_hard {
+#img_fire_hard.image_icon_hard {
     top: 50px;
-    right: 45px;
 }
 
 #water_hard.word_hard {
     top: 206px;
     background-color: paleturquoise;
-    left: 11px;
+    font-size: 52px;
+}
+
+#img_water_hard.image_icon_hard {
+    top: 188px;
 }
 
 #grass_hard.word_hard {
     top: 345px;
     background-color: palegreen;
-    left: 11px;
+    font-size: 52px;
+}
+
+#img_grass_hard.image_icon_hard {
+    top: 326px;
 }
 
 #thunder_hard.word_hard {
     top: 484px;
     background-color: palegoldenrod;
-    left: 11px;
+    font-size: 45px;
+}
+
+#img_thunder_hard.image_icon_hard {
+    top: 484px;
 }
 
 #ice_hard.word_hard {
     top: 622px;
     background-color: lightcyan;
-    left: 11px;
+    font-size: 52px;
 }
 
+#img_ice_hard.image_icon_hard {
+    top: 622px;
+}
+
+#wordchoice_Hard1_front {
+    position: absolute;
+    height: 65px;
+    width: 582px;
+    top: 957px;
+    right: 65px;
+    color: black;
+    font-size: 65px;
+    line-height: 1;
+}

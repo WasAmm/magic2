@@ -13,7 +13,7 @@
 
 #wordchoice_Normal.display_size {
     background-color: gray;
-    display: block;
+    display: none;
 }
 
 /* 単語を選んでね */
