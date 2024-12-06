@@ -1,4 +1,4 @@
-/* 単語選択画面 */
+/* 単語選択画面-hard1 */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
 
 #wordchoice_Hard1.display_size {
     background-color: gray;
-    display: block;
+    display: none;
 }
 
 /* 単語を選んでね */
@@ -110,7 +110,7 @@
     position: absolute;
     height: 65px;
     width: 582px;
-    top: 957px;
+    top: 992px;
     right: 65px;
     color: black;
     font-size: 65px;
