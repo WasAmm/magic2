@@ -14,6 +14,7 @@
   <link href="wordchoice_hard2.css" rel="stylesheet">
   <link href="final_confirmation.css" rel="stylesheet">
   <link href="speak_example.css" rel="stylesheet">
+  <link href="mainstage.css" rel="stylesheet">
 </head>
 
 <body>
@@ -519,6 +520,16 @@
     <div id="speak_example_word">
     </div>
 
+    <!-- もう一度聞く -->
+    <div id="speak_example_repeat">
+      もう１回聞く
+    </div>
+
+    <!-- ゲームを始める -->
+    <div id="speak_example_front">
+      ゲームを始める
+    </div>
+
     <!-- 音声 -->
     <audio controls src="音/英語音声/Easy_fire.mp3" id="Easy_fire_mp3" class="speak_example_audio"></audio>
     <audio controls src="音/英語音声/Easy_water.mp3" id="Easy_water_mp3" class="speak_example_audio"></audio>
@@ -555,6 +566,18 @@
     <audio controls src="音/英語音声/Hard_poison.mp3" id="Hard_poison_mp3" class="speak_example_audio"></audio>
     <audio controls src="音/英語音声/Hard_light.mp3" id="Hard_light_mp3" class="speak_example_audio"></audio>
     <audio controls src="音/英語音声/Normal_darkness.mp3" id="Hard_darkness_mp3" class="speak_example_audio"></audio>
+
+  </div>
+
+  <!-- ゲーム画面 -->
+  <div id="mainstage" class="display_size" >
+    <!-- ターンのところ -->
+    <div id="mainstage_turn"></div>
+    <!-- HPの残量のところ（文字） -->
+    <div id="HP_tensuu"></div>
+    <!-- HPバーのところ -->
+
+
 
   </div>
 

@@ -18,7 +18,7 @@
 
 #speak_example.display_size {
     background-color: black;
-    display: block;
+    display: none;
 }
 
 #speak_example_said {
@@ -26,7 +26,7 @@
     height: 75px;
     width: 791px;
     top: 117px;
-    left: 563px;
+    left: 620px;
     color: white;
     font-size: 75px;
     line-height: 1;
@@ -40,6 +40,32 @@
     left: 77px;
     color: white;
     font-size: 85px;
+    line-height: 1;
+    text-align: center;
+}
+
+#speak_example_repeat {
+    position: absolute;
+    height: 65px;
+    width: 400px;
+    top: 767px;
+    left: 757px;
+    font-size: 65px;
+    color: white;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+}
+
+#speak_example_front {
+    position: absolute;
+    height: 65px;
+    width: 409px;
+    top: 939px;
+    left: 754px;
+    font-size: 65px;
+    color: white;
+    font-size: 50px;
     line-height: 1;
     text-align: center;
 }

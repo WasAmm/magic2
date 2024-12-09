@@ -1,0 +1,22 @@
+/* 戦闘画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#mainstage.display_size {
+    position: relative;
+    height: 1080px;
+    width: 1920px;
+    display: block;
+    background-image: url("ゲーム素材/ゲーム素材/背景/battle-BackGround.png");
+}
+
+/* #mainstage_turn {} */
