@@ -102,3 +102,39 @@
     line-height: 1;
     display: block;
 }
+
+#dragon_power {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 376px;
+    left: 90px;
+    display: none;
+}
+
+#mainstage_monster_down {
+    position: absolute;
+    height: 432px;
+    width: 542px;
+    top: 430px;
+    left: 85px;
+    display: none;
+}
+
+#mainstage_monster_victory {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 390px;
+    left: 90px;
+    display: block;
+}
+
+#mainstage_effect_monster {
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    top: 502px;
+    left: 600px;
+    display: block;
+}
