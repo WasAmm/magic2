@@ -11,9 +11,31 @@
     height: 1080px;
 }
 
+/* エフェクトの位置 */
+.mainstage_effect_monster {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 385px;
+    left: 109px;
+}
+
+
 #mainstage.display_size {
     display: block;
     background-image: url("ゲーム素材/ゲーム素材/背景/battle-BackGround.png");
+}
+
+#HP_tensuu {
+    position: absolute;
+    height: 35px;
+    width: 214px;
+    top: 171px;
+    left: 108px;
+    font-size: 35px;
+    line-height: 1;
+    text-align: left;
+    display: block;
 }
 
 #mainstage_turn {
@@ -103,13 +125,23 @@
     display: block;
 }
 
+#mainstage_damage_line {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 978px;
+    left: 124px;
+    border-style: solid;
+    border-width: 4px;
+}
+
 #dragon_power {
     position: absolute;
     height: 505px;
     width: 540px;
     top: 376px;
     left: 90px;
-    display: none;
+    display: block;
 }
 
 #mainstage_monster_down {
@@ -127,7 +159,7 @@
     width: 540px;
     top: 390px;
     left: 90px;
-    display: block;
+    display: none;
 }
 
 #mainstage_effect_monster {
@@ -136,5 +168,131 @@
     width: 270px;
     top: 502px;
     left: 600px;
+    display: none;
+}
+
+#mainstage_monster_words {
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    top: 4800px;
+    left: 630px;
+    display: none;
+}
+
+#mainstage_player_cheerful {
+    position: absolute;
+    height: 460px;
+    width: 340px;
+    top: 466px;
+    left: 1475px;
     display: block;
+}
+
+#mainstage_turn_next {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}
+
+#mainstage_monster_win_words {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}
+
+#mainstage_monster_lose_words {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}
+
+#count_line {
+    position: absolute;
+    height: 52px;
+    width: 370px;
+    top: 540px;
+    left: 750px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 11px;
+    display: none;
+}
+
+#count_meter {
+    height: 52px;
+    top: 540px;
+    background-color: mediumturquoise;
+    transition: width 5s linear;
+}
+
+#count_supell {
+    position: absolute;
+    height: 30px;
+    width: 800px;
+    top: 470px;
+    left: 600px;
+    color: black;
+    font-size: 74px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}
+
+#mainstage_effect_monster_fire {
+    display: none;
+}
+
+#mainstage_effect_monster_water {
+    display: none;
+}
+
+#mainstage_effect_monster_grass {
+    display: none;
+}
+
+#mainstage_effect_monster_thunder {
+    display: none;
+}
+
+#mainstage_effect_monster_ice {
+    display: none;
+}
+
+#mainstage_effect_monster_wind {
+    display: none;
+}
+
+#mainstage_effect_monster_rock {
+    display: none;
+}
+
+#mainstage_effect_monster_poison {
+    display: none;
+}
+
+#mainstage_effect_monster_light {
+    display: none;
+}
+
+#mainstage_effect_monster_darkness {
+    display: none;
 }
