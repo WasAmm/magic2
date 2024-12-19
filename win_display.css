@@ -1,0 +1,29 @@
+/* 勝利画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#win_display.display_size {
+    display: block;
+    background-image: url("game_material/game_material/ background/win-BackGround.png");
+}
+
+#win_display_words_great {
+    position: absolute;
+    height: 113px;
+    width: 800px;
+    top: 484px;
+    left: 558px;
+    color: black;
+    font-size: 113px;
+    line-height: 1;
+    text-align: center;
+}

@@ -21,7 +21,7 @@ body {
 /* タイトル画面 */
 #startscrean.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/title.png");
+    background-image: url("game_material/background/title.png");
 }
 
 /* タイトルテキスト */

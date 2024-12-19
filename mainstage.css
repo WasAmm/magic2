@@ -22,8 +22,8 @@
 
 
 #mainstage.display_size {
-    display: block;
-    background-image: url("ゲーム素材/ゲーム素材/背景/battle-BackGround.png");
+    display: none;
+    background-image: url("game_material/game_material/ background/battle-BackGround.png");
 }
 
 #HP_tensuu {

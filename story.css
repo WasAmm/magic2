@@ -50,7 +50,7 @@
 /* あらすじ画面１ */
 #OP_1.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/summary-1.png");
+    background-image: url("game_material/game_material/ background/summary-1.png");
 }
 
 #story_1 {
@@ -71,7 +71,7 @@
 /* あらすじ画面２ */
 #OP_2.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/summary-2.png");
+    background-image: url("game_material/game_material/ background/summary-2.png");
 }
 
 #story_2 {
@@ -88,7 +88,7 @@
 /* あらすじ画面３ */
 #OP_3.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/summary-3.png");
+    background-image: url("game_material/game_material/ background/summary-3.png");
 }
 
 #story_3 {
@@ -105,7 +105,7 @@
 /* あらすじ画面4 */
 #OP_4.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/summary-4.png");
+    background-image: url("game_material/game_material/ background/summary-4.png");
 }
 
 #story_4 {
@@ -122,7 +122,7 @@
 /* あらすじ画面5 */
 #OP_5.display_size {
     display: none;
-    background-image: url("ゲーム素材/ゲーム素材/背景/summary-5.png");
+    background-image: url("game_material/game_material/ background/summary-5.png");
 }
 
 #story_5 {
