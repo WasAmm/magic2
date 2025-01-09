@@ -12,7 +12,7 @@
 }
 
 #wordchoice_Easy.display_size {
-    background-color: gray;
+    background-color: black;
     display: none;
 }
 
@@ -24,6 +24,7 @@
     top: 70px;
     left: 616px;
     font-size: 60px;
+    color: white;
 }
 
 /* ふりがな */
@@ -33,6 +34,7 @@
     left: 157px;
     font-size: 30px;
     line-height: 1;
+    color: white;
 }
 
 .can_read_japanese_right {
@@ -42,6 +44,7 @@
     right: 299px;
     font-size: 30px;
     line-height: 1;
+    color: white;
 }
 
 /* 単語 */
@@ -51,6 +54,7 @@
     width: 405px;
     font-size: 84px;
     line-height: 1;
+    color: white;
 }
 
 /* 枠線 */
@@ -68,8 +72,8 @@
 /* icon_image */
 .image_icon {
     position: absolute;
-    height: 116px;
-    width: 116px;
+    height: 140px;
+    width: 140px;
 }
 
 #can_read_japanese_fire.can_read_japanese_left {
@@ -78,7 +82,6 @@
 
 #fire_easy.word_easy {
     top: 67px;
-    background-color: palevioletred;
     left: 157px;
 }
 
@@ -93,7 +96,6 @@
 
 #water_easy.word_easy {
     top: 209px;
-    background-color: paleturquoise;
     left: 157px;
 }
 
@@ -108,7 +110,6 @@
 
 #grass_easy.word_easy {
     top: 347px;
-    background-color: palegreen;
     left: 157px;
 }
 
@@ -123,7 +124,6 @@
 
 #thunder_easy.word_easy {
     top: 485px;
-    background-color: palegoldenrod;
     left: 157px;
 }
 
@@ -138,7 +138,6 @@
 
 #ice_easy.word_easy {
     top: 623px;
-    background-color: lightcyan;
     left: 157px;
 }
 
@@ -153,7 +152,6 @@
 
 #wind_easy.word_easy {
     top: 72px;
-    background-color: honeydew;
     right: 217px;
 }
 
@@ -168,7 +166,6 @@
 
 #rock_easy.word_easy {
     top: 209px;
-    background-color: tan;
     right: 217px;
 }
 
@@ -183,7 +180,6 @@
 
 #poison_easy.word_easy {
     top: 347px;
-    background-color: #4b008270;
     right: 217px;
 }
 
@@ -198,7 +194,6 @@
 
 #light_easy.word_easy {
     top: 485px;
-    background-color: ivory;
     right: 217px;
 }
 
@@ -213,7 +208,6 @@
 
 #darkness_easy.word_easy {
     top: 623px;
-    background-color: #00008070;
     right: 217px;
 }
 

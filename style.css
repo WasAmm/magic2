@@ -5,10 +5,11 @@
 }
 
 body {
-    margin: 0;
     overflow: hidden;
     width: 1920px;
     height: 1080px;
+    margin: 0;
+    padding: 0;
 }
 
 /* 画面サイズ */
@@ -20,15 +21,15 @@ body {
 
 /* タイトル画面 */
 #startscrean.display_size {
-    display: none;
-    background-image: url("game_material/background/title.png");
+    display: block;
+    background-image: url("game_material/game_material/ background/title.png");
 }
 
 /* タイトルテキスト */
 #startscrean_text {
     position: absolute;
-    width: 1920px;
-    height: 664px;
+    width: 1000px;
+    height: 100px;
     top: 300px;
     left: 510px;
     font-size: 100px;

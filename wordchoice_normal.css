@@ -12,7 +12,7 @@
 }
 
 #wordchoice_Normal.display_size {
-    background-color: gray;
+    background-color: black;
     display: none;
 }
 
@@ -33,6 +33,7 @@
     width: 574px;
     font-size: 70px;
     line-height: 1;
+    color: white;
 }
 
 /* 枠線 */
@@ -49,60 +50,50 @@
 
 #fire_normal.word_normal {
     top: 67px;
-    background-color: palevioletred;
-    left: 11px;
+    left: 157px;
 }
 
 #water_normal.word_normal {
     top: 206px;
-    background-color: paleturquoise;
-    left: 11px;
+    left: 157px;
 }
 
 #grass_normal.word_normal {
     top: 345px;
-    background-color: palegreen;
-    left: 11px;
+    left: 157px;
 }
 
 #thunder_normal.word_normal {
     top: 484px;
-    background-color: palegoldenrod;
-    left: 11px;
+    left: 157px;
 }
 
 #ice_normal.word_normal {
     top: 622px;
-    background-color: lightcyan;
-    left: 11px;
+    left: 157px;
 }
 
 #wind_normal.word_normal {
     top: 67px;
-    background-color: honeydew;
     right: 190px;
 }
 
 #rock_normal.word_normal {
     top: 206px;
-    background-color: tan;
     right: 190px;
 }
 
 #poison_normal.word_normal {
     top: 345px;
-    background-color: #4b008270;
     right: 190px;
 }
 
 #light_normal.word_normal {
     top: 484px;
-    background-color: ivory;
     right: 190px;
 }
 
 #darkness_normal.word_normal {
     top: 622px;
-    background-color: #00008070;
     right: 190px;
 }

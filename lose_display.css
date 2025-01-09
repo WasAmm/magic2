@@ -1,4 +1,4 @@
-/* 勝利画面 */
+/* 敗北画面 */
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +11,12 @@
     height: 1080px;
 }
 
-#win_display.display_size {
+#lose_display.display_size {
     display: none;
-    background-image: url("game_material/game_material/ background/win-BackGround.png");
+    background-image: url("game_material/game_material/ background/lose-BackGround.png");
 }
 
-#win_display_words_good {
+#lose_display_words_bad {
     position: absolute;
     height: 163px;
     width: 779px;
@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-#win_display_words_great {
+#lose_display_words_sobad {
     position: absolute;
     height: 113px;
     width: 800px;
@@ -40,7 +40,7 @@
     text-align: center;
 }
 
-#win_display_happy_human {
+#lose_display_bad_human {
     position: absolute;
     height: 505px;
     width: 405px;
@@ -48,7 +48,7 @@
     left: 1329px;
 }
 
-#win_display_front {
+#lose_display_front {
     position: absolute;
     height: 60px;
     width: 1427px;

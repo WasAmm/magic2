@@ -12,18 +12,8 @@
 }
 
 #wordchoice_Hard2.display_size {
-    background-color: gray;
+    background-color: black;
     display: none;
-}
-
-/* 単語を選んでね */
-.please_wordchoice {
-    position: absolute;
-    height: 78px;
-    width: 832px;
-    top: 70px;
-    left: 616px;
-    font-size: 60px;
 }
 
 /* 単語 */
@@ -34,6 +24,7 @@
     line-height: 80px;
     left: 41px;
     align-items: center;
+    color: white;
 }
 
 /* 枠線 */
@@ -51,14 +42,13 @@
 /* 画像 */
 .image_icon_hard {
     position: absolute;
-    height: 116px;
-    width: 116px;
+    height: 140px;
+    width: 140px;
     right: 45px;
 }
 
 #wind_hard.word_hard {
     top: 67px;
-    background-color: honeydew;
     font-size: 52px;
 }
 
@@ -68,7 +58,6 @@
 
 #rock_hard.word_hard {
     top: 206px;
-    background-color: tan;
     font-size: 42px;
 }
 
@@ -78,7 +67,6 @@
 
 #poison_hard.word_hard {
     top: 345px;
-    background-color: #4b008270;
     font-size: 42px;
 }
 
@@ -88,7 +76,6 @@
 
 #light_hard.word_hard {
     top: 484px;
-    background-color: ivory;
     font-size: 45px;
 }
 
@@ -98,7 +85,6 @@
 
 #darkness_hard.word_hard {
     top: 622px;
-    background-color: #00008070;
     font-size: 52px;
 }
 
@@ -112,7 +98,7 @@
     width: 593px;
     top: 992px;
     right: 65px;
-    color: black;
+    color: white;
     font-size: 65px;
     line-height: 1;
 }

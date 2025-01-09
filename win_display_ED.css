@@ -1,0 +1,32 @@
+/* 勝利ED画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#win_display_ED.display_size {
+    background-color: seagreen;
+    display: none;
+}
+
+#win_display_ED_text {
+    position: absolute;
+    height: 456px;
+    width: 1670px;
+    top: 251px;
+    left: 243px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+}
+
+#win_display_ED_front {
+    position: absolute;
+    height: 38px;
+    width: 450px;
+    top: 928px;
+    right: 114px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+}

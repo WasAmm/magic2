@@ -17,25 +17,23 @@
   <link href="mainstage.css" rel="stylesheet">
   <link href="mainstage.css" rel="stylesheet">
   <link href="win_display.css" rel="stylesheet">
+  <link href="lose_display.css" rel="stylesheet">
+  <link href="win_display_ED.css" rel="stylesheet">
+  <link href="lose_display_ED.css" rel="stylesheet">
+  <link href="ED.css" rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 
 <body>
 
-  <!-- CSS -->
   <style>
-    /* タイトル画面 */
-    #startscrean {
-      display: none;
+    #startscrean.display_size {
       background-image: url("game_material/game_material/ background/title.png");
     }
-    /* 勝利画面 */
-    #win_display.display_size {
-    background-image: url("game_material/game_material/ background/win-BackGround.png");
-}
   </style>
 
   <!--  スタート画面  -->
-  <div id="startscrean">
+  <div id="startscrean" class="display_size">
     <!-- タイトルテキスト -->
     <div id="startscrean_text">
       Have magic power!
@@ -188,7 +186,8 @@
         fire
       </div>
       <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_image/Fire.png" id="img_fire" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
+        class="image_icon">
 
       <!-- みず -->
       <div id="can_read_japanese_water" class="can_read_japanese_left">
@@ -199,7 +198,8 @@
         water
       </div>
       <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_image/Water.png" id="img_water" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
+        class="image_icon">
 
       <!-- くさ -->
       <div id="can_read_japanese_grass" class="can_read_japanese_left">
@@ -210,7 +210,8 @@
         grass
       </div>
       <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_image/Grass.png" id="img_grass" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
+        class="image_icon">
 
       <!-- かみなり -->
       <div id="can_read_japanese_thunder" class="can_read_japanese_left">
@@ -221,7 +222,8 @@
         thunder
       </div>
       <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_image/Thunder.png" id="img_thunder" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
+        class="image_icon">
 
       <!-- こおり -->
       <div id="can_read_japanese_ice" class="can_read_japanese_left">
@@ -232,7 +234,8 @@
         ice
       </div>
       <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_image/Ice.png" id="img_ice" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
+        class="image_icon">
 
       <!-- かぜ -->
       <div id="can_read_japanese_wind" class="can_read_japanese_right">
@@ -243,7 +246,8 @@
         wind
       </div>
       <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_image/Wind.png" id="img_wind" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
+        class="image_icon">
 
       <!-- いわ -->
       <div id="can_read_japanese_rock" class="can_read_japanese_right">
@@ -254,7 +258,8 @@
         rock
       </div>
       <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_image/Rock.png" id="img_rock" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
+        class="image_icon">
 
       <!-- どく -->
       <div id="can_read_japanese_poison" class="can_read_japanese_right">
@@ -265,7 +270,8 @@
         poison
       </div>
       <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_image/Poison.png" id="img_poison" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
+        class="image_icon">
 
       <!-- ひかり -->
       <div id="can_read_japanese_light" class="can_read_japanese_right">
@@ -276,7 +282,8 @@
         light
       </div>
       <!-- 画像‐光 -->
-      <img src="game_material/game_material/icon_image/Light.png" id="img_light" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
+        class="image_icon">
 
       <!-- やみ -->
       <div id="can_read_japanese_darkness" class="can_read_japanese_right">
@@ -287,7 +294,8 @@
         darkness
       </div>
       <!-- 画像‐闇 -->
-      <img src="game_material/game_material/icon_image/Darkness.png" id="img_darkness" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
+        class="image_icon">
 
     </div>
   </div>
@@ -307,70 +315,80 @@
         Flame Blast
       </div>
       <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_image/Fire.png" id="img_fire" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
+        class="image_icon">
 
       <!-- 普通‐水 -->
       <div id="water_normal" name="words_word" data-word="water" class="word_normal">
         Aqua Splash
       </div>
       <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_image/Water.png" id="img_water" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
+        class="image_icon">
 
       <!-- 普通‐草 -->
       <div id="grass_normal" name="words_word" data-word="grass" class="word_normal">
         Leaf Cutter
       </div>
       <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_image/Grass.png" id="img_grass" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
+        class="image_icon">
 
       <!-- 普通‐雷 -->
       <div id="thunder_normal" name="words_word" data-word="thunder" class="word_normal">
         Thunder Bolt
       </div>
       <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_image/Thunder.png" id="img_thunder" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
+        class="image_icon">
 
       <!-- 普通‐氷 -->
       <div id="ice_normal" name="words_word" data-word="ice" class="word_normal">
         Icicle Crash
       </div>
       <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_image/Ice.png" id="img_ice" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
+        class="image_icon">
 
       <!-- 普通‐風 -->
       <div id="wind_normal" name="words_word" data-word="wind" class="word_normal">
         Gust Slash
       </div>
       <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_image/Wind.png" id="img_wind" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
+        class="image_icon">
 
       <!-- 普通‐岩 -->
       <div id="rock_normal" name="words_word" data-word="rock" class="word_normal">
         Boulder Smash
       </div>
       <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_image/Rock.png" id="img_rock" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
+        class="image_icon">
 
       <!-- 普通‐毒 -->
       <div id="poison_normal" name="words_word" data-word="poison" class="word_normal">
         Venomous Sting
       </div>
       <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_image/Poison.png" id="img_poison" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
+        class="image_icon">
 
       <!-- 普通‐光 -->
       <div id="light_normal" name="words_word" data-word="light" class="word_normal">
         Radiant Beam
       </div>
       <!-- 画像‐光 -->
-      <img src="game_material/game_material/icon_image/Light.png" id="img_light" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
+        class="image_icon">
 
       <!-- 簡単‐闇 -->
       <div id="darkness_normal" name="words_word" data-word="darkness" class="word_normal">
         Shadow Claw
       </div>
       <!-- 画像‐闇 -->
-      <img src="game_material/game_material/icon_image/Darkness.png" id="img_darkness" class="image_icon">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
+        class="image_icon">
     </div>
   </div>
 
@@ -394,35 +412,40 @@
         Scorching power, burn the entire enemy to ashes!
       </div>
       <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_image/Fire.png" id="img_fire_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐水 -->
       <div id="water_hard" name="words_word" data-word="water" class="word_hard">
         A clean flow, quench all in its path!
       </div>
       <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_image/Water.png" id="img_water_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐草 -->
       <div id="grass_hard" name="words_word" data-word="grass" class="word_hard">
         With the breath of the earth, let new buds sprout!
       </div>
       <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_image/Grass.png" id="img_grass_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐雷 -->
       <div id="thunder_hard" name="words_word" data-word="thunder" class="word_hard">
         With the power of electric light, strike through an enemy!
       </div>
       <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_image/Thunder.png" id="img_thunder_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐氷 -->
       <div id="ice_hard" name="words_word" data-word="ice" class="word_hard">
         With the power of ice, let all freeze!
       </div>
       <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_image/Ice.png" id="img_ice_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice_hard"
+        class="image_icon_hard">
 
     </div>
 
@@ -447,35 +470,40 @@
         Free wind, blow everything away!
       </div>
       <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_image/Wind.png" id="img_wind_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐岩 -->
       <div id="rock_hard" name="words_word" data-word="rock" class="word_hard">
         With the strength of a rock, smash through any obstacle!
       </div>
       <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_image/Rock.png" id="img_rock_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐毒 -->
       <div id="poison_hard" name="words_word" data-word="poison" class="word_hard">
         For poisonous power, unleash corruption and confusion!
       </div>
       <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_image/Poison.png" id="img_poison_hard" class="image_icon_hard">
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐光 -->
       <div id="light_hard" name="words_word" data-word="light" class="word_hard">
         You strike with sacred light, brushing away the darkness!
       </div>
-      <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_image/Light.png" id="img_light_hard" class="image_icon_hard">
+      <!-- 画像‐光 -->
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light_hard"
+        class="image_icon_hard">
 
       <!-- 難しい‐闇 -->
       <div id="darkness_hard" name="words_word" data-word="darkness" class="word_hard">
         With the power of jet black, instill fear and panic!
       </div>
-      <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_image/Darkness.png" id="img_darkness_hard" class="image_icon_hard">
+      <!-- 画像‐闇 -->
+      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness_hard"
+        class="image_icon_hard">
 
     </div>
   </div>
@@ -529,38 +557,47 @@
     <audio controls src="music/english_audio/Easy_fire.mp3" id="Easy_fire_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Easy_water.mp3" id="Easy_water_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Easy_grass.mp3" id="Easy_grass_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_thunder.mp3" id="Easy_thunder_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Easy_thunder.mp3" id="Easy_thunder_mp3"
+      class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Easy_ice.mp3" id="Easy_ice_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_wind.mp3" id="Easy_wind_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_rock.mp3" id="Easy_rock_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_poison.mp3" id="Easy_poison_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_light.mp3" id="Easy_light_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_darkness.mp3" id="Easy_darkness_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Hard_darkness.mp3" id="Easy_darkness_mp3"
+      class="speak_example_audio"></audio>
 
 
     <audio controls src="music/english_audio/Normal_fire.mp3" id="Normal_fire_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_water.mp3" id="Normal_water_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_grass.mp3" id="Normal_grass_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_thunder.mp3" id="Normal_thunder_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_grass.mp3" id="Normal_grass_mp3"
+      class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_thunder.mp3" id="Normal_thunder_mp3"
+      class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Normal_ice.mp3" id="Normal_ice_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Normal_wind.mp3" id="Normal_wind_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Normal_rock.mp3" id="Normal_rock_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_poison.mp3" id="Normal_poison_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_light.mp3" id="Normal_light_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_darkness.mp3" id="Normal_darkness_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_poison.mp3" id="Normal_poison_mp3"
+      class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_light.mp3" id="Normal_light_mp3"
+      class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_darkness.mp3" id="Normal_darkness_mp3"
+      class="speak_example_audio"></audio>
 
 
 
     <audio controls src="music/english_audio/Hard_fire.mp3" id="Hard_fire_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Easy_water.mp3" id="Hard_water_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_grass.mp3" id="Hard_grass_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_thunder.mp3" id="Hard_thunder_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Hard_thunder.mp3" id="Hard_thunder_mp3"
+      class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_ice.mp3" id="Hard_ice_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_wind.mp3" id="Hard_wind_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_rock.mp3" id="Hard_rock_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_poison.mp3" id="Hard_poison_mp3" class="speak_example_audio"></audio>
     <audio controls src="music/english_audio/Hard_light.mp3" id="Hard_light_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_darkness.mp3" id="Hard_darkness_mp3" class="speak_example_audio"></audio>
+    <audio controls src="music/english_audio/Normal_darkness.mp3" id="Hard_darkness_mp3"
+      class="speak_example_audio"></audio>
 
   </div>
 
@@ -587,17 +624,17 @@
     <!-- 点数とダメージを囲む線 -->
     <div id="mainstage_damage_line"></div>
     <!-- ドラゴンの絵-元気ver -->
-    <img src="game_material/characterたち/dragon_battle.png" id="dragon_power">
+    <img src="game_material/game_material/character/dragon_battle.png" id="dragon_power">
     <!-- ドラゴンの絵-ダウンver -->
-    <img src="game_material/characterたち/dragon_lose.PNG" id="mainstage_monster_down">
+    <img src="game_material/game_material/character/dragon_lose.PNG" id="mainstage_monster_down">
     <!-- ドラゴンの絵-勝利ver -->
-    <img src="game_material/characterたち/dragon_victory.PNG" id="mainstage_monster_victory">
+    <img src="game_material/game_material/character/dragon_victory.PNG" id="mainstage_monster_victory">
     <!-- モンスターエフェクトのところ -->
-    <img src="game_material/characterたち/dragon_victory_effect.png" id="mainstage_effect_monster">
+    <img src="game_material/game_material/character/dragon_victory_effect.png" id="mainstage_effect_monster">
     <!-- プレイヤーの言葉 -->
     <div id="mainstage_monster_words"></div>
     <!-- プレイヤー画像-元気 -->
-    <img src="game_material/characterたち/battle.png" id="mainstage_player_cheerful">
+    <img src="game_material/game_material/character/battle.png" id="mainstage_player_cheerful">
     <!-- 次のターンに進む -->
     <div id="mainstage_turn_next"></div>
     <!-- モンスターに勝った -->
@@ -615,30 +652,34 @@
     <audio controls src="music/Insert_BGM/maou_bgm_fantasy12.mp3" id="battle_bgm" style="display: none;"></audio>
     <!-- エフェクト-敵 -->
     <!-- 炎 -->
-    <img src="game_material/attack_effect/Fire_attack.png" id="mainstage_effect_monster_fire" class="mainstage_effect_monster">
+    <img src="game_material/game_material/attack_effect/Fire_attack.png" id="mainstage_effect_monster_fire"
+      class="mainstage_effect_monster">
     <!-- 水 -->
-    <img src="game_material/attack_effect/Water_attack.png" id="mainstage_effect_monster_water"
+    <img src="game_material/game_material/attack_effect/Water_attack.png" id="mainstage_effect_monster_water"
       class="mainstage_effect_monster">
     <!-- 草 -->
-    <img src="game_material/attack_effect/Grass_attack.png" id="mainstage_effect_monster_grass"
+    <img src="game_material/game_material/attack_effect/Grass_attack.png" id="mainstage_effect_monster_grass"
       class="mainstage_effect_monster">
     <!-- 雷 -->
-    <img src="game_material/attack_effect/Thunder_attack.png" id="mainstage_effect_monster_thunder"
+    <img src="game_material/game_material/attack_effect/Thunder_attack.png" id="mainstage_effect_monster_thunder"
       class="mainstage_effect_monster">
     <!-- 氷 -->
-    <img src="game_material/attack_effect/Ice_attack.png" id="mainstage_effect_monster_ice" class="mainstage_effect_monster">
+    <img src="game_material/game_material/attack_effect/Ice_attack.png" id="mainstage_effect_monster_ice"
+      class="mainstage_effect_monster">
     <!-- 風 -->
-    <img src="game_material/attack_effect/Wind_attack.png" id="mainstage_effect_monster_wind" class="mainstage_effect_monster">
+    <img src="game_material/game_material/attack_effect/Wind_attack.png" id="mainstage_effect_monster_wind"
+      class="mainstage_effect_monster">
     <!-- 岩 -->
-    <img src="game_material/attack_effect/Rock_attack.png" id="mainstage_effect_monster_rock" class="mainstage_effect_monster">
+    <img src="game_material/game_material/attack_effect/Rock_attack.png" id="mainstage_effect_monster_rock"
+      class="mainstage_effect_monster">
     <!-- 毒 -->
-    <img src="game_material/attack_effect/Poison_attack.png" id="mainstage_effect_monster_poison"
+    <img src="game_material/game_material/attack_effect/Poison_attack.png" id="mainstage_effect_monster_poison"
       class="mainstage_effect_monster">
     <!-- 光 -->
-    <img src="game_material/attack_effect/Light_attack.png" id="mainstage_effect_monster_light"
+    <img src="game_material/game_material/attack_effect/Light_attack.png" id="mainstage_effect_monster_light"
       class="mainstage_effect_monster">
     <!-- 闇 -->
-    <img src="game_material/attack_effect/Darkness_attack.png" id="mainstage_effect_monster_darkness"
+    <img src="game_material/game_material/attack_effect/Darkness_attack.png" id="mainstage_effect_monster_darkness"
       class="mainstage_effect_monster">
   </div>
 
@@ -647,10 +688,51 @@
     <!-- You win -->
     <div id="win_display_words_good">You win</div>
     <!-- おめでとう -->
-    <div id="win_display_words_great"></div>
+    <div id="win_display_words_great">おめでとう！！</div>
+    <!-- 画像‐喜び人 -->
+    <img src="game_material/game_material/character/victory.png" id="win_display_happy_human">
+    <!-- EDにすすむ -->
+    <div id="win_display_front">エンディングにすすむ</div>
+  </div>
 
+  <!-- 敗北画面 -->
+  <div id="lose_display" class="display_size">
+    <!-- You lose -->
+    <div id="lose_display_words_bad">You lose</div>
+    <!-- ドンマイ -->
+    <div id="lose_display_words_sobad">惜しかったね…あと少し！</div>
+    <!-- 画像‐絶望人 -->
+    <img src="game_material/game_material/character/lose.png" id="lose_display_bad_human">
+    <!-- EDにすすむ -->
+    <div id="lose_display_front">エンディングにすすむ</div>
+  </div>
 
+  <!-- 勝利ED -->
+  <div id="win_display_ED" class="display_size">
+    <!-- テキスト -->
+    <div id="win_display_ED_text">テキスト</div>
+    <!-- 製作者一覧に進む -->
+    <div id="win_display_ED_front">制作者一覧にすすむ</div>
+  </div>
 
+  <!-- 敗北ED -->
+  <div id="lose_display_ED" class="display_size">
+    <!-- テキスト -->
+    <div id="lose_display_ED_text">テキスト</div>
+    <!-- 製作者一覧に進む -->
+    <div id="lose_display_ED_front">制作者一覧にすすむ</div>
+  </div>
+
+  <!-- 製作者一覧 -->
+  <div id="ED" class="display_size">
+    <!-- Thank_you -->
+    <div id="ED_text">Thank you for playing!</div>
+    <!-- テキスト -->
+    <div id="ED_text_2">制作者一覧</div>
+    <!-- 画像‐製作者 -->
+    <img src="game_material/game_material/ others/Producer.png" id="img_ED">
+    <!-- タイトル画面に行く -->
+    <div id="ED_front">タイトル画面に戻る</div>
   </div>
 
 </body>
