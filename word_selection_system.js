@@ -1,9 +1,9 @@
 // 単語・エフェクト引っ張るやつ
-final_confirmation
-final_confirmation_word
-
-
-
+const final_confirmation = document.getElementById("final_confirmation");
+const final_confirmation_word = document.getElementById("final_confirmation_word");
+const speak_example_word = document.getElementById("speak_example_word");
+const mainstage_word = document.getElementById("mainstage_word");
+const mainstage_player_words = document.getElementById("mainstage_player_words");
 
 let selected_text;
 let selected_effect;

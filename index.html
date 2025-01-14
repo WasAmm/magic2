@@ -631,7 +631,7 @@
     <!-- モンスターエフェクトのところ -->
     <img src="game_material/game_material/character/dragon_victory_effect.png" id="mainstage_effect_monster">
     <!-- プレイヤーの言葉 -->
-    <div id="mainstage_monster_words"></div>
+    <div id="mainstage_player_words"></div>
     <!-- プレイヤー画像-元気 -->
     <img src="game_material/game_material/character/battle.png" id="mainstage_player_cheerful">
     <!-- 次のターンに進む -->
@@ -646,7 +646,7 @@
       </div>
     </div>
     <!-- 発音残り時間 -->
-    <div id="count_supell">発music終了まであと…</div>
+    <div id="count_supell">発音終了まであと…</div>
     <!-- 音楽 -->
     <audio controls src="music/Insert_BGM/maou_bgm_fantasy12.mp3" id="battle_bgm" style="display: none;"></audio>
     <!-- エフェクト-敵 -->
@@ -738,7 +738,21 @@
   <script src="story.js"></script>
   <script src="difficulty.js"></script>
   <script src="wordchoice_hard.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OpusMediaRecorder.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/encoderWorker.umd.js"></script>
+  <script src="scoring_system.js"></script>
+  <script src="const.js"></script>
+  <script src="ED.js"></script>
+  <script src="final_confirmation.js"></script>
+  <script src="lose_display_ED.js"></script>
+  <script src="main.js"></script>
+  <script src="mainstage.js"></script>
+  <script src="MediaRecorder.js"></script>
+  <script src="score.js"></script>
+  <script src="speak_example.js"></script>
+  <script src="win_display_ED.js"></script>
+  <script src="wordchoice_easy.js"></script>
+
 </body>
 
 </html>
-

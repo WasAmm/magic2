@@ -1,23 +1,5 @@
 // あらすじ画面
 
-const storyskip = document.getElementsByName("storyskip");
-const storyfront_1 = document.getElementById("storyfront_1");
-const storyback_1 = document.getElementById("storyback_1");
-const story_bgm = document.getElementById("story_bgm");
-const OP_2 = document.getElementById("OP_2");
-const storyfront_2 = document.getElementById("storyfront_2");
-const storyback_2 = document.getElementById("storyback_2");
-const OP_3 = document.getElementById("OP_3");
-const storyfront_3 = document.getElementById("storyfront_3");
-const storyback_3 = document.getElementById("storyback_3");
-const OP_4 = document.getElementById("OP_4");
-const storyfront_4 = document.getElementById("storyfront_4");
-const storyback_4 = document.getElementById("storyback_4");
-const OP_5 = document.getElementById("OP_5");
-const storyfront_5 = document.getElementById("storyfront_5");
-const storyback_5 = document.getElementById("storyback_5");
-const difficulty = document.getElementById("difficulty");
-
 //スキップボタン（任意のあらすじから難易度選択画面）
 for (const skip of storyskip) {
     skip.addEventListener("click", e => {
