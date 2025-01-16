@@ -1,5 +1,7 @@
 // あらすじ画面
 
+const storyskip = document.getElementsByName("storyskip");
+
 //スキップボタン（任意のあらすじから難易度選択画面）
 for (const skip of storyskip) {
     skip.addEventListener("click", e => {

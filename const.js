@@ -1,11 +1,7 @@
-// const一覧
-
-
 // id
 const startscrean = document.getElementById("startscrean");
 const startscrean_botton = document.getElementById("startscrean_botton");
 
-const storyskip = document.getElementsByName("storyskip");
 const OP_1 = document.getElementById("OP_1");
 const storyfront_1 = document.getElementById("storyfront_1");
 const storyback_1 = document.getElementById("storyback_1");
@@ -106,8 +102,7 @@ const mainstage_effect_monster_light = document.getElementById("mainstage_effect
 //闇
 const mainstage_effect_monster_darkness = document.getElementById("mainstage_effect_monster_darkness");
 
-// name
 
-const words_word = document.getElementsByName("words_word");
 
-const HP_tensuu = document.getElementsByName("HP_tensuu");
+
+

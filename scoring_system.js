@@ -1,5 +1,6 @@
 //HPの点数
 const HP_tensuu = document.getElementsByName("HP_tensuu");
+const words_word = document.getElementsByName("words_word");
 
 async function azure_word(word, mills) {
     //return azure_dummy(word);

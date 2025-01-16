@@ -44,9 +44,74 @@ body {
     left: 600px;
     font-size: 80px;
     background-color: #99a6c990;
+    border: black 1px solid;
+
+    animation-name: border_color;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes border_color {
+  0% {
+    border-color: black;
+  }
+  50% {
+    border-color: white;
+  }
+
 }
 
 /*BGＭ*/
 #start_bgm {
     display: none;
 }
+
+/* 画像-帽子 */
+#img_hat{
+    position: absolute;
+    width: 379px;
+    height: 322px;
+    top: 76px;
+    right: 187px;
+
+    animation-name: fuwafuwa;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fuwafuwa {
+    0% {
+      transform:translate(0, 0) rotate(-5deg);
+    }
+    50% {
+      transform:translate(0, 0) rotate(5deg);
+    }
+
+  }
+
+#img_cane{
+    position: absolute;
+    width: 313px;
+    height: 359px;
+    top: 323px;
+    left: 252px;
+
+    animation-name: fuwafuwa_2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fuwafuwa_2 {
+    0% {
+      transform:translate(0, 0) rotate(-15deg);
+    }
+    100% {
+      transform:translate(0, 0) rotate(15deg);
+    }
+  }

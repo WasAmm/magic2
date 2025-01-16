@@ -5,10 +5,11 @@ document.getElementById("speak_example_front").addEventListener("click", e => {
 }, false);
 
 //あらすじBGM
-document.getElementById("start_botton").addEventListener("click", e => {
+document.getElementById("startscrean_botton").addEventListener("click", e => {
     document.getElementById("story_bgm").play()
     story_bgm.volume = 0.3;
 }, false);
+
 
 
 //ボタンが押されたら表示非表示　（ドラゴンを倒した から 勝利画面 すすむ）
