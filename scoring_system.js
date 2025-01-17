@@ -112,6 +112,7 @@ speak_example_front.addEventListener("click", async (e) => {
             mainstage_monster_win_words.style.display = "block"
             mainstage_turn_next.style.display = "none"
             mainstage_monster_down.style.display = "block"
+            dragon_power.style.display = "none"
         }, 5000);
     }
 
@@ -123,7 +124,8 @@ speak_example_front.addEventListener("click", async (e) => {
             mainstage_turn_next.style.display = "none"
             mainstage_monster_victory.style.display = "block"
             mainstage_monster_lose_words.style.display = "block"
-            mainstage_monster_words.style.display = "block"
+            dragon_power.style.display = "none"
+            mainstage_effect_monster.style.display = "block"
             mainstage_effect_monster_fire.style.display = "none"
             mainstage_effect_monster_darkness.style.display = "none"
             mainstage_effect_monster_grass.style.display = "none"
