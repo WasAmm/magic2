@@ -55,7 +55,26 @@
     font-size: 84px;
     line-height: 1;
     color: white;
+
+    animation-name: border_color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: white 1px;
+    border-bottom: solid;
+
 }
+
+@keyframes border_color {
+    0% {
+      border-color: black;
+    }
+    50% {
+      border-color: white;
+    }
+  
+  }
 
 /* 枠線 */
 .border_wordchoice {
