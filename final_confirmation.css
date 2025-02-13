@@ -29,6 +29,7 @@ body {
     left: 619px;
     font-size: 65px;
     color: white;
+    user-select: none;
 }
 
 #final_confirmation_word {
@@ -40,6 +41,7 @@ body {
     font-size: 90px;
     color: white;
     text-align: center;
+    user-select: none;
 }
 
 #final_confirmation_front {

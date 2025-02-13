@@ -25,6 +25,7 @@
     left: 616px;
     font-size: 60px;
     color: white;
+    user-select: none;
 }
 
 /* ふりがな */
@@ -35,6 +36,7 @@
     font-size: 30px;
     line-height: 1;
     color: white;
+    user-select: none;
 }
 
 .can_read_japanese_right {
@@ -45,6 +47,7 @@
     font-size: 30px;
     line-height: 1;
     color: white;
+    user-select: none;
 }
 
 /* 単語 */

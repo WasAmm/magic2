@@ -36,6 +36,7 @@
     line-height: 1;
     text-align: left;
     display: block;
+    user-select: none;
 }
 
 #mainstage_turn {
@@ -49,6 +50,7 @@
     font-size: 50px;
     line-height: 1;
     text-align: center;
+    user-select: none;
 }
 
 #mainstage_HPber_line {
@@ -79,6 +81,7 @@
     left: 512px;
     font-size: 84px;
     line-height: 1;
+    user-select: none;
 }
 
 #mainstage_word {
@@ -90,6 +93,7 @@
     font-size: 60px;
     line-height: 1;
     text-align: center;
+    user-select: none;
 }
 
 #mainstage_score {
@@ -101,6 +105,7 @@
     font-size: 54px;
     line-height: 1;
     display: block;
+    user-select: none;
 }
 
 #mainstage_damage {
@@ -112,6 +117,7 @@
     font-size: 54px;
     line-height: 1;
     display: block;
+    user-select: none;
 }
 
 #mainstage_damage {
@@ -123,6 +129,7 @@
     font-size: 54px;
     line-height: 1;
     display: block;
+    user-select: none;
 }
 
 #mainstage_damage_line {
@@ -178,6 +185,7 @@
     top: 4800px;
     left: 630px;
     display: none;
+    user-select: none;
 }
 
 #mainstage_player_cheerful {

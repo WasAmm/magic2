@@ -62,6 +62,7 @@
     color: white;
     font-size: 100px;
     line-height: 1;
+    user-select: none;
 }
 
 #story_bgm {
@@ -81,8 +82,9 @@
     top: 183px;
     left: 111px;
     color: white;
-    font-size: 66px;
+    font-size: 100px;
     line-height: 1;
+    user-select: none;
 }
 
 /* あらすじ画面３ */
@@ -98,25 +100,27 @@
     top: 183px;
     left: 111px;
     color: white;
-    font-size: 66px;
+    font-size: 80px;
     line-height: 1;
+    user-select: none;
 }
 
 /* あらすじ画面4 */
 #OP_4.display_size {
     display: none;
-    background-image: url("game_material/game_material/ background/summary-4.png");
+    background-image: url("game_material/game_material/ background/summary-4.5.png");
 }
 
 #story_4 {
     position: absolute;
-    width: 1020px;
+    width: 1800px;
     height: 268px;
     top: 183px;
     left: 111px;
     color: white;
-    font-size: 66px;
+    font-size: 100px;
     line-height: 1;
+    user-select: none;
 }
 
 /* あらすじ画面5 */
@@ -134,4 +138,5 @@
     color: white;
     font-size: 117px;
     line-height: 1;
+    user-select: none;
 }

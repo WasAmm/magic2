@@ -22,7 +22,7 @@ body {
 /* タイトル画面 */
 #startscrean.display_size {
     display: block;
-    background-image: url("game_material/game_material/ background/title.png");
+    background-image: url("game_material/game_material/ background/title_2.png");
 }
 
 /* タイトルテキスト */
@@ -33,6 +33,7 @@ body {
     top: 300px;
     left: 510px;
     font-size: 100px;
+    user-select: none;
 }
 
 /* スタートボタン */

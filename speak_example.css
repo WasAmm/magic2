@@ -42,6 +42,7 @@
     font-size: 85px;
     line-height: 1;
     text-align: center;
+    user-select: none;
 }
 
 #speak_example_repeat {

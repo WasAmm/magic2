@@ -12,12 +12,13 @@
 #win_display_ED_text {
     position: absolute;
     height: 456px;
-    width: 1670px;
+    width: 1920px;
     top: 251px;
-    left: 243px;
+    left: 111px;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 1;
+    user-select: none;
 }
 
 #win_display_ED_front {
