@@ -55,8 +55,8 @@
 
 #story_1 {
     position: absolute;
-    width: 1800px;
-    height: 268px;
+    width: 1920px;
+    height: 1080px;
     top: 183px;
     left: 111px;
     color: white;
@@ -77,9 +77,9 @@
 
 #story_2 {
     position: absolute;
-    width: 1700px;
-    height: 268px;
-    top: 183px;
+    width: 1920px;
+    height: 1080px;
+    top: 130px;
     left: 111px;
     color: white;
     font-size: 100px;
@@ -95,8 +95,8 @@
 
 #story_3 {
     position: absolute;
-    width: 1076px;
-    height: 268px;
+    width: 1920px;
+    height: 1080px;
     top: 183px;
     left: 111px;
     color: white;
@@ -113,8 +113,8 @@
 
 #story_4 {
     position: absolute;
-    width: 1800px;
-    height: 268px;
+    width: 1920px;
+    height: 1080px;
     top: 183px;
     left: 111px;
     color: white;
@@ -131,8 +131,8 @@
 
 #story_5 {
     position: absolute;
-    width: 1570px;
-    height: 456px;
+    width: 1920px;
+    height: 1080px;
     top: 251px;
     left: 243px;
     color: white;
