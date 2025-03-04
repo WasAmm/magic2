@@ -41,6 +41,7 @@
     width: 1200px;
     top: 280px;
     left: 340px;
+    pointer-events: none;
 }
 
 #ED_front {
