@@ -72,6 +72,7 @@ speak_example_front.addEventListener("click", async (e) => {
     mainstage_player_words.style.display = "none"
     mainstage_Lets_speak.style.display = "block"
     mainstage_word.style.display = "block"
+    
     //Azure AI の録音時間だけのカウント
     setTimeout(() => {
         count_supell.style.display = "none"
@@ -83,7 +84,7 @@ speak_example_front.addEventListener("click", async (e) => {
         mainstage_score.style.display = "block"
     }, 7000);
     setTimeout(() => {
-        document.getElementById("mainstage_effect_monster_" + selected_effect).style.display = "block";
+        document.getElementById(difficult_select + selected_effect + "_png").style.display = "block" //エフェクト表示
         mainstage_player_words.style.display = "block"
     }, 8000);
     document.getElementById("HP_tensuu").textContent = "HP " + zanryou + "/370";    //HP残量のところ

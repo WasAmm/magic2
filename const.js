@@ -82,7 +82,15 @@ const ED = document.getElementById("ED");
 const ED_front = document.getElementById("ED_front");
 
 //炎
-const mainstage_effect_monster_fire = document.getElementById("mainstage_effect_monster_fire");
+//const mainstage_effect_monster_fire = document.getElementById("mainstage_effect_monster_fire");
+
+//炎Easy
+const Easy_fire_png = document.getElementById("Easy_fire_png");
+//炎Normal
+const Normal_fire_png = document.getElementById("Normal_fire_png");
+//炎Hard
+const Hard_fire_png = document.getElementById("Hard_fire_png");
+
 //水
 const mainstage_effect_monster_water = document.getElementById("mainstage_effect_monster_water");
 //草
