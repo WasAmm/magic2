@@ -50,7 +50,7 @@ for (const w of words_word) {
 mainstage_turn_next.addEventListener("click", e => {
     mainstage.style.display = "none"
     difficulty.style.display = "block"
-    document.getElementById("mainstage_effect_monster_" + selected_effect).style.display = "none";
+    document.getElementById(difficult_select + selected_effect + "_png").style.display = "none";
     document.getElementById("battle_bgm").pause()
     document.getElementById("battle_bgm").currentTime = 0
 })

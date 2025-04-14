@@ -18,6 +18,7 @@
     width: 540px;
     top: 385px;
     left: 109px;
+    display: none;
 }
 
 
@@ -265,42 +266,3 @@
     display: none;
 }
 
-#mainstage_effect_monster_fire {
-    display: none;
-}
-
-#mainstage_effect_monster_water {
-    display: none;
-}
-
-#mainstage_effect_monster_grass {
-    display: none;
-}
-
-#mainstage_effect_monster_thunder {
-    display: none;
-}
-
-#mainstage_effect_monster_ice {
-    display: none;
-}
-
-#mainstage_effect_monster_wind {
-    display: none;
-}
-
-#mainstage_effect_monster_rock {
-    display: none;
-}
-
-#mainstage_effect_monster_poison {
-    display: none;
-}
-
-#mainstage_effect_monster_light {
-    display: none;
-}
-
-#mainstage_effect_monster_darkness {
-    display: none;
-}
