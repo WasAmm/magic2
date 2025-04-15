@@ -174,9 +174,25 @@
     position: absolute;
     height: 87px;
     width: 270px;
-    top: 502px;
-    left: 600px;
     display: none;
+}
+
+.mainstage_effect_monster_Easy {
+    position: absolute;
+    left: 260px;
+    top: 385px;
+}
+
+.mainstage_effect_monster_Normal {
+    position: absolute;
+    left: 108px;
+    top: 450px;
+}
+
+.mainstage_effect_monster_Hard {
+    position: absolute;
+    left: 330px;
+    top: 350px;
 }
 
 #mainstage_player_words {
