@@ -114,6 +114,7 @@ speak_example_front.addEventListener("click", async (e) => {
             mainstage_turn_next.style.display = "none"
             mainstage_monster_down.style.display = "block"
             dragon_power.style.display = "none"
+            (difficult_select + selected_effect + "_png").style.display = "none"
         }, 5000);
     }
 
@@ -126,17 +127,9 @@ speak_example_front.addEventListener("click", async (e) => {
             mainstage_monster_victory.style.display = "block"
             mainstage_monster_lose_words.style.display = "block"
             dragon_power.style.display = "none"
-            mainstage_effect_monster.style.display = "block"
-            mainstage_effect_monster_fire.style.display = "none"
-            mainstage_effect_monster_darkness.style.display = "none"
-            mainstage_effect_monster_grass.style.display = "none"
-            mainstage_effect_monster_ice.style.display = "none"
-            mainstage_effect_monster_light.style.display = "none"
-            mainstage_effect_monster_poison.style.display = "none"
-            mainstage_effect_monster_rock.style.display = "none"
-            mainstage_effect_monster_thunder.style.display = "none"
-            mainstage_effect_monster_water.style.display = "none"
-            mainstage_effect_monster_wind.style.display = "none"
+            mainstage_effect_dragon.style.display = "block"
+            mainstage_effect_dragon.style.display = "none"
+
         }, 5000);
     }
     await new Promise(resolve => setTimeout(resolve, 5000));

@@ -170,6 +170,13 @@
     display: none;
 }
 
+#mainstage_effect_dragon{
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    display: none;  
+}
+
 #mainstage_effect_monster {
     position: absolute;
     height: 87px;

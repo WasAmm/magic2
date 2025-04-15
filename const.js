@@ -51,6 +51,7 @@ const mainstage_Lets_speak = document.getElementById("mainstage_Lets_speak");
 const dragon_power = document.getElementById("dragon_power");
 const mainstage_monster_victory = document.getElementById("mainstage_monster_victory");
 const mainstage_monster_down = document.getElementById("mainstage_monster_down");
+const mainstage_effect_dragon = document.getElementById("mainstage_effect_dragon");
 const mainstage_effect_monster = document.getElementById("mainstage_effect_monster");
 const mainstage_monster_words = document.getElementById("mainstage_monster_words");
 const mainstage_player_cheerful = document.getElementById("mainstage_player_cheerful");
