@@ -36,16 +36,35 @@ body {
     user-select: none;
 }
 
-/* スタートボタン */
-#startscrean_botton {
+  /* スタートボタン */
+  #startscrean_botton_japan {
     position: absolute;
-    width: 650px;
+    width: 720px;
     height: 100px;
-    top: 797px;
-    left: 600px;
+    top: 720px;
+    left: 620px;
     font-size: 80px;
     background-color: #99a6c990;
     border: black 1px solid;
+  
+    animation-name: border_color;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+/* スタートボタン */
+#startscrean_botton {
+    position: absolute;
+    width: 720px;
+    height: 100px;
+    top: 900px;
+    left: 620px;
+    font-size: 80px;
+    background-color: #99a6c990;
+    border: black 1px solid;
+    text-align: center;
 
     animation-name: border_color;
     animation-duration: 3s;
@@ -116,3 +135,4 @@ body {
       transform:translate(0, 0) rotate(15deg);
     }
   }
+
