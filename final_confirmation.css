@@ -53,6 +53,7 @@ body {
     color: white;
     font-size: 65px;
     line-height: 1;
+    cursor: pointer;
 }
 
 #final_confirmation_back {
@@ -64,4 +65,5 @@ body {
     color: white;
     font-size: 65px;
     line-height: 1;
+    cursor: pointer;
 }

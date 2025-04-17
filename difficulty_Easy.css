@@ -31,14 +31,17 @@
 
 #difficulty_Easy {
     top: 257px;
+    cursor: pointer;
 }
 
 #difficulty_Normal {
     top: 472px;
+    cursor: pointer;
 }
 
 #difficulty_Hard {
     top: 686px;
+    cursor: pointer;
 }
 
 .difficulty_img {

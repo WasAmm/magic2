@@ -67,6 +67,8 @@
     border: white 1px;
     border-bottom: solid;
 
+    cursor: pointer;
+
 }
 
 @keyframes border_color {

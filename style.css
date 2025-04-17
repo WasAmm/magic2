@@ -52,6 +52,7 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    cursor: pointer;
   }
 
 /* スタートボタン */
@@ -71,6 +72,7 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    cursor: pointer;
 }
 
 @keyframes border_color {

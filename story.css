@@ -21,6 +21,7 @@
     color: white;
     font-size: 39px;
     line-height: 1;
+    cursor: pointer;
 }
 
 /* １つ先に進む */
@@ -33,6 +34,7 @@
     color: white;
     font-size: 39px;
     line-height: 1;
+    cursor: pointer;
 }
 
 /* 一つ前にもどる */
@@ -45,6 +47,7 @@
     color: white;
     font-size: 39px;
     line-height: 1;
+    cursor: pointer;
 }
 
 /* あらすじ画面１ */

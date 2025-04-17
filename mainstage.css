@@ -51,6 +51,7 @@
     line-height: 1;
     text-align: center;
     user-select: none;
+    cursor: pointer;
 }
 
 #mainstage_HPber_line {
@@ -232,6 +233,7 @@
     line-height: 1;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 
 #mainstage_monster_win_words {
@@ -244,6 +246,7 @@
     line-height: 1;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 
 #mainstage_monster_lose_words {
@@ -256,6 +259,7 @@
     line-height: 1;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 
 #count_line {
