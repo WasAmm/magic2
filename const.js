@@ -111,6 +111,27 @@ const mainstage_effect_monster_light = document.getElementById("mainstage_effect
 //闇
 const mainstage_effect_monster_darkness = document.getElementById("mainstage_effect_monster_darkness");
 
+// 日本語版
+const OP_1_japan = document.getElementById("OP_1_japan");
+const storyfront_1_japan = document.getElementById("storyfront_1_japan");
+const storyback_1_japan = document.getElementById("storyback_1_japan");
+const OP_2_japan = document.getElementById("OP_2_japan");
+const storyfront_2_japan = document.getElementById("storyfront_2_japan");
+const storyback_2_japan = document.getElementById("storyback_2_japan");
+const OP_3_japan = document.getElementById("OP_3_japan");
+const storyfront_3_japan = document.getElementById("storyfront_3_japan");
+const storyback_3_japan = document.getElementById("storyback_3_japan");
+const OP_4_japan = document.getElementById("OP_4_japan");
+const storyfront_4_japan = document.getElementById("storyfront_4_japan");
+const storyback_4_japan = document.getElementById("storyback_4_japan");
+const OP_5_japan = document.getElementById("OP_5_japan");
+const storyfront_5_japan = document.getElementById("storyfront_5_japan");
+const storyback_5_japan = document.getElementById("storyback_5_japan")
+const storyskip_japan = document.getElementById("storyskip_japan")
+
+const startscrean_botton_japan = document.getElementById("startscrean_botton_japan")
+
+
 
 
 

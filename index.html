@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>magic_2</title>
+  <title>Have magic power!</title>
   <link href='style.css' rel='stylesheet'>
   <link href="story.css" rel="stylesheet">
   <link href="difficulty_Easy.css" rel="stylesheet">
@@ -21,6 +21,9 @@
   <link href="win_display_ED.css" rel="stylesheet">
   <link href="lose_display_ED.css" rel="stylesheet">
   <link href="ED.css" rel="stylesheet">
+  <!-- 日本語版 -->
+  <link href='story_japanese.css' rel="stylesheet">
+  <link href="" rel="">
 </head>
 
 <body>
@@ -78,6 +81,28 @@
     </div>
   </div>
 
+    <!-- あらすじ画面１ - Japanese ver -->
+    <div id="OP_1_japan" class="display_size">
+      <!-- あらすじスキップ -->
+      <div name="storyskip_japan" class="storyskip">
+        あらすじをスキップする
+      </div>
+      <!-- あらすじ -->
+      <div id="story_1_japan">
+        Welcome to the 2025 EXPO
+      </div>
+      <!-- １つ先に進む -->
+      <div id="storyfront_1_japan" class="storyfront">
+        １つ先にすすむ
+      </div>
+      <!-- １つ前に戻る -->
+      <div id="storyback_1_japan" class="storyback">
+        タイトル画面にもどる
+        <!-- BGM -->
+        <audio controls src="music/Insert_BGM/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
+      </div>
+    </div>
+
   <!-- あらすじ画面２ -->
   <div id="OP_2" class="display_size">
     <!-- あらすじスキップ -->
@@ -98,6 +123,26 @@
     </div>
   </div>
 
+    <!-- あらすじ画面２ - Japanese Ver -->
+    <div id="OP_2_japan" class="display_size">
+      <!-- あらすじスキップ -->
+      <div name="storyskip_japan" class="storyskip">
+        あらすじをスキップする
+      </div>
+      <!-- あらすじ -->
+      <div id="story_2_japan">
+        しかし、平和な学校生活に<br><ruby>突然<rt>とつぜん</rt></ruby>ドラゴンが現れてしまった！
+      </div>
+      <!-- １つ先に進む -->
+      <div id="storyfront_2_japan" class="storyfront">
+        １つ先にすすむ
+      </div>
+      <!-- １つ前に戻る -->
+      <div id="storyback_2_japan" class="storyback">
+        一つ前にもどる
+      </div>
+    </div>
+
   <!-- あらすじ画面３ -->
   <div id="OP_3" class="display_size">
     <!-- あらすじスキップ -->
@@ -117,6 +162,26 @@
       一つ前にもどる
     </div>
   </div>
+
+    <!-- あらすじ画面３ - Japanese Ver -->
+    <div id="OP_3_japan" class="display_size">
+      <!-- あらすじスキップ -->
+      <div name="storyskip_japan" class="storyskip">
+        あらすじをスキップする
+      </div>
+      <!-- あらすじ -->
+      <div id="story_3_japan">
+        どうやら、<br>ドラゴンは学校を<br><ruby>壊<rt>こわ</rt></ruby>そうと<br>しているようだ…
+      </div>
+      <!-- １つ先に進む -->
+      <div id="storyfront_3_japan" class="storyfront">
+        １つ先にすすむ
+      </div>
+      <!-- １つ前に戻る -->
+      <div id="storyback_3_japan" class="storyback">
+        一つ前にもどる
+      </div>
+    </div>
 
   <!-- あらすじ画面４ -->
   <div id="OP_4" class="display_size">
@@ -140,6 +205,28 @@
     </div>
   </div>
 
+    <!-- あらすじ画面４ - Japanese Ver -->
+    <div id="OP_4_japan" class="display_size">
+      <!-- あらすじスキップ -->
+      <div name="storyskip_japan" class="storyskip">
+        あらすじをスキップする
+      </div>
+      <!-- あらすじ -->
+      <div id="story_4_japan">
+        これを見ている<ruby>勇気<rt>ゆうき</rt></ruby>のある君！<br>
+        今から<ruby>授<rt>さず</rt></ruby>ける<ruby>魔法<rt>まほう</rt></ruby>の力で
+        <br>ドラゴンを<ruby>倒<rt>たお</rt></ruby>してくれ！
+      </div>
+      <!-- １つ先に進む -->
+      <div id="storyfront_4_japan" class="storyfront">
+        １つ先にすすむ
+      </div>
+      <!-- １つ前に戻る -->
+      <div id="storyback_4_japan" class="storyback">
+        一つ前にもどる
+      </div>
+    </div>
+
   <!-- あらすじ画面5 -->
   <div id="OP_5" class="display_size">
     <!-- あらすじスキップ -->
@@ -159,6 +246,26 @@
       一つ前にもどる
     </div>
   </div>
+
+    <!-- あらすじ画面5 - Japanese Ver -->
+    <div id="OP_5_japan" class="display_size">
+      <!-- あらすじスキップ -->
+      <div name="storyskip_japan" class="storyskip">
+        あらすじをスキップする
+      </div>
+      <!-- あらすじ -->
+      <div id="story_5_japan">
+        それでは、<ruby>頼<rt>たの</rt></ruby>んだぞ！<br>よい報告を期待している。<br>頑張ってくれ！
+      </div>
+      <!-- １つ先に進む -->
+      <div id="storyfront_5_japan" class="storyfront">
+        １つ先にすすむ
+      </div>
+      <!-- １つ前に戻る -->
+      <div id="storyback_5_japan" class="storyback">
+        一つ前にもどる
+      </div>
+    </div>
 
   <!-- 難易度選択画面 -->
   <div id="difficulty" class="display_size">
@@ -793,6 +900,10 @@
   <script src="speak_example.js"></script>
   <script src="win_display_ED.js"></script>
   <script src="wordchoice_hard.js"></script>
+
+  <!-- 日本語版 -->
+  <script src="story_japanese.js"></script>
+
 </body>
 
 </html>
