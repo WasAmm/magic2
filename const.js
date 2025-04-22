@@ -112,6 +112,8 @@ const mainstage_effect_monster_light = document.getElementById("mainstage_effect
 const mainstage_effect_monster_darkness = document.getElementById("mainstage_effect_monster_darkness");
 
 // 日本語版
+const startscrean_botton_japan = document.getElementById("startscrean_botton_japan");
+
 const OP_1_japan = document.getElementById("OP_1_japan");
 const storyfront_1_japan = document.getElementById("storyfront_1_japan");
 const storyback_1_japan = document.getElementById("storyback_1_japan");
@@ -126,10 +128,10 @@ const storyfront_4_japan = document.getElementById("storyfront_4_japan");
 const storyback_4_japan = document.getElementById("storyback_4_japan");
 const OP_5_japan = document.getElementById("OP_5_japan");
 const storyfront_5_japan = document.getElementById("storyfront_5_japan");
-const storyback_5_japan = document.getElementById("storyback_5_japan")
-const storyskip_japan = document.getElementById("storyskip_japan")
+const storyback_5_japan = document.getElementById("storyback_5_japan");
 
-const startscrean_botton_japan = document.getElementById("startscrean_botton_japan")
+
+
 
 
 

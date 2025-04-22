@@ -1,0 +1,11 @@
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#wordchoice_Easy_japan.display_size {
+    background-color: black;
+    display: none;
+}

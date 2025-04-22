@@ -1,3 +1,55 @@
+/* あらすじ画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* あらすじスキップ */
+.storyskip_japan {
+    position: absolute;
+    width: 448px;
+    height: 39px;
+    top: 20px;
+    right: 123px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* １つ先に進む */
+.storyfront {
+    position: absolute;
+    width: 287px;
+    height: 38px;
+    top: 1030px;
+    right: 114px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* 一つ前にもどる */
+.storyback {
+    position: absolute;
+    width: 390px;
+    height: 38px;
+    top: 1030px;
+    left: 111px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
 /* あらすじ画面１ */
 #OP_1_japan.display_size {
     display: none;
@@ -80,7 +132,7 @@
     background-image: url("game_material/game_material/ background/summary-5.png");
 }
 
-#OP_5_japan {
+#story_5_japan {
     position: absolute;
     width: 1920px;
     height: 1080px;

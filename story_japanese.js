@@ -74,7 +74,7 @@ storyback_5_japan.addEventListener("click", e => {
 //ボタンが押されたら表示非表示　（あらすじ最終から難易度選択画面）
 storyfront_5_japan.addEventListener("click", e => {
     OP_5_japan.style.display = "none"
-    difficulty.style.display = "block"
+    difficulty_japan.style.display = "block"
     document.getElementById("story_bgm").pause()
     document.getElementById("story_bgm").currentTime = 0
 }, false);
