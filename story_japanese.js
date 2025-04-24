@@ -8,7 +8,7 @@ for (const skip of storyskip_japan) {
         OP_3_japan.style.display = "none"
         OP_4_japan.style.display = "none"
         OP_5_japan.style.display = "none"
-        difficulty.style.display = "block"
+        difficulty_japan.style.display = "block"
         document.getElementById("story_bgm").pause()
         document.getElementById("story_bgm").currentTime = 0
     }, false);
