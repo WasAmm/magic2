@@ -152,12 +152,6 @@ const Hard_thunder_png = document.getElementById("Hard_thunder_png");
 //闇Hard
 //const  = document.getElementById("");
 
-//水
-const mainstage_effect_monster_water = document.getElementById("mainstage_effect_monster_water");
-//草
-const mainstage_effect_monster_grass = document.getElementById("mainstage_effect_monster_grass");
-//雷
-const mainstage_effect_monster_thunder = document.getElementById("mainstage_effect_monster_thunder");
 //氷
 const mainstage_effect_monster_ice = document.getElementById("mainstage_effect_monster_ice");
 //風
