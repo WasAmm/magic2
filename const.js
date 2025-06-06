@@ -90,25 +90,25 @@ const Normal_fire_png = document.getElementById("Normal_fire_png");
 const Hard_fire_png = document.getElementById("Hard_fire_png");
 
 //水Easy
-//const  = document.getElementById("");
+const Easy_water_png = document.getElementById("Easy_water_png");
 //水Normal
-//const  = document.getElementById("");
+const Normal_water_png = document.getElementById("Normal_water_png");
 //水Hard
-//const  = document.getElementById("");
+const Hard_water_png = document.getElementById("Hard_water_png");
 
 //草Easy
-//const  = document.getElementById("");
+const Easy_grass_png = document.getElementById("Easy_grass_png");
 //草Normal
-//const  = document.getElementById("");
+const Normal_grass_png = document.getElementById("Normal_grass_png");
 //草Hard
-//const  = document.getElementById("");
+const Hard_grass_png = document.getElementById("Hard_grass_png");
 
 //雷Easy
-//const  = document.getElementById("");
+const Easy_thunder_png = document.getElementById("Easy_thunder_png");
 //雷Normal
-//const  = document.getElementById("");
+const Normal_thunder_png = document.getElementById("Normal_thunder_png");
 //雷Hard
-//const  = document.getElementById("");
+const Hard_thunder_png = document.getElementById("Hard_thunder_png");
 
 //氷Easy
 //const  = document.getElementById("");
