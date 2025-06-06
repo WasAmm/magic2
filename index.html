@@ -2,1060 +2,1072 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Have magic power!</title>
-  <link href='style.css' rel='stylesheet'>
-  <link href="story.css" rel="stylesheet">
-  <link href="difficulty_Easy.css" rel="stylesheet">
-  <link href="wordchoice_easy.css" rel="stylesheet">
-  <link href="wordchoice_normal.css" rel="stylesheet">
-  <link href="wordchoice_hard1.css" rel="stylesheet">
-  <link href="wordchoice_hard2.css" rel="stylesheet">
-  <link href="final_confirmation.css" rel="stylesheet">
-  <link href="speak_example.css" rel="stylesheet">
-  <link href="mainstage.css" rel="stylesheet">
-  <link href="mainstage.css" rel="stylesheet">
-  <link href="win_display.css" rel="stylesheet">
-  <link href="lose_display.css" rel="stylesheet">
-  <link href="win_display_ED.css" rel="stylesheet">
-  <link href="lose_display_ED.css" rel="stylesheet">
-  <link href="ED.css" rel="stylesheet">
-  <!-- 日本語版 -->
-  <link href='story_japanese.css' rel="stylesheet">
-  <link href="difficulty_japanese.css" rel="stylesheet">
-  <link href="wordchoice_Easy_japanese.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Have magic power!</title>
+	<link href='style.css' rel='stylesheet'>
+	<link href="story.css" rel="stylesheet">
+	<link href="difficulty_Easy.css" rel="stylesheet">
+	<link href="wordchoice_easy.css" rel="stylesheet">
+	<link href="wordchoice_normal.css" rel="stylesheet">
+	<link href="wordchoice_hard1.css" rel="stylesheet">
+	<link href="wordchoice_hard2.css" rel="stylesheet">
+	<link href="final_confirmation.css" rel="stylesheet">
+	<link href="speak_example.css" rel="stylesheet">
+	<link href="mainstage.css" rel="stylesheet">
+	<link href="mainstage.css" rel="stylesheet">
+	<link href="win_display.css" rel="stylesheet">
+	<link href="lose_display.css" rel="stylesheet">
+	<link href="win_display_ED.css" rel="stylesheet">
+	<link href="lose_display_ED.css" rel="stylesheet">
+	<link href="ED.css" rel="stylesheet">
+	<!-- 日本語版 -->
+	<link href='story_japanese.css' rel="stylesheet">
+	<link href="difficulty_japanese.css" rel="stylesheet">
+	<link href="wordchoice_Easy_japanese.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <style>
-    #startscrean.display_size {
-      background-image: url("game_material/game_material/ background/title_2.png");
-    }
-  </style>
-
-  <!--  スタート画面  -->
-  <div id="startscrean" class="display_size">
-    <!-- タイトルテキスト -->
-    <div id="startscrean_text">
-      Have magic power!
-    </div>
-    <!-- スタートボタン - 英語ver-->
-    <div id="startscrean_botton">
-      ~ 英語版 ~
-    </div>
-    <!-- スタートボタン - 日本語ver-->
-    <div id="startscrean_botton_japan">
-      ~ Japanese Ver ~
-    </div>
-    <!-- 画像‐帽子 -->
-    <img src="game_material/game_material/ others/hat_2.png" id="img_hat">
-    <!-- 画像‐杖 -->
-    <img src="game_material/game_material/ others/cain_2.png" id="img_cane">
-    <!-- BGM -->
-    <audio controls src="music/Insert_BGM/maou_bgm_fantasy10.mp3" id="start_bgm"></audio>
-  </div>
-
-  <!-- あらすじ画面１ -->
-  <div id="OP_1" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip" class="storyskip">
-      あらすじをスキップする
-    </div>
-    <!-- あらすじ -->
-    <div id="story_1">
-      ここは、<ruby>大原<rt>おおはら</rt></ruby>小学校…<br>
-      <ruby>笠間<rt>かさま</rt>市<rt>し</rt></ruby>にある、
-      <br><ruby>児<rt>じ</rt>童<rt>どう</rt>数<rt>すう</rt></ruby>
-      100人を<ruby>超<rt>こ</rt></ruby>える学校だ！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_1" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_1" class="storyback">
-      タイトル画面にもどる
-      <!-- BGM -->
-      <audio controls src="music/Insert_BGM/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
-    </div>
-  </div>
-
-  <!-- あらすじ画面１ - Japanese ver -->
-  <div id="OP_1_japan" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip_japan" class="storyskip_japan">
-      Skip Summary
-    </div>
-    <!-- あらすじ -->
-    <div id="story_1_japan">
-      Welcome to the 2025 EXPO
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_1_japan" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_1_japan" class="storyback">
-      タイトル画面にもどる
-      <!-- BGM -->
-      <audio controls src="music/Insert_BGM/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
-    </div>
-  </div>
-
-  <!-- あらすじ画面２ -->
-  <div id="OP_2" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip" class="storyskip">
-      あらすじをスキップする
-    </div>
-    <!-- あらすじ -->
-    <div id="story_2">
-      しかし、平和な学校生活に<br><ruby>突然<rt>とつぜん</rt></ruby>ドラゴンが現れてしまった！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_2" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_2" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面２ - Japanese Ver -->
-  <div id="OP_2_japan" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip_japan" class="storyskip_japan">
-      Skip Summary
-    </div>
-    <!-- あらすじ -->
-    <div id="story_2_japan">
-      万博にドラゴンが現れた！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_2_japan" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_2_japan" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面３ -->
-  <div id="OP_3" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip" class="storyskip">
-      あらすじをスキップする
-    </div>
-    <!-- あらすじ -->
-    <div id="story_3">
-      どうやら、<br>ドラゴンは学校を<br><ruby>壊<rt>こわ</rt></ruby>そうと<br>しているようだ…
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_3" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_3" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面３ - Japanese Ver -->
-  <div id="OP_3_japan" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip_japan" class="storyskip_japan">
-      Skip Summary
-    </div>
-    <!-- あらすじ -->
-    <div id="story_3_japan">
-      ドラゴンは万博を破壊しようとしている！？
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_3_japan" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_3_japan" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面４ -->
-  <div id="OP_4" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip" class="storyskip">
-      あらすじをスキップする
-    </div>
-    <!-- あらすじ -->
-    <div id="story_4">
-      これを見ている<ruby>勇気<rt>ゆうき</rt></ruby>のある君！<br>
-      今から<ruby>授<rt>さず</rt></ruby>ける<ruby>魔法<rt>まほう</rt></ruby>の力で
-      <br>ドラゴンを<ruby>倒<rt>たお</rt></ruby>してくれ！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_4" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_4" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面４ - Japanese Ver -->
-  <div id="OP_4_japan" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip_japan" class="storyskip_japan">
-      Skip Summary
-    </div>
-    <!-- あらすじ -->
-    <div id="story_4_japan">
-      ドラゴンを倒してくれ！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_4_japan" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_4_japan" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面5 -->
-  <div id="OP_5" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip" class="storyskip">
-      あらすじをスキップする
-    </div>
-    <!-- あらすじ -->
-    <div id="story_5">
-      それでは、<ruby>頼<rt>たの</rt></ruby>んだぞ！<br>よい報告を期待している。<br>頑張ってくれ！
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_5" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_5" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- あらすじ画面5 - Japanese Ver -->
-  <div id="OP_5_japan" class="display_size">
-    <!-- あらすじスキップ -->
-    <div name="storyskip_japan" class="storyskip_japan">
-      Skip Summary
-    </div>
-    <!-- あらすじ -->
-    <div id="story_5_japan">
-      頼んだ～
-    </div>
-    <!-- １つ先に進む -->
-    <div id="storyfront_5_japan" class="storyfront">
-      １つ先にすすむ
-    </div>
-    <!-- １つ前に戻る -->
-    <div id="storyback_5_japan" class="storyback">
-      一つ前にもどる
-    </div>
-  </div>
-
-  <!-- 難易度選択画面 -->
-  <div id="difficulty" class="display_size">
-    <!-- Easy -->
-    <div id="difficulty_Easy" class="difficulty_text">
-      Easy
-    </div>
-    <!-- Normal -->
-    <div id="difficulty_Normal" class="difficulty_text">
-      Normal
-    </div>
-    <!-- Hard -->
-    <div id="difficulty_Hard" class="difficulty_text">
-      Hard
-    </div>
-    <!-- 画像ー魔女 -->
-    <img src="game_material/game_material/character/stand-by.png" class="difficulty_img">
-  </div>
-
-    <!-- 難易度選択画面　- Japanese Ver -->
-    <div id="difficulty_japan" class="display_size">
-      <!-- Easy -->
-      <div id="difficulty_Easy_japan" class="difficulty_text">
-        Easy
-      </div>
-      <!-- Normal -->
-      <div id="difficulty_Normal_japan" class="difficulty_text">
-        Normal
-      </div>
-      <!-- Hard -->
-      <div id="difficulty_Hard_japan" class="difficulty_text">
-        Hard
-      </div>
-      <!-- 画像ー魔女 -->
-      <img src="game_material/game_material/character/stand-by.png" class="difficulty_img">
-    </div>
-
-  <!-- 単語選択画面Easy -->
-  <div id="wordchoice_Easy" class="display_size">
-    <!-- 単語を選んでね -->
-    <div id="please_wordchoice_Easy" class="please_wordchoice">
-      君が使いたい魔法を選ぼう！
-    </div>
-
-    <!-- 枠線 -->
-    <div class="border_wordchoice">
-
-
-      <!-- ほのお -->
-      <div id="can_read_japanese_fire" class="can_read_japanese_left">
-        ほのお
-      </div>
-      <!-- 簡単‐炎 -->
-      <div id="fire_easy" name="words_word" data-word="fire" class="word_easy">
-        fire
-      </div>
-      <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
-        class="image_icon">
-
-      <!-- みず -->
-      <div id="can_read_japanese_water" class="can_read_japanese_left">
-        みず
-      </div>
-      <!-- 簡単‐水 -->
-      <div id="water_easy" name="words_word" data-word="water" class="word_easy">
-        water
-      </div>
-      <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
-        class="image_icon">
-
-      <!-- くさ -->
-      <div id="can_read_japanese_grass" class="can_read_japanese_left">
-        くさ
-      </div>
-      <!-- 簡単‐草 -->
-      <div id="grass_easy" name="words_word" data-word="grass" class="word_easy">
-        grass
-      </div>
-      <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
-        class="image_icon">
-
-      <!-- かみなり -->
-      <div id="can_read_japanese_thunder" class="can_read_japanese_left">
-        かみなり
-      </div>
-      <!-- 簡単‐雷 -->
-      <div id="thunder_easy" name="words_word" data-word="thunder" class="word_easy">
-        thunder
-      </div>
-      <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
-        class="image_icon">
-
-      <!-- こおり -->
-      <div id="can_read_japanese_ice" class="can_read_japanese_left">
-        こおり
-      </div>
-      <!-- 簡単‐氷 -->
-      <div id="ice_easy" name="words_word" data-word="ice" class="word_easy">
-        ice
-      </div>
-      <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
-        class="image_icon">
-
-      <!-- かぜ -->
-      <div id="can_read_japanese_wind" class="can_read_japanese_right">
-        かぜ
-      </div>
-      <!-- 簡単‐風 -->
-      <div id="wind_easy" name="words_word" data-word="wind" class="word_easy">
-        wind
-      </div>
-      <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
-        class="image_icon">
-
-      <!-- いわ -->
-      <div id="can_read_japanese_rock" class="can_read_japanese_right">
-        いわ
-      </div>
-      <!-- 簡単‐岩 -->
-      <div id="rock_easy" name="words_word" data-word="rock" class="word_easy">
-        rock
-      </div>
-      <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
-        class="image_icon">
-
-      <!-- どく -->
-      <div id="can_read_japanese_poison" class="can_read_japanese_right">
-        どく
-      </div>
-      <!-- 簡単‐毒 -->
-      <div id="poison_easy" name="words_word" data-word="poison" class="word_easy">
-        poison
-      </div>
-      <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
-        class="image_icon">
-
-      <!-- ひかり -->
-      <div id="can_read_japanese_light" class="can_read_japanese_right">
-        ひかり
-      </div>
-      <!-- 簡単‐光 -->
-      <div id="light_easy" name="words_word" data-word="light" class="word_easy">
-        light
-      </div>
-      <!-- 画像‐光 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
-        class="image_icon">
-
-      <!-- やみ -->
-      <div id="can_read_japanese_darkness" class="can_read_japanese_right">
-        やみ
-      </div>
-      <!-- 簡単‐闇 -->
-      <div id="darkness_easy" name="words_word" data-word="darkness" class="word_easy">
-        darkness
-      </div>
-      <!-- 画像‐闇 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
-        class="image_icon">
-
-    </div>
-  </div>
-
-    <!-- 単語選択画面Easy - Japanese Ver -->
-    <div id="wordchoice_Easy_japan" class="display_size">
-      <!-- 単語を選んでね -->
-      <div id="please_wordchoice_Easy" class="please_wordchoice">
-        君が使いたい魔法を選ぼう！
-      </div>
-  
-      <!-- 枠線 -->
-      <div class="border_wordchoice">
-  
-  
-        <!-- ほのお -->
-        <div id="can_read_japanese_fire" class="can_read_japanese_left">
-          fire
-        </div>
-        <!-- 簡単‐炎 -->
-        <div id="fire_easy" name="words_word" data-word="fire" class="word_easy">
-          ほのお
-        </div>
-        <!-- 画像‐炎 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
-          class="image_icon">
-  
-        <!-- みず -->
-        <div id="can_read_japanese_water" class="can_read_japanese_left">
-          water
-        </div>
-        <!-- 簡単‐水 -->
-        <div id="water_easy" name="words_word" data-word="water" class="word_easy">
-          みず
-        </div>
-        <!-- 画像‐水 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
-          class="image_icon">
-  
-        <!-- くさ -->
-        <div id="can_read_japanese_grass" class="can_read_japanese_left">
-          grass
-        </div>
-        <!-- 簡単‐草 -->
-        <div id="grass_easy" name="words_word" data-word="grass" class="word_easy">
-          くさ
-        </div>
-        <!-- 画像‐草 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
-          class="image_icon">
-  
-        <!-- かみなり -->
-        <div id="can_read_japanese_thunder" class="can_read_japanese_left">
-          thunder
-        </div>
-        <!-- 簡単‐雷 -->
-        <div id="thunder_easy" name="words_word" data-word="thunder" class="word_easy">
-          かみなり
-        </div>
-        <!-- 画像‐雷 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
-          class="image_icon">
-  
-        <!-- こおり -->
-        <div id="can_read_japanese_ice" class="can_read_japanese_left">
-          ice
-        </div>
-        <!-- 簡単‐氷 -->
-        <div id="ice_easy" name="words_word" data-word="ice" class="word_easy">
-          こおり
-        </div>
-        <!-- 画像‐氷 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
-          class="image_icon">
-  
-        <!-- かぜ -->
-        <div id="can_read_japanese_wind" class="can_read_japanese_right">
-          wind
-        </div>
-        <!-- 簡単‐風 -->
-        <div id="wind_easy" name="words_word" data-word="wind" class="word_easy">
-          かぜ
-        </div>
-        <!-- 画像‐風 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
-          class="image_icon">
-  
-        <!-- いわ -->
-        <div id="can_read_japanese_rock" class="can_read_japanese_right">
-          rock
-        </div>
-        <!-- 簡単‐岩 -->
-        <div id="rock_easy" name="words_word" data-word="rock" class="word_easy">
-          いわ
-        </div>
-        <!-- 画像‐岩 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
-          class="image_icon">
-  
-        <!-- どく -->
-        <div id="can_read_japanese_poison" class="can_read_japanese_right">
-          poison
-        </div>
-        <!-- 簡単‐毒 -->
-        <div id="poison_easy" name="words_word" data-word="poison" class="word_easy">
-          どく
-        </div>
-        <!-- 画像‐毒 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
-          class="image_icon">
-  
-        <!-- ひかり -->
-        <div id="can_read_japanese_light" class="can_read_japanese_right">
-          light
-        </div>
-        <!-- 簡単‐光 -->
-        <div id="light_easy" name="words_word" data-word="light" class="word_easy">
-          ひかり
-        </div>
-        <!-- 画像‐光 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
-          class="image_icon">
-  
-        <!-- やみ -->
-        <div id="can_read_japanese_darkness" class="can_read_japanese_right">
-          darkness
-        </div>
-        <!-- 簡単‐闇 -->
-        <div id="darkness_easy" name="words_word" data-word="darkness" class="word_easy">
-          やみ
-        </div>
-        <!-- 画像‐闇 -->
-        <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
-          class="image_icon">
-  
-      </div>
-    </div>
-
-  <!-- 単語選択画面Normal -->
-  <div id="wordchoice_Normal" class="display_size">
-    <!-- 単語を選んでね -->
-    <div id="please_wordchoice_Normal" class="please_wordchoice">
-      君が使いたい魔法を選ぼう！
-    </div>
-
-    <!-- 枠線 -->
-    <div class="border_wordchoice">
-
-      <!--　普通 - 炎 -->
-      <div id="fire_normal" name="words_word" data-word="fire" class="word_normal">
-        Flame Blast
-      </div>
-      <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
-        class="image_icon">
-
-      <!-- 普通‐水 -->
-      <div id="water_normal" name="words_word" data-word="water" class="word_normal">
-        Aqua Splash
-      </div>
-      <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
-        class="image_icon">
-
-      <!-- 普通‐草 -->
-      <div id="grass_normal" name="words_word" data-word="grass" class="word_normal">
-        Leaf Cutter
-      </div>
-      <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
-        class="image_icon">
-
-      <!-- 普通‐雷 -->
-      <div id="thunder_normal" name="words_word" data-word="thunder" class="word_normal">
-        Thunder Bolt
-      </div>
-      <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
-        class="image_icon">
-
-      <!-- 普通‐氷 -->
-      <div id="ice_normal" name="words_word" data-word="ice" class="word_normal">
-        Icicle Crash
-      </div>
-      <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
-        class="image_icon">
-
-      <!-- 普通‐風 -->
-      <div id="wind_normal" name="words_word" data-word="wind" class="word_normal">
-        Gust Slash
-      </div>
-      <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
-        class="image_icon">
-
-      <!-- 普通‐岩 -->
-      <div id="rock_normal" name="words_word" data-word="rock" class="word_normal">
-        Boulder Smash
-      </div>
-      <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
-        class="image_icon">
-
-      <!-- 普通‐毒 -->
-      <div id="poison_normal" name="words_word" data-word="poison" class="word_normal">
-        Venomous Sting
-      </div>
-      <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
-        class="image_icon">
-
-      <!-- 普通‐光 -->
-      <div id="light_normal" name="words_word" data-word="light" class="word_normal">
-        Radiant Beam
-      </div>
-      <!-- 画像‐光 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
-        class="image_icon">
-
-      <!-- 簡単‐闇 -->
-      <div id="darkness_normal" name="words_word" data-word="darkness" class="word_normal">
-        Shadow Claw
-      </div>
-      <!-- 画像‐闇 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
-        class="image_icon">
-    </div>
-  </div>
-
-  <!-- 単語選択画面Hard1 -->
-  <div id="wordchoice_Hard1" class="display_size">
-    <!-- 単語を選んでね -->
-    <div id="please_wordchoice_Hard1" class="please_wordchoice">
-      君が使いたい魔法を選ぼう！
-    </div>
-
-    <!-- ２ページ目に進む -->
-    <div id="wordchoice_Hard1_front">
-      2ページ目にすすむ
-    </div>
-
-    <!-- 枠線 -->
-    <div class="border_wordchoice">
-
-      <!--　難しい - 炎 -->
-      <div id="fire_hard" name="words_word" data-word="fire" class="word_hard">
-        Scorching power, burn the entire enemy to ashes!
-      </div>
-      <!-- 画像‐炎 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐水 -->
-      <div id="water_hard" name="words_word" data-word="water" class="word_hard">
-        A clean flow, quench all in its path!
-      </div>
-      <!-- 画像‐水 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐草 -->
-      <div id="grass_hard" name="words_word" data-word="grass" class="word_hard">
-        With the breath of the earth, let new buds sprout!
-      </div>
-      <!-- 画像‐草 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐雷 -->
-      <div id="thunder_hard" name="words_word" data-word="thunder" class="word_hard">
-        With the power of electric light, strike through an enemy!
-      </div>
-      <!-- 画像‐雷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐氷 -->
-      <div id="ice_hard" name="words_word" data-word="ice" class="word_hard">
-        With the power of ice, let all freeze!
-      </div>
-      <!-- 画像‐氷 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice_hard"
-        class="image_icon_hard">
-
-    </div>
-
-  </div>
-
-  <!-- 単語選択画面Hard2 -->
-  <div id="wordchoice_Hard2" class="display_size">
-    <!-- 単語を選んでね -->
-    <div id="please_wordchoice_Hard" class="please_wordchoice">
-      君が使いたい魔法を選ぼう！
-    </div>
-    <!-- 1ページ目に進む -->
-    <div id="wordchoice_Hard2_back">
-      １ページ目にもどる
-    </div>
-
-    <!-- 枠線 -->
-    <div class="border_wordchoice">
-
-      <!--　難しい - 風 -->
-      <div id="wind_hard" name="words_word" data-word="wind" class="word_hard">
-        Free wind, blow everything away!
-      </div>
-      <!-- 画像‐風 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐岩 -->
-      <div id="rock_hard" name="words_word" data-word="rock" class="word_hard">
-        With the strength of a rock, smash through any obstacle!
-      </div>
-      <!-- 画像‐岩 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐毒 -->
-      <div id="poison_hard" name="words_word" data-word="poison" class="word_hard">
-        For poisonous power, unleash corruption and confusion!
-      </div>
-      <!-- 画像‐毒 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐光 -->
-      <div id="light_hard" name="words_word" data-word="light" class="word_hard">
-        You strike with sacred light, brushing away the darkness!
-      </div>
-      <!-- 画像‐光 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light_hard"
-        class="image_icon_hard">
-
-      <!-- 難しい‐闇 -->
-      <div id="darkness_hard" name="words_word" data-word="darkness" class="word_hard">
-        With the power of jet black, instill fear and panic!
-      </div>
-      <!-- 画像‐闇 -->
-      <img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness_hard"
-        class="image_icon_hard">
-
-    </div>
-  </div>
-
-  <!-- 最終確認画面 -->
-  <div id="final_confirmation" class="display_size">
-
-    <!-- 最終確認問いかけ -->
-    <div id="final_confirmation_said">
-      この魔法で良いかな？
-    </div>
-
-    <!-- 最終確認単語 -->
-    <div id="final_confirmation_word">
-    </div>
-
-    <!-- 進む -->
-    <div id="final_confirmation_front">
-      この魔法でいい
-    </div>
-    <!-- 戻る -->
-    <div id="final_confirmation_back">
-      難易度選択画面にもどる
-    </div>
-
-  </div>
-
-  <!-- 発音お手本 -->
-  <div id="speak_example" class="display_size">
-
-    <!-- 発音問いかけ -->
-    <div id="speak_example_said">
-      君が発音する単語は…
-    </div>
-
-    <!-- 英語 -->
-    <div id="speak_example_word">
-    </div>
-
-    <!-- もう一度聞く -->
-    <div id="speak_example_repeat">
-      もう１回聞く
-    </div>
-
-    <!-- ゲームを始める -->
-    <div id="speak_example_front">
-      ゲームを始める
-    </div>
-
-    <!-- 音声 -->
-    <audio controls src="music/english_audio/Easy_fire.mp3" id="Easy_fire_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_water.mp3" id="Easy_water_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_grass.mp3" id="Easy_grass_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_thunder.mp3" id="Easy_thunder_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_ice.mp3" id="Easy_ice_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_wind.mp3" id="Easy_wind_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_rock.mp3" id="Easy_rock_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_poison.mp3" id="Easy_poison_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_light.mp3" id="Easy_light_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Easy_darkness.mp3" id="Easy_darkness_mp3"
-      class="speak_example_audio"></audio>
-
-
-    <audio controls src="music/english_audio/Normal_fire.mp3" id="Normal_fire_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_water.mp3" id="Normal_water_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_grass.mp3" id="Normal_grass_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_thunder.mp3" id="Normal_thunder_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_ice.mp3" id="Normal_ice_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_wind.mp3" id="Normal_wind_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_rock.mp3" id="Normal_rock_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_poison.mp3" id="Normal_poison_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_light.mp3" id="Normal_light_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Normal_darkness.mp3" id="Normal_darkness_mp3"
-      class="speak_example_audio"></audio>
-
-
-
-    <audio controls src="music/english_audio/Hard_fire.mp3" id="Hard_fire_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_water.mp3" id="Hard_water_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_grass.mp3" id="Hard_grass_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_thunder.mp3" id="Hard_thunder_mp3"
-      class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_ice.mp3" id="Hard_ice_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_wind.mp3" id="Hard_wind_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_rock.mp3" id="Hard_rock_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_poison.mp3" id="Hard_poison_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_light.mp3" id="Hard_light_mp3" class="speak_example_audio"></audio>
-    <audio controls src="music/english_audio/Hard_darkness.mp3" id="Hard_darkness_mp3"
-      class="speak_example_audio"></audio>
-
-  </div>
-
-  <!-- ゲーム画面 -->
-  <div id="mainstage" class="display_size">
-    <!-- ターンのところ -->
-    <div id="mainstage_turn"></div>
-    <!-- HPの残量のところ（文字） -->
-    <div id="HP_tensuu"></div>
-    <!-- HPバーのところ -->
-    <div id="mainstage_HPber_line">
-      <div id="mainstage_HPber"></div>
-    </div>
-    <!-- 正確に発音してみよう -->
-    <div id="mainstage_Lets_speak">
-      正確に発音してみよう
-    </div>
-    <!-- 発音する単語のところ -->
-    <div id="mainstage_word"></div>
-    <!-- あなたの点数は○○点 -->
-    <div id="mainstage_score"></div>
-    <!-- 敵に○○のダメージ -->
-    <div id="mainstage_damage"></div>
-    <!-- 点数とダメージを囲む線 -->
-    <div id="mainstage_damage_line"></div>
-    <!-- ドラゴンの絵-元気ver -->
-    <img src="game_material/game_material/character/dragon_battle.png" id="dragon_power">
-    <!-- ドラゴンの絵-ダウンver -->
-    <img src="game_material/game_material/character/dragon_lose.PNG" id="mainstage_monster_down">
-    <!-- ドラゴンの絵-勝利ver -->
-    <img src="game_material/game_material/character/dragon_victory.PNG" id="mainstage_monster_victory">
-    <!-- モンスターエフェクトのところ -->
-    <img src="game_material/game_material/character/dragon_victory_effect.png" id="mainstage_effect_dragon">
-    <!-- プレイヤーの言葉 -->
-    <div id="mainstage_player_words"></div>
-    <!-- プレイヤー画像-元気 -->
-    <img src="game_material/game_material/character/battle.png" id="mainstage_player_cheerful">
-    <!-- 次のターンに進む -->
-    <div id="mainstage_turn_next"></div>
-    <!-- モンスターに勝った -->
-    <div id="mainstage_monster_win_words">ドラゴンを倒した！</div>
-    <!-- モンスターに負けた -->
-    <div id="mainstage_monster_lose_words">プレイヤーは負けた</div>
-    <!-- カウントダウンメーター -->
-    <div id="count_line">
-      <div id="count_meter">
-      </div>
-    </div>
-    <!-- 発音残り時間 -->
-    <div id="count_supell">発音終了まであと…</div>
-    <!-- 音楽 -->
-    <audio controls src="music/Insert_BGM/maou_bgm_fantasy12.mp3" id="battle_bgm" style="display: none;"></audio>
-    <!-- エフェクト-敵 -->
-    <!-- 炎-easy -->
-    <img src="game_material/game_material/attack_effect/Easy_fire.png" id="Easy_fire_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Easy">
-    <!-- 炎-normal -->
-    <img src="game_material/game_material/attack_effect/Normal_fire.png" id="Normal_fire_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Normal">
-    <!-- 炎-hard-->
-    <img src="game_material/game_material/attack_effect/Hard_fire.png" id="Hard_fire_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Hard">
-
-    <!-- 水-easy -->
-    <img src="game_material/game_material/attack_effect/Easy_water_2.png" id="Easy_water_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Easy">
-    <!-- 水-normal -->
-    <img src="game_material/game_material/attack_effect/Normal_water.png" id="Normal_water_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Normal">
-    <!-- 水-hard-->
-    <img src="game_material/game_material/attack_effect/Hard_water.png" id="Hard_water_png"
-      class="mainstage_effect_monster mainstage_effect_monster_Hard">
-
-    <!-- 草 -->
-    <img src="game_material/game_material/attack_effect/Grass_attack.png" id="mainstage_effect_monster_grass"
-      class="mainstage_effect_monster">
-    <!-- 雷 -->
-    <img src="game_material/game_material/attack_effect/Thunder_attack.png" id="mainstage_effect_monster_thunder"
-      class="mainstage_effect_monster">
-    <!-- 氷 -->
-    <img src="game_material/game_material/attack_effect/Ice_attack.png" id="mainstage_effect_monster_ice"
-      class="mainstage_effect_monster">
-    <!-- 風 -->
-    <img src="game_material/game_material/attack_effect/Wind_attack.png" id="mainstage_effect_monster_wind"
-      class="mainstage_effect_monster">
-    <!-- 岩 -->
-    <img src="game_material/game_material/attack_effect/Rock_attack.png" id="mainstage_effect_monster_rock"
-      class="mainstage_effect_monster">
-    <!-- 毒 -->
-    <img src="game_material/game_material/attack_effect/Poison_attack.png" id="mainstage_effect_monster_poison"
-      class="mainstage_effect_monster">
-    <!-- 光 -->
-    <img src="game_material/game_material/attack_effect/Light_attack.png" id="mainstage_effect_monster_light"
-      class="mainstage_effect_monster">
-    <!-- 闇 -->
-    <img src="game_material/game_material/attack_effect/Darkness_attack.png" id="mainstage_effect_monster_darkness"
-      class="mainstage_effect_monster">
-  </div>
-
-  <!-- 勝利画面 -->
-  <div id="win_display" class="display_size">
-    <!-- You win -->
-    <div id="win_display_words_good">You win</div>
-    <!-- おめでとう -->
-    <div id="win_display_words_great">おめでとう！！</div>
-    <!-- 画像‐喜び人 -->
-    <img src="game_material/game_material/character/victory.png" id="win_display_happy_human">
-    <!-- EDにすすむ -->
-    <div id="win_display_front">エンディングにすすむ</div>
-  </div>
-
-  <!-- 敗北画面 -->
-  <div id="lose_display" class="display_size">
-    <!-- You lose -->
-    <div id="lose_display_words_bad">You lose</div>
-    <!-- ドンマイ -->
-    <div id="lose_display_words_sobad">惜しかったね…あと少し！</div>
-    <!-- 画像‐絶望人 -->
-    <img src="game_material/game_material/character/lose.png" id="lose_display_bad_human">
-    <!-- EDにすすむ -->
-    <div id="lose_display_front">エンディングにすすむ</div>
-  </div>
-
-  <!-- 勝利ED -->
-  <div id="win_display_ED" class="display_size">
-    <!-- テキスト -->
-    <div id="win_display_ED_text">
-      君のおかげで、
-      <br><ruby>無事<rt>ぶじ</rt></ruby>にドラゴンは元の場所へ帰ったようだ！
-      <br>これからも、<ruby>学校生活<rt>　</rt></ruby>を楽しんでね～
-      <br>そして、<ruby>機会<rt>　</rt></ruby>があればより高い点数を目指して
-      <br>また<ruby>挑戦<rt>ちょうせん</rt></ruby>してみてね～
-
-    </div>
-    <!-- 製作者一覧に進む -->
-    <div id="win_display_ED_front">制作者一覧にすすむ</div>
-  </div>
-
-  <!-- 敗北ED -->
-  <div id="lose_display_ED" class="display_size">
-    <!-- テキスト -->
-    <div id="lose_display_ED_text">
-      負けてしまったのか…
-      <br>しかし<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>！
-      <br>どうやらドラゴンは、<ruby>幻<rt>まぼろし</rt></ruby>だったようだ！
-      <br><ruby>学校生活<rt>　</rt></ruby>をぜひ楽しんでね！
-      <br>そして、機会があればまた<ruby>挑戦<rt>ちょうせん</rt></ruby>してね～
-    </div>
-    <!-- 製作者一覧に進む -->
-    <div id="lose_display_ED_front">制作者一覧にすすむ</div>
-  </div>
-
-  <!-- 製作者一覧 -->
-  <div id="ED" class="display_size">
-    <!-- Thank_you -->
-    <div id="ED_text">Thank you for playing!</div>
-    <!-- テキスト -->
-    <div id="ED_text_2">制作者一覧</div>
-    <!-- 画像‐製作者 -->
-    <img src="game_material/game_material/ others/Producer.png" id="img_ED">
-    <!-- タイトル画面に行く -->
-    <div id="ED_front">タイトル画面に戻る</div>
-  </div>
-
-  <script src="main.js"></script>
-  <script src="story.js"></script>
-  <script src="difficulty.js"></script>
-  <script src="wordchoice_hard.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OpusMediaRecorder.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/encoderWorker.umd.js"></script>
-  <script src="scoring_system.js"></script>
-  <script src="const.js"></script>
-  <script src="ED.js"></script>
-  <script src="final_confirmation.js"></script>
-  <script src="lose_display_ED.js"></script>
-  <script src="main.js"></script>
-  <script src="mainstage.js"></script>
-  <script src="MediaRecorder.js"></script>
-  <script src="score.js"></script>
-  <script src="speak_example.js"></script>
-  <script src="win_display_ED.js"></script>
-  <script src="wordchoice_hard.js"></script>
-
-  <!-- 日本語版 -->
-  <script src="main_japanese.js"></script>
-  <script src="story_japanese.js"></script>
-  <script src="difficulty_japanese.js"></script>
+	<style>
+		#startscrean.display_size {
+			background-image: url("game_material/game_material/ background/title_2.png");
+		}
+	</style>
+
+	<!--  スタート画面  -->
+	<div id="startscrean" class="display_size">
+		<!-- タイトルテキスト -->
+		<div id="startscrean_text">
+			Have magic power!
+		</div>
+		<!-- スタートボタン - 英語ver-->
+		<div id="startscrean_botton">
+			~ 英語版 ~
+		</div>
+		<!-- スタートボタン - 日本語ver-->
+		<div id="startscrean_botton_japan">
+			~ Japanese Ver ~
+		</div>
+		<!-- 画像‐帽子 -->
+		<img src="game_material/game_material/ others/hat_2.png" id="img_hat">
+		<!-- 画像‐杖 -->
+		<img src="game_material/game_material/ others/cain_2.png" id="img_cane">
+		<!-- BGM -->
+		<audio controls src="music/Insert_BGM/maou_bgm_fantasy10.mp3" id="start_bgm"></audio>
+	</div>
+
+	<!-- あらすじ画面１ -->
+	<div id="OP_1" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip" class="storyskip">
+			あらすじをスキップする
+		</div>
+		<!-- あらすじ -->
+		<div id="story_1">
+			ここは、<ruby>大原<rt>おおはら</rt></ruby>小学校…<br>
+			<ruby>笠間<rt>かさま</rt>市<rt>し</rt></ruby>にある、
+			<br><ruby>児<rt>じ</rt>童<rt>どう</rt>数<rt>すう</rt></ruby>
+			100人を<ruby>超<rt>こ</rt></ruby>える学校だ！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_1" class="storyfront">
+			１つ先にすすむ
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_1" class="storyback">
+			タイトル画面にもどる
+			<!-- BGM -->
+			<audio controls src="music/Insert_BGM/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
+		</div>
+	</div>
+
+	<!-- あらすじ画面１ - Japanese ver -->
+	<div id="OP_1_japan" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip_japan" class="storyskip_japan">
+			Skip Summary
+		</div>
+		<!-- あらすじ -->
+		<div id="story_1_japan">
+			Welcome to the 2025 EXPO
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_1_japan" class="storyfront">
+			Go to Next
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_1_japan" class="storyback">
+			Return to Title
+			<!-- BGM -->
+			<audio controls src="music/Insert_BGM/maou_bgm_fantasy08.mp3" id="story_bgm"></audio>
+		</div>
+	</div>
+
+	<!-- あらすじ画面２ -->
+	<div id="OP_2" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip" class="storyskip">
+			あらすじをスキップする
+		</div>
+		<!-- あらすじ -->
+		<div id="story_2">
+			しかし、平和な学校生活に<br><ruby>突然<rt>とつぜん</rt></ruby>ドラゴンが現れてしまった！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_2" class="storyfront">
+			１つ先にすすむ
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_2" class="storyback">
+			一つ前にもどる
+		</div>
+	</div>
+
+	<!-- あらすじ画面２ - Japanese Ver -->
+	<div id="OP_2_japan" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip_japan" class="storyskip_japan">
+			Skip Summary
+		</div>
+		<!-- あらすじ -->
+		<div id="story_2_japan">
+			万博にドラゴンが現れた！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_2_japan" class="storyfront">
+			Go to Next
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_2_japan" class="storyback">
+			Go Back
+		</div>
+	</div>
+
+	<!-- あらすじ画面３ -->
+	<div id="OP_3" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip" class="storyskip">
+			あらすじをスキップする
+		</div>
+		<!-- あらすじ -->
+		<div id="story_3">
+			どうやら、<br>ドラゴンは学校を<br><ruby>壊<rt>こわ</rt></ruby>そうと<br>しているようだ…
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_3" class="storyfront">
+			１つ先にすすむ
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_3" class="storyback">
+			一つ前にもどる
+		</div>
+	</div>
+
+	<!-- あらすじ画面３ - Japanese Ver -->
+	<div id="OP_3_japan" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip_japan" class="storyskip_japan">
+			Skip Summary
+		</div>
+		<!-- あらすじ -->
+		<div id="story_3_japan">
+			ドラゴンは万博を破壊しようとしている！？
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_3_japan" class="storyfront">
+			Go to Next
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_3_japan" class="storyback">
+			Go Back
+		</div>
+	</div>
+
+	<!-- あらすじ画面４ -->
+	<div id="OP_4" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip" class="storyskip">
+			あらすじをスキップする
+		</div>
+		<!-- あらすじ -->
+		<div id="story_4">
+			これを見ている<ruby>勇気<rt>ゆうき</rt></ruby>のある君！<br>
+			今から<ruby>授<rt>さず</rt></ruby>ける<ruby>魔法<rt>まほう</rt></ruby>の力で
+			<br>ドラゴンを<ruby>倒<rt>たお</rt></ruby>してくれ！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_4" class="storyfront">
+			１つ先にすすむ
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_4" class="storyback">
+			一つ前にもどる
+		</div>
+	</div>
+
+	<!-- あらすじ画面４ - Japanese Ver -->
+	<div id="OP_4_japan" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip_japan" class="storyskip_japan">
+			Skip Summary
+		</div>
+		<!-- あらすじ -->
+		<div id="story_4_japan">
+			ドラゴンを倒してくれ！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_4_japan" class="storyfront">
+			Go to Next
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_4_japan" class="storyback">
+			Go Back
+		</div>
+	</div>
+
+	<!-- あらすじ画面5 -->
+	<div id="OP_5" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip" class="storyskip">
+			あらすじをスキップする
+		</div>
+		<!-- あらすじ -->
+		<div id="story_5">
+			それでは、<ruby>頼<rt>たの</rt></ruby>んだぞ！<br>よい報告を期待している。<br>頑張ってくれ！
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_5" class="storyfront">
+			１つ先にすすむ
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_5" class="storyback">
+			一つ前にもどる
+		</div>
+	</div>
+
+	<!-- あらすじ画面5 - Japanese Ver -->
+	<div id="OP_5_japan" class="display_size">
+		<!-- あらすじスキップ -->
+		<div name="storyskip_japan" class="storyskip_japan">
+			Skip Summary
+		</div>
+		<!-- あらすじ -->
+		<div id="story_5_japan">
+			頼んだ～
+		</div>
+		<!-- １つ先に進む -->
+		<div id="storyfront_5_japan" class="storyfront">
+			Go to Next
+		</div>
+		<!-- １つ前に戻る -->
+		<div id="storyback_5_japan" class="storyback">
+			Go Back
+		</div>
+	</div>
+
+	<!-- 難易度選択画面 -->
+	<div id="difficulty" class="display_size">
+		<!-- Easy -->
+		<div id="difficulty_Easy" class="difficulty_text">
+			Easy
+		</div>
+		<!-- Normal -->
+		<div id="difficulty_Normal" class="difficulty_text">
+			Normal
+		</div>
+		<!-- Hard -->
+		<div id="difficulty_Hard" class="difficulty_text">
+			Hard
+		</div>
+		<!-- 画像ー魔女 -->
+		<img src="game_material/game_material/character/stand-by.png" class="difficulty_img">
+	</div>
+
+	<!-- 難易度選択画面　- Japanese Ver -->
+	<div id="difficulty_japan" class="display_size">
+		<!-- Easy -->
+		<div id="difficulty_Easy_japan" class="difficulty_text">
+			Easy
+		</div>
+		<!-- Normal -->
+		<div id="difficulty_Normal_japan" class="difficulty_text">
+			Normal
+		</div>
+		<!-- Hard -->
+		<div id="difficulty_Hard_japan" class="difficulty_text">
+			Hard
+		</div>
+		<!-- 画像ー魔女 -->
+		<img src="game_material/game_material/character/stand-by.png" class="difficulty_img">
+	</div>
+
+	<!-- 単語選択画面Easy -->
+	<div id="wordchoice_Easy" class="display_size">
+		<!-- 単語を選んでね -->
+		<div id="please_wordchoice_Easy" class="please_wordchoice">
+			君が使いたい魔法を選ぼう！
+		</div>
+
+		<!-- 枠線 -->
+		<div class="border_wordchoice">
+
+
+			<!-- ほのお -->
+			<div id="can_read_japanese_fire" class="can_read_japanese_left">
+				ほのお
+			</div>
+			<!-- 簡単‐炎 -->
+			<div id="fire_easy" name="words_word" data-word="fire" class="word_easy">
+				fire
+			</div>
+			<!-- 画像‐炎 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
+				class="image_icon">
+
+			<!-- みず -->
+			<div id="can_read_japanese_water" class="can_read_japanese_left">
+				みず
+			</div>
+			<!-- 簡単‐水 -->
+			<div id="water_easy" name="words_word" data-word="water" class="word_easy">
+				water
+			</div>
+			<!-- 画像‐水 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
+				class="image_icon">
+
+			<!-- くさ -->
+			<div id="can_read_japanese_grass" class="can_read_japanese_left">
+				くさ
+			</div>
+			<!-- 簡単‐草 -->
+			<div id="grass_easy" name="words_word" data-word="grass" class="word_easy">
+				grass
+			</div>
+			<!-- 画像‐草 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
+				class="image_icon">
+
+			<!-- かみなり -->
+			<div id="can_read_japanese_thunder" class="can_read_japanese_left">
+				かみなり
+			</div>
+			<!-- 簡単‐雷 -->
+			<div id="thunder_easy" name="words_word" data-word="thunder" class="word_easy">
+				thunder
+			</div>
+			<!-- 画像‐雷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
+				class="image_icon">
+
+			<!-- こおり -->
+			<div id="can_read_japanese_ice" class="can_read_japanese_left">
+				こおり
+			</div>
+			<!-- 簡単‐氷 -->
+			<div id="ice_easy" name="words_word" data-word="ice" class="word_easy">
+				ice
+			</div>
+			<!-- 画像‐氷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
+				class="image_icon">
+
+			<!-- かぜ -->
+			<div id="can_read_japanese_wind" class="can_read_japanese_right">
+				かぜ
+			</div>
+			<!-- 簡単‐風 -->
+			<div id="wind_easy" name="words_word" data-word="wind" class="word_easy">
+				wind
+			</div>
+			<!-- 画像‐風 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
+				class="image_icon">
+
+			<!-- いわ -->
+			<div id="can_read_japanese_rock" class="can_read_japanese_right">
+				いわ
+			</div>
+			<!-- 簡単‐岩 -->
+			<div id="rock_easy" name="words_word" data-word="rock" class="word_easy">
+				rock
+			</div>
+			<!-- 画像‐岩 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
+				class="image_icon">
+
+			<!-- どく -->
+			<div id="can_read_japanese_poison" class="can_read_japanese_right">
+				どく
+			</div>
+			<!-- 簡単‐毒 -->
+			<div id="poison_easy" name="words_word" data-word="poison" class="word_easy">
+				poison
+			</div>
+			<!-- 画像‐毒 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
+				class="image_icon">
+
+			<!-- ひかり -->
+			<div id="can_read_japanese_light" class="can_read_japanese_right">
+				ひかり
+			</div>
+			<!-- 簡単‐光 -->
+			<div id="light_easy" name="words_word" data-word="light" class="word_easy">
+				light
+			</div>
+			<!-- 画像‐光 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
+				class="image_icon">
+
+			<!-- やみ -->
+			<div id="can_read_japanese_darkness" class="can_read_japanese_right">
+				やみ
+			</div>
+			<!-- 簡単‐闇 -->
+			<div id="darkness_easy" name="words_word" data-word="darkness" class="word_easy">
+				darkness
+			</div>
+			<!-- 画像‐闇 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
+				class="image_icon">
+
+		</div>
+	</div>
+
+	<!-- 単語選択画面Easy - Japanese Ver -->
+	<div id="wordchoice_Easy_japan" class="display_size">
+		<!-- 単語を選んでね -->
+		<div id="please_wordchoice_Easy" class="please_wordchoice">
+			君が使いたい魔法を選ぼう！
+		</div>
+
+		<!-- 枠線 -->
+		<div class="border_wordchoice">
+
+
+			<!-- ほのお -->
+			<div id="can_read_japanese_fire" class="can_read_japanese_left">
+				fire
+			</div>
+			<!-- 簡単‐炎 -->
+			<div id="fire_easy" name="words_word" data-word="fire" class="word_easy">
+				ほのお
+			</div>
+			<!-- 画像‐炎 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
+				class="image_icon">
+
+			<!-- みず -->
+			<div id="can_read_japanese_water" class="can_read_japanese_left">
+				water
+			</div>
+			<!-- 簡単‐水 -->
+			<div id="water_easy" name="words_word" data-word="water" class="word_easy">
+				みず
+			</div>
+			<!-- 画像‐水 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
+				class="image_icon">
+
+			<!-- くさ -->
+			<div id="can_read_japanese_grass" class="can_read_japanese_left">
+				grass
+			</div>
+			<!-- 簡単‐草 -->
+			<div id="grass_easy" name="words_word" data-word="grass" class="word_easy">
+				くさ
+			</div>
+			<!-- 画像‐草 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
+				class="image_icon">
+
+			<!-- かみなり -->
+			<div id="can_read_japanese_thunder" class="can_read_japanese_left">
+				thunder
+			</div>
+			<!-- 簡単‐雷 -->
+			<div id="thunder_easy" name="words_word" data-word="thunder" class="word_easy">
+				かみなり
+			</div>
+			<!-- 画像‐雷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
+				class="image_icon">
+
+			<!-- こおり -->
+			<div id="can_read_japanese_ice" class="can_read_japanese_left">
+				ice
+			</div>
+			<!-- 簡単‐氷 -->
+			<div id="ice_easy" name="words_word" data-word="ice" class="word_easy">
+				こおり
+			</div>
+			<!-- 画像‐氷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
+				class="image_icon">
+
+			<!-- かぜ -->
+			<div id="can_read_japanese_wind" class="can_read_japanese_right">
+				wind
+			</div>
+			<!-- 簡単‐風 -->
+			<div id="wind_easy" name="words_word" data-word="wind" class="word_easy">
+				かぜ
+			</div>
+			<!-- 画像‐風 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
+				class="image_icon">
+
+			<!-- いわ -->
+			<div id="can_read_japanese_rock" class="can_read_japanese_right">
+				rock
+			</div>
+			<!-- 簡単‐岩 -->
+			<div id="rock_easy" name="words_word" data-word="rock" class="word_easy">
+				いわ
+			</div>
+			<!-- 画像‐岩 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
+				class="image_icon">
+
+			<!-- どく -->
+			<div id="can_read_japanese_poison" class="can_read_japanese_right">
+				poison
+			</div>
+			<!-- 簡単‐毒 -->
+			<div id="poison_easy" name="words_word" data-word="poison" class="word_easy">
+				どく
+			</div>
+			<!-- 画像‐毒 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
+				class="image_icon">
+
+			<!-- ひかり -->
+			<div id="can_read_japanese_light" class="can_read_japanese_right">
+				light
+			</div>
+			<!-- 簡単‐光 -->
+			<div id="light_easy" name="words_word" data-word="light" class="word_easy">
+				ひかり
+			</div>
+			<!-- 画像‐光 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
+				class="image_icon">
+
+			<!-- やみ -->
+			<div id="can_read_japanese_darkness" class="can_read_japanese_right">
+				darkness
+			</div>
+			<!-- 簡単‐闇 -->
+			<div id="darkness_easy" name="words_word" data-word="darkness" class="word_easy">
+				やみ
+			</div>
+			<!-- 画像‐闇 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
+				class="image_icon">
+
+		</div>
+	</div>
+
+	<!-- 単語選択画面Normal -->
+	<div id="wordchoice_Normal" class="display_size">
+		<!-- 単語を選んでね -->
+		<div id="please_wordchoice_Normal" class="please_wordchoice">
+			君が使いたい魔法を選ぼう！
+		</div>
+
+		<!-- 枠線 -->
+		<div class="border_wordchoice">
+
+			<!--　普通 - 炎 -->
+			<div id="fire_normal" name="words_word" data-word="fire" class="word_normal">
+				Flame Blast
+			</div>
+			<!-- 画像‐炎 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire"
+				class="image_icon">
+
+			<!-- 普通‐水 -->
+			<div id="water_normal" name="words_word" data-word="water" class="word_normal">
+				Aqua Splash
+			</div>
+			<!-- 画像‐水 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water"
+				class="image_icon">
+
+			<!-- 普通‐草 -->
+			<div id="grass_normal" name="words_word" data-word="grass" class="word_normal">
+				Leaf Cutter
+			</div>
+			<!-- 画像‐草 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass"
+				class="image_icon">
+
+			<!-- 普通‐雷 -->
+			<div id="thunder_normal" name="words_word" data-word="thunder" class="word_normal">
+				Thunder Bolt
+			</div>
+			<!-- 画像‐雷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png" id="img_thunder"
+				class="image_icon">
+
+			<!-- 普通‐氷 -->
+			<div id="ice_normal" name="words_word" data-word="ice" class="word_normal">
+				Icicle Crash
+			</div>
+			<!-- 画像‐氷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice"
+				class="image_icon">
+
+			<!-- 普通‐風 -->
+			<div id="wind_normal" name="words_word" data-word="wind" class="word_normal">
+				Gust Slash
+			</div>
+			<!-- 画像‐風 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind"
+				class="image_icon">
+
+			<!-- 普通‐岩 -->
+			<div id="rock_normal" name="words_word" data-word="rock" class="word_normal">
+				Boulder Smash
+			</div>
+			<!-- 画像‐岩 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock"
+				class="image_icon">
+
+			<!-- 普通‐毒 -->
+			<div id="poison_normal" name="words_word" data-word="poison" class="word_normal">
+				Venomous Sting
+			</div>
+			<!-- 画像‐毒 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison"
+				class="image_icon">
+
+			<!-- 普通‐光 -->
+			<div id="light_normal" name="words_word" data-word="light" class="word_normal">
+				Radiant Beam
+			</div>
+			<!-- 画像‐光 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light"
+				class="image_icon">
+
+			<!-- 簡単‐闇 -->
+			<div id="darkness_normal" name="words_word" data-word="darkness" class="word_normal">
+				Shadow Claw
+			</div>
+			<!-- 画像‐闇 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png" id="img_darkness"
+				class="image_icon">
+		</div>
+	</div>
+
+	<!-- 単語選択画面Hard1 -->
+	<div id="wordchoice_Hard1" class="display_size">
+		<!-- 単語を選んでね -->
+		<div id="please_wordchoice_Hard1" class="please_wordchoice">
+			君が使いたい魔法を選ぼう！
+		</div>
+
+		<!-- ２ページ目に進む -->
+		<div id="wordchoice_Hard1_front">
+			2ページ目にすすむ
+		</div>
+
+		<!-- 枠線 -->
+		<div class="border_wordchoice">
+
+			<!--　難しい - 炎 -->
+			<div id="fire_hard" name="words_word" data-word="fire" class="word_hard">
+				Scorching power, burn the entire enemy to ashes!
+			</div>
+			<!-- 画像‐炎 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/fire_2.png" id="img_fire_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐水 -->
+			<div id="water_hard" name="words_word" data-word="water" class="word_hard">
+				A clean flow, quench all in its path!
+			</div>
+			<!-- 画像‐水 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/water_2.png" id="img_water_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐草 -->
+			<div id="grass_hard" name="words_word" data-word="grass" class="word_hard">
+				With the breath of the earth, let new buds sprout!
+			</div>
+			<!-- 画像‐草 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/grass_2.png" id="img_grass_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐雷 -->
+			<div id="thunder_hard" name="words_word" data-word="thunder" class="word_hard">
+				With the power of electric light, strike through an enemy!
+			</div>
+			<!-- 画像‐雷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/thunder_2.png"
+				id="img_thunder_hard" class="image_icon_hard">
+
+			<!-- 難しい‐氷 -->
+			<div id="ice_hard" name="words_word" data-word="ice" class="word_hard">
+				With the power of ice, let all freeze!
+			</div>
+			<!-- 画像‐氷 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/ice_2.png" id="img_ice_hard"
+				class="image_icon_hard">
+
+		</div>
+
+	</div>
+
+	<!-- 単語選択画面Hard2 -->
+	<div id="wordchoice_Hard2" class="display_size">
+		<!-- 単語を選んでね -->
+		<div id="please_wordchoice_Hard" class="please_wordchoice">
+			君が使いたい魔法を選ぼう！
+		</div>
+		<!-- 1ページ目に進む -->
+		<div id="wordchoice_Hard2_back">
+			１ページ目にもどる
+		</div>
+
+		<!-- 枠線 -->
+		<div class="border_wordchoice">
+
+			<!--　難しい - 風 -->
+			<div id="wind_hard" name="words_word" data-word="wind" class="word_hard">
+				Free wind, blow everything away!
+			</div>
+			<!-- 画像‐風 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/wind_2.png" id="img_wind_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐岩 -->
+			<div id="rock_hard" name="words_word" data-word="rock" class="word_hard">
+				With the strength of a rock, smash through any obstacle!
+			</div>
+			<!-- 画像‐岩 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/rock_2.png" id="img_rock_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐毒 -->
+			<div id="poison_hard" name="words_word" data-word="poison" class="word_hard">
+				For poisonous power, unleash corruption and confusion!
+			</div>
+			<!-- 画像‐毒 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/poison_2.png" id="img_poison_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐光 -->
+			<div id="light_hard" name="words_word" data-word="light" class="word_hard">
+				You strike with sacred light, brushing away the darkness!
+			</div>
+			<!-- 画像‐光 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/light_2.png" id="img_light_hard"
+				class="image_icon_hard">
+
+			<!-- 難しい‐闇 -->
+			<div id="darkness_hard" name="words_word" data-word="darkness" class="word_hard">
+				With the power of jet black, instill fear and panic!
+			</div>
+			<!-- 画像‐闇 -->
+			<img src="game_material/game_material/icon_2-20241223T054759Z-001/icon_2/darkness_2.png"
+				id="img_darkness_hard" class="image_icon_hard">
+
+		</div>
+	</div>
+
+	<!-- 最終確認画面 -->
+	<div id="final_confirmation" class="display_size">
+
+		<!-- 最終確認問いかけ -->
+		<div id="final_confirmation_said">
+			この魔法で良いかな？
+		</div>
+
+		<!-- 最終確認単語 -->
+		<div id="final_confirmation_word">
+		</div>
+
+		<!-- 進む -->
+		<div id="final_confirmation_front">
+			この魔法でいい
+		</div>
+		<!-- 戻る -->
+		<div id="final_confirmation_back">
+			難易度選択画面にもどる
+		</div>
+
+	</div>
+
+	<!-- 発音お手本 -->
+	<div id="speak_example" class="display_size">
+
+		<!-- 発音問いかけ -->
+		<div id="speak_example_said">
+			君が発音する単語は…
+		</div>
+
+		<!-- 英語 -->
+		<div id="speak_example_word">
+		</div>
+
+		<!-- もう一度聞く -->
+		<div id="speak_example_repeat">
+			もう１回聞く
+		</div>
+
+		<!-- ゲームを始める -->
+		<div id="speak_example_front">
+			ゲームを始める
+		</div>
+
+		<!-- 音声 -->
+		<audio controls src="music/english_audio/Easy_fire.mp3" id="Easy_fire_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_water.mp3" id="Easy_water_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_grass.mp3" id="Easy_grass_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_thunder.mp3" id="Easy_thunder_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_ice.mp3" id="Easy_ice_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_wind.mp3" id="Easy_wind_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_rock.mp3" id="Easy_rock_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_poison.mp3" id="Easy_poison_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_light.mp3" id="Easy_light_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Easy_darkness.mp3" id="Easy_darkness_mp3"
+			class="speak_example_audio"></audio>
+
+
+		<audio controls src="music/english_audio/Normal_fire.mp3" id="Normal_fire_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_water.mp3" id="Normal_water_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_grass.mp3" id="Normal_grass_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_thunder.mp3" id="Normal_thunder_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_ice.mp3" id="Normal_ice_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_wind.mp3" id="Normal_wind_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_rock.mp3" id="Normal_rock_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_poison.mp3" id="Normal_poison_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_light.mp3" id="Normal_light_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Normal_darkness.mp3" id="Normal_darkness_mp3"
+			class="speak_example_audio"></audio>
+
+
+
+		<audio controls src="music/english_audio/Hard_fire.mp3" id="Hard_fire_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_water.mp3" id="Hard_water_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_grass.mp3" id="Hard_grass_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_thunder.mp3" id="Hard_thunder_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_ice.mp3" id="Hard_ice_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_wind.mp3" id="Hard_wind_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_rock.mp3" id="Hard_rock_mp3" class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_poison.mp3" id="Hard_poison_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_light.mp3" id="Hard_light_mp3"
+			class="speak_example_audio"></audio>
+		<audio controls src="music/english_audio/Hard_darkness.mp3" id="Hard_darkness_mp3"
+			class="speak_example_audio"></audio>
+
+	</div>
+
+	<!-- ゲーム画面 -->
+	<div id="mainstage" class="display_size">
+		<!-- ターンのところ -->
+		<div id="mainstage_turn"></div>
+		<!-- HPの残量のところ（文字） -->
+		<div id="HP_tensuu"></div>
+		<!-- HPバーのところ -->
+		<div id="mainstage_HPber_line">
+			<div id="mainstage_HPber"></div>
+		</div>
+		<!-- 正確に発音してみよう -->
+		<div id="mainstage_Lets_speak">
+			正確に発音してみよう
+		</div>
+		<!-- 発音する単語のところ -->
+		<div id="mainstage_word"></div>
+		<!-- あなたの点数は○○点 -->
+		<div id="mainstage_score"></div>
+		<!-- 敵に○○のダメージ -->
+		<div id="mainstage_damage"></div>
+		<!-- 点数とダメージを囲む線 -->
+		<div id="mainstage_damage_line"></div>
+		<!-- ドラゴンの絵-元気ver -->
+		<img src="game_material/game_material/character/dragon_battle.png" id="dragon_power">
+		<!-- ドラゴンの絵-ダウンver -->
+		<img src="game_material/game_material/character/dragon_lose.PNG" id="mainstage_monster_down">
+		<!-- ドラゴンの絵-勝利ver -->
+		<img src="game_material/game_material/character/dragon_victory.PNG" id="mainstage_monster_victory">
+		<!-- モンスターエフェクトのところ -->
+		<img src="game_material/game_material/character/dragon_victory_effect.png" id="mainstage_effect_dragon">
+		<!-- プレイヤーの言葉 -->
+		<div id="mainstage_player_words"></div>
+		<!-- プレイヤー画像-元気 -->
+		<img src="game_material/game_material/character/battle.png" id="mainstage_player_cheerful">
+		<!-- 次のターンに進む -->
+		<div id="mainstage_turn_next"></div>
+		<!-- モンスターに勝った -->
+		<div id="mainstage_monster_win_words">ドラゴンを倒した！</div>
+		<!-- モンスターに負けた -->
+		<div id="mainstage_monster_lose_words">プレイヤーは負けた</div>
+		<!-- カウントダウンメーター -->
+		<div id="count_line">
+			<div id="count_meter">
+			</div>
+		</div>
+		<!-- 発音残り時間 -->
+		<div id="count_supell">発音終了まであと…</div>
+		<!-- 音楽 -->
+		<audio controls src="music/Insert_BGM/maou_bgm_fantasy12.mp3" id="battle_bgm" style="display: none;"></audio>
+		<!-- エフェクト-敵 -->
+		<!-- 炎-easy -->
+		<img src="game_material/game_material/attack_effect/Easy_fire.png" id="Easy_fire_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Easy">
+		<!-- 炎-normal -->
+		<img src="game_material/game_material/attack_effect/Normal_fire.png" id="Normal_fire_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Normal">
+		<!-- 炎-hard-->
+		<img src="game_material/game_material/attack_effect/Hard_fire.png" id="Hard_fire_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Hard">
+
+		<!-- 水-easy -->
+		<img src="game_material/game_material/attack_effect/Easy_water_2.png" id="Easy_water_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Easy">
+		<!-- 水-normal -->
+		<img src="game_material/game_material/attack_effect/Normal_water.png" id="Normal_water_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Normal">
+		<!-- 水-hard-->
+		<img src="game_material/game_material/attack_effect/Hard_water.png" id="Hard_water_png"
+			class="mainstage_effect_monster mainstage_effect_monster_Hard">
+
+		<!-- 草 -->
+		<img src="game_material/game_material/attack_effect/Grass_attack.png" id="mainstage_effect_monster_grass"
+			class="mainstage_effect_monster">
+		<!-- 雷 -->
+		<img src="game_material/game_material/attack_effect/Thunder_attack.png" id="mainstage_effect_monster_thunder"
+			class="mainstage_effect_monster">
+		<!-- 氷 -->
+		<img src="game_material/game_material/attack_effect/Ice_attack.png" id="mainstage_effect_monster_ice"
+			class="mainstage_effect_monster">
+		<!-- 風 -->
+		<img src="game_material/game_material/attack_effect/Wind_attack.png" id="mainstage_effect_monster_wind"
+			class="mainstage_effect_monster">
+		<!-- 岩 -->
+		<img src="game_material/game_material/attack_effect/Rock_attack.png" id="mainstage_effect_monster_rock"
+			class="mainstage_effect_monster">
+		<!-- 毒 -->
+		<img src="game_material/game_material/attack_effect/Poison_attack.png" id="mainstage_effect_monster_poison"
+			class="mainstage_effect_monster">
+		<!-- 光 -->
+		<img src="game_material/game_material/attack_effect/Light_attack.png" id="mainstage_effect_monster_light"
+			class="mainstage_effect_monster">
+		<!-- 闇 -->
+		<img src="game_material/game_material/attack_effect/Darkness_attack.png" id="mainstage_effect_monster_darkness"
+			class="mainstage_effect_monster">
+	</div>
+
+	<!-- 勝利画面 -->
+	<div id="win_display" class="display_size">
+		<!-- You win -->
+		<div id="win_display_words_good">You win</div>
+		<!-- おめでとう -->
+		<div id="win_display_words_great">おめでとう！！</div>
+		<!-- 画像‐喜び人 -->
+		<img src="game_material/game_material/character/victory.png" id="win_display_happy_human">
+		<!-- EDにすすむ -->
+		<div id="win_display_front">エンディングにすすむ</div>
+	</div>
+
+	<!-- 敗北画面 -->
+	<div id="lose_display" class="display_size">
+		<!-- You lose -->
+		<div id="lose_display_words_bad">You lose</div>
+		<!-- ドンマイ -->
+		<div id="lose_display_words_sobad">惜しかったね…あと少し！</div>
+		<!-- 画像‐絶望人 -->
+		<img src="game_material/game_material/character/lose.png" id="lose_display_bad_human">
+		<!-- EDにすすむ -->
+		<div id="lose_display_front">エンディングにすすむ</div>
+	</div>
+
+	<!-- 勝利ED -->
+	<div id="win_display_ED" class="display_size">
+		<!-- テキスト -->
+		<div id="win_display_ED_text">
+			君のおかげで、
+			<br><ruby>無事<rt>ぶじ</rt></ruby>にドラゴンは元の場所へ帰ったようだ！
+			<br>これからも、<ruby>学校生活<rt>　</rt></ruby>を楽しんでね～
+			<br>そして、<ruby>機会<rt>　</rt></ruby>があればより高い点数を目指して
+			<br>また<ruby>挑戦<rt>ちょうせん</rt></ruby>してみてね～
+
+		</div>
+		<!-- 製作者一覧に進む -->
+		<div id="win_display_ED_front">制作者一覧にすすむ</div>
+	</div>
+
+	<!-- 敗北ED -->
+	<div id="lose_display_ED" class="display_size">
+		<!-- テキスト -->
+		<div id="lose_display_ED_text">
+			負けてしまったのか…
+			<br>しかし<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>！
+			<br>どうやらドラゴンは、<ruby>幻<rt>まぼろし</rt></ruby>だったようだ！
+			<br><ruby>学校生活<rt>　</rt></ruby>をぜひ楽しんでね！
+			<br>そして、機会があればまた<ruby>挑戦<rt>ちょうせん</rt></ruby>してね～
+		</div>
+		<!-- 製作者一覧に進む -->
+		<div id="lose_display_ED_front">制作者一覧にすすむ</div>
+	</div>
+
+	<!-- 製作者一覧 -->
+	<div id="ED" class="display_size">
+		<!-- Thank_you -->
+		<div id="ED_text">Thank you for playing!</div>
+		<!-- テキスト -->
+		<div id="ED_text_2">制作者一覧</div>
+		<!-- 画像‐製作者 -->
+		<img src="game_material/game_material/ others/Producer.png" id="img_ED">
+		<!-- タイトル画面に行く -->
+		<div id="ED_front">タイトル画面に戻る</div>
+	</div>
+
+	<script src="main.js"></script>
+	<script src="story.js"></script>
+	<script src="difficulty.js"></script>
+	<script src="wordchoice_hard.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/OpusMediaRecorder.umd.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/encoderWorker.umd.js"></script>
+	<script src="scoring_system.js"></script>
+	<script src="const.js"></script>
+	<script src="ED.js"></script>
+	<script src="final_confirmation.js"></script>
+	<script src="lose_display_ED.js"></script>
+	<script src="main.js"></script>
+	<script src="mainstage.js"></script>
+	<script src="MediaRecorder.js"></script>
+	<script src="score.js"></script>
+	<script src="speak_example.js"></script>
+	<script src="win_display_ED.js"></script>
+	<script src="wordchoice_hard.js"></script>
+
+	<!-- 日本語版 -->
+	<script src="main_japanese.js"></script>
+	<script src="story_japanese.js"></script>
+	<script src="difficulty_japanese.js"></script>
 
 </body>
 
