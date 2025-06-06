@@ -82,15 +82,75 @@ const lose_display_ED_front = document.getElementById("lose_display_ED_front");
 const ED = document.getElementById("ED");
 const ED_front = document.getElementById("ED_front");
 
-//炎
-//const mainstage_effect_monster_fire = document.getElementById("mainstage_effect_monster_fire");
-
 //炎Easy
 const Easy_fire_png = document.getElementById("Easy_fire_png");
 //炎Normal
 const Normal_fire_png = document.getElementById("Normal_fire_png");
 //炎Hard
 const Hard_fire_png = document.getElementById("Hard_fire_png");
+
+//水Easy
+//const  = document.getElementById("");
+//水Normal
+//const  = document.getElementById("");
+//水Hard
+//const  = document.getElementById("");
+
+//草Easy
+//const  = document.getElementById("");
+//草Normal
+//const  = document.getElementById("");
+//草Hard
+//const  = document.getElementById("");
+
+//雷Easy
+//const  = document.getElementById("");
+//雷Normal
+//const  = document.getElementById("");
+//雷Hard
+//const  = document.getElementById("");
+
+//氷Easy
+//const  = document.getElementById("");
+//氷Normal
+//const  = document.getElementById("");
+//氷Hard
+//const  = document.getElementById("");
+
+//風Easy
+//const  = document.getElementById("");
+//風Normal
+//const  = document.getElementById("");
+//風Hard
+//const  = document.getElementById("");
+
+//岩Easy
+//const  = document.getElementById("");
+//岩Normal
+//const  = document.getElementById("");
+//岩Hard
+//const  = document.getElementById("");
+
+//毒Easy
+//const  = document.getElementById("");
+//毒Normal
+//const  = document.getElementById("");
+//毒Hard
+//const  = document.getElementById("");
+
+//光Easy
+//const  = document.getElementById("");
+//光Normal
+//const  = document.getElementById("");
+//光Hard
+//const  = document.getElementById("");
+
+//闇Easy
+//const  = document.getElementById("");
+//闇Normal
+//const  = document.getElementById("");
+//闇Hard
+//const  = document.getElementById("");
 
 //水
 const mainstage_effect_monster_water = document.getElementById("mainstage_effect_monster_water");
