@@ -14,12 +14,12 @@
 /* あらすじスキップ */
 .storyskip {
     position: absolute;
-    width: 420px;
+    width: 448px;
     height: 39px;
     top: 20px;
-    right: 0px;
+    right: 123px;
     color: white;
-    font-size: 50px;
+    font-size: 39px;
     line-height: 1;
     cursor: pointer;
 }
@@ -30,9 +30,9 @@
     width: 287px;
     height: 38px;
     top: 1030px;
-    right: 50px;
+    right: 114px;
     color: white;
-    font-size: 50px;
+    font-size: 39px;
     line-height: 1;
     cursor: pointer;
 }
@@ -43,9 +43,9 @@
     width: 390px;
     height: 38px;
     top: 1030px;
-    left: 70px;
+    left: 111px;
     color: white;
-    font-size: 50px;
+    font-size: 39px;
     line-height: 1;
     cursor: pointer;
 }
