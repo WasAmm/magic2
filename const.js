@@ -24,6 +24,10 @@ const difficulty_Easy = document.getElementById("difficulty_Easy");
 const difficulty_Normal = document.getElementById("difficulty_Normal");
 const difficulty_Hard = document.getElementById("difficulty_Hard");
 
+const language = document.getElementById("language");
+const language_japanese = document.getElementById("language_japanese");
+const language_english = document.getElementById("language_english");
+
 const wordchoice_Easy = document.getElementById("wordchoice_Easy");
 const wordchoice_Normal = document.getElementById("wordchoice_Normal");
 const wordchoice_Hard1 = document.getElementById("wordchoice_Hard1");
