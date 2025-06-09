@@ -12,7 +12,7 @@
 }
 
 /* 単語 */
-.difficulty_text {
+.language_text {
     position: absolute;
     width: 300px;
     height: 93px;
@@ -29,25 +29,13 @@
     background-image: url("game_material/game_material/background/stand-by-BackGround.png");
 }
 
-#difficulty_Easy {
+#language_japanese {
     top: 257px;
     cursor: pointer;
 }
 
-#difficulty_Normal {
+#language_english {
     top: 472px;
     cursor: pointer;
 }
 
-#difficulty_Hard {
-    top: 686px;
-    cursor: pointer;
-}
-
-.difficulty_img {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    top: 550px;
-    right: 200px;
-}
