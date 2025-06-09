@@ -50,9 +50,6 @@ for (const w of words_word) {
 //ボタンが押されたら表示非表示（次のターンに進むから難易度選択画面）
 mainstage_turn_next.addEventListener("click", e => {
     mainstage.style.display = "none"
-    if(element.classList.contains('japanese') == true){ //試行錯誤中
-        difficulty_japan.style.display = "block"
-    }
     difficulty_japan.style.display = "block"
     document.getElementById(difficult_select + selected_effect + "_png").style.display = "none";
     document.getElementById("battle_bgm").pause()
