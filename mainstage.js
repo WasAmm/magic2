@@ -31,15 +31,7 @@ mainstage_monster_lose_words.addEventListener("click", e => {
     mainstage_damage.style.display = "none"
     mainstage_turn_next.style.display = "block"
     mainstage_effect_dragon.style.display = "none"
-    mainstage_effect_monster_darkness.style.display = "none"
-    mainstage_effect_monster_grass.style.display = "none"
-    mainstage_effect_monster_ice.style.display = "none"
-    mainstage_effect_monster_light.style.display = "none"
-    mainstage_effect_monster_poison.style.display = "none"
-    mainstage_effect_monster_rock.style.display = "none"
-    mainstage_effect_monster_thunder.style.display = "none"
-    mainstage_effect_monster_water.style.display = "none"
-    mainstage_effect_monster_wind.style.display = "none"
+    document.getElementById(difficult_select + selected_effect + "_png").style.display = "none";
     document.getElementById("battle_bgm").pause()
     document.getElementById("battle_bgm").currentTime = 0
 }, false);
