@@ -27,7 +27,7 @@
 /* １つ先に進む */
 .storyfront {
     position: absolute;
-    width: 287px;
+    width: 380px;
     height: 38px;
     top: 1030px;
     right: 114px;
@@ -40,7 +40,7 @@
 /* 一つ前にもどる */
 .storyback {
     position: absolute;
-    width: 390px;
+    width: 500px;
     height: 38px;
     top: 1030px;
     left: 111px;
