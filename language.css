@@ -16,7 +16,7 @@
     position: absolute;
     width: 300px;
     height: 93px;
-    left: 839px;
+    left: 760px;
     color: white;
     font-size: 84px;
     text-align: center;
@@ -26,7 +26,7 @@
 
 #language.display_size {
     display: none;
-    background-image: url("game_material/game_material/background/stand-by-BackGround.png");
+    background-image: url("game_material/game_material/ background/standbyBackGround.png");
 }
 
 #language_japanese {

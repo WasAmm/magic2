@@ -27,10 +27,10 @@
 /* １つ先に進む */
 .storyfront {
     position: absolute;
-    width: 380px;
+    width: 280px;
     height: 38px;
     top: 1030px;
-    right: 114px;
+    right: 80px;
     color: white;
     font-size: 39px;
     line-height: 1;
@@ -43,7 +43,7 @@
     width: 500px;
     height: 38px;
     top: 1030px;
-    left: 111px;
+    left: 80px;
     color: white;
     font-size: 39px;
     line-height: 1;
