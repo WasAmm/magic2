@@ -1,3 +1,9 @@
+/* 単語選択画面-normal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* 画面サイズ */
 .display_size {
     position: relative;
@@ -5,7 +11,7 @@
     height: 1080px;
 }
 
-#wordchoice_Easy_japan.display_size {
+#wordchoice_Normal_japan.display_size {
     background-color: black;
     display: none;
 }
@@ -22,34 +28,12 @@
     user-select: none;
 }
 
-/* ふりがな */
-.can_read_japanese_left {
-    position: absolute;
-    height: 30px;
-    left: 157px;
-    font-size: 30px;
-    line-height: 1;
-    color: white;
-    user-select: none;
-}
-
-.can_read_japanese_right {
-    position: absolute;
-    height: 30px;
-    width: 325px;
-    right: 299px;
-    font-size: 30px;
-    line-height: 1;
-    color: white;
-    user-select: none;
-}
-
 /* 単語 */
-.word_easy {
+.word_normal {
     position: absolute;
-    height: 84px;
-    width: 405px;
-    font-size: 84px;
+    height: 70px;
+    width: 574px;
+    font-size: 70px;
     line-height: 1;
     color: white;
 
@@ -62,5 +46,4 @@
     border-bottom: solid;
 
     cursor: pointer;
-
 }
