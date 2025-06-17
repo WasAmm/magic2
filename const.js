@@ -190,6 +190,11 @@ const storyback_5_japan = document.getElementById("storyback_5_japan");
 
 const wordchoice_Easy_japan = document.getElementById("wordchoice_Easy_japan");
 const wordchoice_Normal_japan = document.getElementById("wordchoice_Normal_japan");
+const wordchoice_Hard1_japan = document.getElementById("wordchoice_Hard1_japan");
+const wordchoice_Hard2_japan = document.getElementById("wordchoice_Hard2_japan");
+
+const wordchoice_Hard1_front_japan = document.getElementById("wordchoice_Hard1_front_japan");
+const wordchoice_Hard2_back_japan = document.getElementById("wordchoice_Hard2_back_japan");
 
 const difficulty_japan = document.getElementById("difficulty_japan");
 const difficulty_Easy_japan = document.getElementById("difficulty_Easy_japan");
