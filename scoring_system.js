@@ -35,6 +35,9 @@ for (const w of words_word) {
         wordchoice_Hard1.style.display = "none"
         wordchoice_Hard2.style.display = "none"
         wordchoice_Easy_japan.style.display = "none"
+        wordchoice_Normal_japan.style.display = "none"
+        wordchoice_Hard1_japan.style.display = "none"
+        wordchoice_Hard2_japan.style.display = "none"
         final_confirmation.style.display = "block"
         final_confirmation_word.textContent = selected_text;
         speak_example_word.textContent = selected_text;

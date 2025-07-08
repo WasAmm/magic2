@@ -36,3 +36,14 @@
 
     cursor: pointer;
 }
+
+#wordchoice_Hard1_front_japan {
+    position: absolute;
+    height: 65px;
+    width: 582px;
+    top: 992px;
+    right: 65px;
+    color: white;
+    font-size: 65px;
+    line-height: 1;
+}
