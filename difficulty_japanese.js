@@ -11,3 +11,10 @@ difficulty_Normal_japan.addEventListener("click", e => {
     wordchoice_Normal_japan.style.display = "block"
     difficult_select = "Normal_"
 }, false);
+
+//ボタンが押されたら表示非表示　（難易度選択画面からEasyの単語選択画面）
+difficulty_Hard_japan.addEventListener("click", e => {
+    difficulty_japan.style.display = "none"
+    wordchoice_Hard_japan.style.display = "block"
+    difficult_select = "Hard_"
+}, false);
