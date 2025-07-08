@@ -2,10 +2,10 @@
 const HP_tensuu = document.getElementsByName("HP_tensuu");
 const words_word = document.getElementsByName("words_word");
 
-async function azure_word(word, mills) {
+async function azure_word(select_language,word, mills) {
     //return azure_dummy(word);
     try {
-        return await sendVoice(word, mills);
+        return await sendVoice(select_language,word, mills);
     } catch (error) {
         return Promise.resolve((0))
     }
@@ -21,6 +21,7 @@ async function azure_dummy(word) {
 }
 
 let selected_text;
+let select_language;
 let selected_effect;
 let zanryou = 370;
 let count_down = 370;
@@ -46,6 +47,9 @@ for (const w of words_word) {
         //エフェクト引っ張ってくるやつ
         selected_effect = w.getAttribute("data-word");
         console.log(selected_effect);
+
+        select_language = w.getAttribute("data-lang");
+        console.log(select_language);
 
     });
 }
@@ -97,7 +101,7 @@ speak_example_front.addEventListener("click", async (e) => {
     setTimeout(() => {
         window.document.getElementById("count_meter").style.width = "0px";
     }, 10);
-    const t = await azure_word(selected_text, 5000);
+    const t = await azure_word(select_language,selected_text, 5000);
 
     console.log(t);
     const text = t;

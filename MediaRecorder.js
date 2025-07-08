@@ -3,22 +3,16 @@ const workerOptions = {
     WebMOpusEncoderWasmPath: 'https://cdn.jsdelivr.net/npm/opus-media-recorder@latest/WebMOpusEncoder.wasm'
 };
 
-function download(blob) {
-    var downLoadLink = document.createElement("a");
-    downLoadLink.download = "a.wav";
-    downLoadLink.href = URL.createObjectURL(blob);
-    downLoadLink.click();
-}
 
-
-async function sendVoice(magicName, mills) {
+async function sendVoice(select_language,magicName, mills) {
     const mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
     const blob = await record(mediaStream, mills);
     //download(blob);
 
     const blobBase64 = await blobToBase64(blob);
-    const res = await fetch('https://itmiraitestapp2.azurewebsites.net/api/ITMirai_Func', {
+    const res = await fetch('https://itmiraitestapp2.azurewebsites.net/api/ITMirai_Multilingual_Func', {
         body: JSON.stringify({
+            "language": select_language,
             "magic_spell": magicName,	//魔法名
             "magic_audio": blobBase64	//Base64形式の音声データ
         }),
