@@ -14,7 +14,7 @@
 /* 単語 */
 .language_text {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 93px;
     left: 760px;
     color: white;
@@ -30,12 +30,12 @@
 }
 
 #language_japanese {
-    top: 257px;
+    top: 300px;
     cursor: pointer;
 }
 
 #language_english {
-    top: 472px;
+    top: 650px;
     cursor: pointer;
 }
 
