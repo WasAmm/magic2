@@ -189,7 +189,7 @@ const storyfront_5_japan = document.getElementById("storyfront_5_japan");
 const storyback_5_japan = document.getElementById("storyback_5_japan");
 
 const wordchoice_Easy_japan = document.getElementById("wordchoice_Easy_japan");
-
+const wordchoice_Normal_japan = document.getElementById("wordchoice_Normal_japan");
 
 
 
