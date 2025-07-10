@@ -6,5 +6,5 @@ document.getElementById("speak_example_repeat").addEventListener("click", e => {
 //ボタンが押されたら表示非表示　（最終確認 から 難易度選択画面 もどる）
 final_confirmation_back.addEventListener("click", e => {
     final_confirmation.style.display = "none"
-    difficulty.style.display = "block"
+    language.style.display = "block"
 }, false);
