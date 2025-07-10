@@ -9,3 +9,58 @@
     background-color: black;
     display: none;
 }
+
+/* 単語を選んでね */
+.please_wordchoice_japan {
+    position: absolute;
+    height: 78px;
+    width: 1200px;
+    top: 70px;
+    left: 460px;
+    font-size: 60px;
+    color: white;
+    user-select: none;
+}
+
+/* ふりがな */
+.can_read_japanese_left {
+    position: absolute;
+    height: 30px;
+    left: 157px;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    user-select: none;
+}
+
+.can_read_japanese_right {
+    position: absolute;
+    height: 30px;
+    width: 325px;
+    right: 299px;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    user-select: none;
+}
+
+/* 単語 */
+.word_normal {
+    position: absolute;
+    height: 84px;
+    width: 405px;
+    font-size: 55px;
+    line-height: 1;
+    color: white;
+
+    animation-name: border_color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: white 1px;
+    border-bottom: solid;
+
+    cursor: pointer;
+
+}
