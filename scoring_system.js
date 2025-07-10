@@ -122,7 +122,7 @@ speak_example_front.addEventListener("click", async (e) => {
             mainstage_turn_next.style.display = "none"
             mainstage_monster_down.style.display = "block"
             dragon_power.style.display = "none"
-            (difficult_select + selected_effect + "_png").style.display = "none"
+            document.getElementById(difficult_select + selected_effect + "_png").style.display = "none"
         }, 5000);
     }
 
