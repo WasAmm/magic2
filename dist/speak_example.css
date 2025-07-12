@@ -1,0 +1,74 @@
+/* 発音お手本 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* 音声 */
+.speak_example_audio {
+    display: none;
+}
+
+#speak_example.display_size {
+    background-color: black;
+    display: none;
+}
+
+#speak_example_said {
+    position: absolute;
+    height: 75px;
+    width: 791px;
+    top: 117px;
+    left: 620px;
+    color: white;
+    font-size: 75px;
+    line-height: 1;
+}
+
+#speak_example_word {
+    position: absolute;
+    height: 224px;
+    width: 1745px;
+    top: 422px;
+    left: 77px;
+    color: white;
+    font-size: 85px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#speak_example_repeat {
+    position: absolute;
+    height: 65px;
+    width: 400px;
+    top: 767px;
+    left: 757px;
+    font-size: 65px;
+    color: white;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+#speak_example_front {
+    position: absolute;
+    height: 65px;
+    width: 409px;
+    top: 939px;
+    left: 754px;
+    font-size: 65px;
+    color: white;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}

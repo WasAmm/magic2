@@ -1,0 +1,64 @@
+/* 敗北画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#lose_display.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/lose-BackGround.png");
+}
+
+#lose_display_words_bad {
+    position: absolute;
+    height: 163px;
+    width: 779px;
+    top: 122px;
+    left: 530px;
+    color: black;
+    font-size: 163px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#lose_display_words_sobad {
+    position: absolute;
+    height: 113px;
+    width: 800px;
+    top: 484px;
+    left: 558px;
+    color: black;
+    font-size: 113px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#lose_display_bad_human {
+    position: absolute;
+    height: 505px;
+    width: 405px;
+    top: 497px;
+    left: 1329px;
+}
+
+#lose_display_front {
+    position: absolute;
+    height: 60px;
+    width: 1427px;
+    top: 990px;
+    left: 261px;
+    color: black;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}

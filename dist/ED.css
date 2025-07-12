@@ -1,0 +1,58 @@
+/* 製作者画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ED.display_size {
+    background-color: gray;
+    display: none;
+}
+
+#ED_text {
+    position: absolute;
+    height: 100px;
+    width: 1320px;
+    top: 70px;
+    left: 290px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#ED_text_2 {
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    top: 190px;
+    left: 658px;
+    color: white;
+    font-size: 70px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#img_ED {
+    position: absolute;
+    height: 675px;
+    width: 1200px;
+    top: 280px;
+    left: 340px;
+    pointer-events: none;
+}
+
+#ED_front {
+    position: absolute;
+    height: 60px;
+    width: 1427px;
+    top: 990px;
+    left: 261px;
+    color: white;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}

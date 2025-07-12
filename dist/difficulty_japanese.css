@@ -1,0 +1,53 @@
+/* 難易度画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* 単語 */
+.difficulty_text {
+    position: absolute;
+    width: 300px;
+    height: 93px;
+    left: 839px;
+    color: white;
+    font-size: 84px;
+    text-align: center;
+    padding: 0% 0% 1%;
+    background-color: #99a6c990;
+}
+
+#difficulty_japan.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/standbyBackGround.png");
+}
+
+#difficulty_Easy_japan {
+    top: 257px;
+    cursor: pointer;
+}
+
+#difficulty_Normal_japan {
+    top: 472px;
+    cursor: pointer;
+}
+
+#difficulty_Hard_japan {
+    top: 686px;
+    cursor: pointer;
+}
+
+.difficulty_img {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 550px;
+    right: 200px;
+}

@@ -1,0 +1,49 @@
+/* 単語選択画面-hard2 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#wordchoice_Hard2_japan.display_size {
+    background-color: black;
+    display: none;
+}
+
+/* 単語 */
+.word_hard {
+    position: absolute;
+    height: 80px;
+    width: 1306px;
+    line-height: 80px;
+    left: 41px;
+    align-items: center;
+    color: white;
+
+    animation-name: border_color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: white 1px;
+    border-bottom: solid;
+
+    cursor: pointer;
+}
+
+#wordchoice_Hard2_back_japan {
+    position: absolute;
+    height: 65px;
+    width: 593px;
+    top: 992px;
+    right: 65px;
+    color: white;
+    font-size: 65px;
+    line-height: 1;
+}

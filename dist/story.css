@@ -1,0 +1,145 @@
+/* あらすじ画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* あらすじスキップ */
+.storyskip {
+    position: absolute;
+    width: 448px;
+    height: 39px;
+    top: 20px;
+    right: 123px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* １つ先に進む */
+.storyfront {
+    position: absolute;
+    width: 280px;
+    height: 38px;
+    top: 1030px;
+    right: 80px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* 一つ前にもどる */
+.storyback {
+    position: absolute;
+    width: 500px;
+    height: 38px;
+    top: 1030px;
+    left: 80px;
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* あらすじ画面１ */
+#OP_1.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/summary-1.png");
+}
+
+#story_1 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    user-select: none;
+}
+
+#story_bgm {
+    display: none;
+}
+
+/* あらすじ画面２ */
+#OP_2.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/summary-2.png");
+}
+
+#story_2 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 130px;
+    left: 111px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    user-select: none;
+}
+
+/* あらすじ画面３ */
+#OP_3.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/summary-3.png");
+}
+
+#story_3 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+    user-select: none;
+}
+
+/* あらすじ画面4 */
+#OP_4.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/summary-4.5.png");
+}
+
+#story_4 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 183px;
+    left: 111px;
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+    user-select: none;
+}
+
+/* あらすじ画面5 */
+#OP_5.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/summary-5.png");
+}
+
+#story_5 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 251px;
+    left: 243px;
+    color: white;
+    font-size: 117px;
+    line-height: 1;
+    user-select: none;
+}
