@@ -74,8 +74,8 @@ speak_example_front.addEventListener("click", async (e) => {
     count_supell.style.display = "block"
     count_line.style.display = "block"
     count_meter.style.display = "block"
-    document.getElementById(difficult_select + selected_effect + "_mp3").pause()
-    document.getElementById(difficult_select + selected_effect + "_mp3").currentTime = 0
+    document.getElementById(difficult_select + selected_effect + "_mp3" + select_language).pause()
+    document.getElementById(difficult_select + selected_effect + "_mp3" + select_language).currentTime = 0
 
     mainstage_player_words.style.display = "none"
     mainstage_Lets_speak.style.display = "block"

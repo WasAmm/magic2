@@ -186,19 +186,19 @@
 
 .mainstage_effect_monster_Easy {
     position: absolute;
-    left: 260px;
-    top: 385px;
+    left: 200px;
+    top: 395px;
 }
 
 .mainstage_effect_monster_Normal {
     position: absolute;
-    left: 330px;
-    top: 350px;
+    left: 230px;
+    top: 430px;
 }
 
 .mainstage_effect_monster_Hard {
     position: absolute;
-    left: 108px;
+    left: 148px;
     top: 450px;
 }
 

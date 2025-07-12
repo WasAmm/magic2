@@ -16,5 +16,5 @@ difficulty_Normal_japan.addEventListener("click", e => {
 difficulty_Hard_japan.addEventListener("click", e => {
     difficulty_japan.style.display = "none"
     wordchoice_Hard1_japan.style.display = "block"
-    difficulty_select = "Hard_"
+    difficult_select = "Hard_"
 }, false);

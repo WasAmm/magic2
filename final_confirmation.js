@@ -2,5 +2,5 @@
 document.getElementById("final_confirmation_front").addEventListener("click", e => {
     final_confirmation.style.display = "none"
     speak_example.style.display = "block"
-    document.getElementById(difficult_select + selected_effect + "_mp3").play()
+    document.getElementById(difficult_select + selected_effect + "_mp3" + select_language).play()
 }, false);
