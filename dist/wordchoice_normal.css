@@ -1,0 +1,119 @@
+/* 単語選択画面-normal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#wordchoice_Normal.display_size {
+    background-color: black;
+    display: none;
+}
+
+/* 単語を選んでね */
+.please_wordchoice {
+    position: absolute;
+    height: 78px;
+    width: 832px;
+    top: 70px;
+    left: 616px;
+    font-size: 60px;
+}
+
+/* 単語 */
+.word_normal {
+    position: absolute;
+    height: 70px;
+    width: 574px;
+    font-size: 70px;
+    line-height: 1;
+    color: white;
+
+    animation-name: border_color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: white 1px;
+    border-bottom: solid;
+
+    cursor: pointer;
+}
+
+@keyframes border_color {
+    0% {
+      border-color: black;
+    }
+    50% {
+      border-color: white;
+    }
+  
+  }
+
+/* 枠線 */
+.border_wordchoice {
+    position: absolute;
+    width: 1542px;
+    height: 772px;
+    top: 167px;
+    left: 189px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+#fire_normal.word_normal {
+    top: 67px;
+    left: 30px;
+}
+
+#water_normal.word_normal {
+    top: 206px;
+    left: 30px;
+}
+
+#grass_normal.word_normal {
+    top: 345px;
+    left: 30px;
+}
+
+#thunder_normal.word_normal {
+    top: 484px;
+    left: 30px;
+}
+
+#ice_normal.word_normal {
+    top: 622px;
+    left: 30px;
+}
+
+#wind_normal.word_normal {
+    top: 67px;
+    right: 190px;
+}
+
+#rock_normal.word_normal {
+    top: 206px;
+    right: 190px;
+}
+
+#poison_normal.word_normal {
+    top: 345px;
+    right: 190px;
+}
+
+#light_normal.word_normal {
+    top: 484px;
+    right: 190px;
+}
+
+#darkness_normal.word_normal {
+    top: 622px;
+    right: 190px;
+}

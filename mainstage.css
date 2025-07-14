@@ -78,7 +78,7 @@
     position: absolute;
     height: 84px;
     width: 874px;
-    top: 209px;
+    top: 150px;
     left: 512px;
     font-size: 84px;
     line-height: 1;
@@ -89,7 +89,7 @@
     position: absolute;
     height: 84px;
     width: 1723px;
-    top: 308px;
+    top: 348px;
     left: 63px;
     font-size: 60px;
     line-height: 1;
@@ -186,19 +186,19 @@
 
 .mainstage_effect_monster_Easy {
     position: absolute;
-    left: 260px;
-    top: 385px;
+    left: 200px;
+    top: 395px;
 }
 
 .mainstage_effect_monster_Normal {
     position: absolute;
-    left: 330px;
-    top: 350px;
+    left: 230px;
+    top: 430px;
 }
 
 .mainstage_effect_monster_Hard {
     position: absolute;
-    left: 108px;
+    left: 148px;
     top: 450px;
 }
 
@@ -266,7 +266,7 @@
     position: absolute;
     height: 52px;
     width: 370px;
-    top: 540px;
+    top: 600px;
     left: 750px;
     border-style: solid;
     border-width: 4px;
@@ -276,7 +276,7 @@
 
 #count_meter {
     height: 52px;
-    top: 540px;
+    top: 650px;
     background-color: mediumturquoise;
     transition: width 5s linear;
 }
@@ -284,7 +284,7 @@
 #count_supell {
     position: absolute;
     height: 30px;
-    width: 800px;
+    width: 900px;
     top: 470px;
     left: 600px;
     color: black;

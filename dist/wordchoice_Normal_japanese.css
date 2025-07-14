@@ -1,0 +1,34 @@
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#wordchoice_Normal_japan.display_size {
+    background-color: black;
+    display: none;
+}
+
+/* 単語を選んでね */
+.please_wordchoice_japan {
+    position: absolute;
+    height: 78px;
+    width: 1200px;
+    top: 70px;
+    left: 460px;
+    font-size: 60px;
+    color: white;
+    user-select: none;
+}
+
+/* ふりがな */
+.can_read_japanese_left {
+    position: absolute;
+    height: 30px;
+    left: 157px;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    user-select: none;
+}

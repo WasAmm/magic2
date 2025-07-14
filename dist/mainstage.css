@@ -1,0 +1,295 @@
+/* 戦闘画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* エフェクトの位置 */
+.mainstage_effect_monster {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 385px;
+    display: none;
+}
+
+
+#mainstage.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/battle-BackGround.png");
+}
+
+#HP_tensuu {
+    position: absolute;
+    height: 35px;
+    width: 214px;
+    top: 171px;
+    left: 108px;
+    font-size: 35px;
+    line-height: 1;
+    text-align: left;
+    display: block;
+    user-select: none;
+}
+
+#mainstage_turn {
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    top: 45px;
+    right: 200px;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+#mainstage_HPber_line {
+    position: absolute;
+    height: 52px;
+    width: 370px;
+    top: 209px;
+    left: 108px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 11px;
+}
+
+#mainstage_HPber {
+    height: 52px;
+    width: text2;
+    top: 370px;
+    left: 39px;
+    background-color: mediumspringgreen;
+    transition: 5s width;
+}
+
+#mainstage_Lets_speak {
+    position: absolute;
+    height: 84px;
+    width: 874px;
+    top: 209px;
+    left: 512px;
+    font-size: 84px;
+    line-height: 1;
+    user-select: none;
+}
+
+#mainstage_word {
+    position: absolute;
+    height: 84px;
+    width: 1723px;
+    top: 308px;
+    left: 63px;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+}
+
+#mainstage_score {
+    position: absolute;
+    height: 54px;
+    width: 596px;
+    top: 1000px;
+    left: 328px;
+    font-size: 54px;
+    line-height: 1;
+    display: block;
+    user-select: none;
+}
+
+#mainstage_damage {
+    position: absolute;
+    height: 54px;
+    width: 617px;
+    top: 1000px;
+    left: 973px;
+    font-size: 54px;
+    line-height: 1;
+    display: block;
+    user-select: none;
+}
+
+#mainstage_damage {
+    position: absolute;
+    height: 54px;
+    width: 617px;
+    top: 1000px;
+    left: 973px;
+    font-size: 54px;
+    line-height: 1;
+    display: block;
+    user-select: none;
+}
+
+#mainstage_damage_line {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 978px;
+    left: 124px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#dragon_power {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 376px;
+    left: 90px;
+    display: block;
+}
+
+#mainstage_monster_down {
+    position: absolute;
+    height: 432px;
+    width: 542px;
+    top: 430px;
+    left: 85px;
+    display: none;
+}
+
+#mainstage_monster_victory {
+    position: absolute;
+    height: 505px;
+    width: 540px;
+    top: 390px;
+    left: 90px;
+    display: none;
+}
+
+#mainstage_effect_dragon {
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    display: none;
+}
+
+#mainstage_effect_monster {
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    display: none;
+}
+
+.mainstage_effect_monster_Easy {
+    position: absolute;
+    left: 200px;
+    top: 395px;
+}
+
+.mainstage_effect_monster_Normal {
+    position: absolute;
+    left: 230px;
+    top: 430px;
+}
+
+.mainstage_effect_monster_Hard {
+    position: absolute;
+    left: 148px;
+    top: 450px;
+}
+
+
+
+#mainstage_player_words {
+    position: absolute;
+    height: 87px;
+    width: 270px;
+    top: 4800px;
+    left: 630px;
+    display: none;
+    user-select: none;
+}
+
+#mainstage_player_cheerful {
+    position: absolute;
+    height: 460px;
+    width: 340px;
+    top: 466px;
+    left: 1475px;
+    display: block;
+}
+
+#mainstage_turn_next {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#mainstage_monster_win_words {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#mainstage_monster_lose_words {
+    position: absolute;
+    height: 86px;
+    width: 1704px;
+    top: 1005px;
+    left: 124px;
+    font-size: 54px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#count_line {
+    position: absolute;
+    height: 52px;
+    width: 370px;
+    top: 540px;
+    left: 750px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 11px;
+    display: none;
+}
+
+#count_meter {
+    height: 52px;
+    top: 540px;
+    background-color: mediumturquoise;
+    transition: width 5s linear;
+}
+
+#count_supell {
+    position: absolute;
+    height: 30px;
+    width: 800px;
+    top: 470px;
+    left: 600px;
+    color: black;
+    font-size: 74px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}

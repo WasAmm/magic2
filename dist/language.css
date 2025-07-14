@@ -1,0 +1,41 @@
+/* 難易度画面 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 画面サイズ */
+.display_size {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* 単語 */
+.language_text {
+    position: absolute;
+    width: 400px;
+    height: 93px;
+    left: 760px;
+    color: white;
+    font-size: 84px;
+    text-align: center;
+    padding: 0% 0% 1%;
+    background-color: #99a6c990;
+}
+
+#language.display_size {
+    display: none;
+    background-image: url("game_material/game_material/ background/standbyBackGround.png");
+}
+
+#language_japanese {
+    top: 300px;
+    cursor: pointer;
+}
+
+#language_english {
+    top: 650px;
+    cursor: pointer;
+}
+
