@@ -16,6 +16,15 @@
     display: none;
 }
 
+.please_wordchoice {
+    position: absolute;
+    height: 78px;
+    width: 1040px;
+    top: 70px;
+    left: 440px;
+    font-size: 60px;
+}
+
 /* 単語 */
 .word_hard {
     position: absolute;
@@ -46,4 +55,14 @@
     color: white;
     font-size: 65px;
     line-height: 1;
+}
+
+.can_read_japanese_left_Hard {
+    position: absolute;
+    height: 30px;
+    left: 40px;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    user-select: none;
 }

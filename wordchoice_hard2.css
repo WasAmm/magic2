@@ -72,6 +72,10 @@
     font-size: 52px;
 }
 
+#can_read_japanese_wind_Hard {
+    top: 50px;
+}
+
 #img_wind_hard.image_icon_hard {
     top: 50px;
 }
@@ -79,6 +83,10 @@
 #rock_hard.word_hard {
     top: 206px;
     font-size: 42px;
+}
+
+#can_read_japanese_rock_Hard {
+    top: 185px;
 }
 
 #img_rock_hard.image_icon_hard {
@@ -90,6 +98,10 @@
     font-size: 42px;
 }
 
+#can_read_japanese_poison_Hard {
+    top: 325px;
+}
+
 #img_poison_hard.image_icon_hard {
     top: 326px;
 }
@@ -99,6 +111,10 @@
     font-size: 45px;
 }
 
+#can_read_japanese_light_Hard {
+    top: 465px;
+}
+
 #img_light_hard.image_icon_hard {
     top: 484px;
 }
@@ -106,6 +122,10 @@
 #darkness_hard.word_hard {
     top: 622px;
     font-size: 52px;
+}
+
+#can_read_japanese_darkness_Hard {
+    top: 605px;
 }
 
 #img_darkness_hard.image_icon_hard {

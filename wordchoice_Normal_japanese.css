@@ -23,10 +23,21 @@
 }
 
 /* ふりがな */
-.can_read_japanese_left {
+.can_read_japanese_left_Normal {
     position: absolute;
     height: 30px;
-    left: 157px;
+    left: 30px;
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    user-select: none;
+}
+
+.can_read_japanese_right_Normal {
+    position: absolute;
+    height: 30px;
+    width: 325px;
+    left: 775px;
     font-size: 30px;
     line-height: 1;
     color: white;

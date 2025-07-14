@@ -76,6 +76,10 @@
     top: 50px;
 }
 
+#can_read_japanese_fire_Hard {
+    top: 50px;
+}
+
 #water_hard.word_hard {
     top: 206px;
     font-size: 52px;
@@ -83,6 +87,10 @@
 
 #img_water_hard.image_icon_hard {
     top: 188px;
+}
+
+#can_read_japanese_water_Hard {
+    top: 185px;
 }
 
 #grass_hard.word_hard {
@@ -94,6 +102,10 @@
     top: 326px;
 }
 
+#can_read_japanese_grass_Hard {
+    top: 325px;
+}
+
 #thunder_hard.word_hard {
     top: 484px;
     font-size: 45px;
@@ -103,6 +115,10 @@
     top: 484px;
 }
 
+#can_read_japanese_thunder_Hard {
+    top: 465px;
+}
+
 #ice_hard.word_hard {
     top: 622px;
     font-size: 52px;
@@ -110,6 +126,10 @@
 
 #img_ice_hard.image_icon_hard {
     top: 622px;
+}
+
+#can_read_japanese_ice_Hard {
+    top: 605px;
 }
 
 #wordchoice_Hard1_front {

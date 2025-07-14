@@ -20,9 +20,9 @@
 .please_wordchoice {
     position: absolute;
     height: 78px;
-    width: 832px;
+    width: 1040px;
     top: 70px;
-    left: 616px;
+    left: 440px;
     font-size: 60px;
 }
 
@@ -73,9 +73,17 @@
     left: 30px;
 }
 
+#can_read_japanese_fire_Normal {
+    top: 40px;
+}
+
 #water_normal.word_normal {
     top: 206px;
     left: 30px;
+}
+
+#can_read_japanese_water_Normal {
+    top: 170px;
 }
 
 #grass_normal.word_normal {
@@ -83,9 +91,17 @@
     left: 30px;
 }
 
+#can_read_japanese_grass_Normal {
+    top: 315px;
+}
+
 #thunder_normal.word_normal {
     top: 484px;
     left: 30px;
+}
+
+#can_read_japanese_thunder_Normal {
+    top: 455px;
 }
 
 #ice_normal.word_normal {
@@ -93,9 +109,17 @@
     left: 30px;
 }
 
+#can_read_japanese_ice_Normal {
+    top: 595px;
+}
+
 #wind_normal.word_normal {
     top: 67px;
     right: 190px;
+}
+
+#can_read_japanese_wind_Normal {
+    top: 40px;
 }
 
 #rock_normal.word_normal {
@@ -103,17 +127,32 @@
     right: 190px;
 }
 
+#can_read_japanese_rock_Normal {
+    top: 180px;
+}
+
 #poison_normal.word_normal {
     top: 345px;
     right: 190px;
+}
+
+#can_read_japanese_poison_Normal {
+    top: 315px;
 }
 
 #light_normal.word_normal {
     top: 484px;
     right: 190px;
 }
+#can_read_japanese_light_Normal {
+    top: 455px;
+}
 
 #darkness_normal.word_normal {
     top: 622px;
     right: 190px;
+}
+
+#can_read_japanese_darkness_Normal {
+    top: 595px;
 }
