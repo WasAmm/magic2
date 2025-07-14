@@ -53,7 +53,7 @@
 /* あらすじ画面１ */
 #OP_1.display_size {
     display: none;
-    background-image: url("game_material/game_material/ background/summary-1.png");
+    background-image: url("game_material/game_material/ background/banpaku_1.png");
 }
 
 #story_1 {
@@ -75,7 +75,7 @@
 /* あらすじ画面２ */
 #OP_2.display_size {
     display: none;
-    background-image: url("game_material/game_material/ background/summary-2.png");
+    background-image: url("game_material/game_material/ background/banpaku_2.png");
 }
 
 #story_2 {
@@ -93,7 +93,7 @@
 /* あらすじ画面３ */
 #OP_3.display_size {
     display: none;
-    background-image: url("game_material/game_material/ background/summary-3.png");
+    background-image: url("game_material/game_material/ background/banpaku_3.png");
 }
 
 #story_3 {

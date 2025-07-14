@@ -108,7 +108,7 @@ speak_example_front.addEventListener("click", async (e) => {
     document.getElementById("mainstage_score").textContent = "あなたの点数は" + text + "点";    //点数のところ
     let text2 = text * 2
     zanryou = zanryou - text2
-    document.getElementById("mainstage_damage").textContent = "敵に" + text2 + "のダメージ";   //ダメージのところ
+    document.getElementById("mainstage_damage").textContent = "Your score is " + text;   //ダメージのところ
     if (zanryou < 0) zanryou = 0;
     document.getElementById("HP_tensuu").textContent = "HP " + (zanryou) + "/370";    //HP残量のところ
     window.document.getElementById("mainstage_HPber").style.width = zanryou + "px";
@@ -157,8 +157,8 @@ speak_example_front.addEventListener("click", async (e) => {
 
 //バトル画面　ターン数のところ
 let turn = 1
-document.getElementById("mainstage_turn").textContent = turn + "ターン" + "/3ターン";
+document.getElementById("mainstage_turn").textContent = turn + "turn" + "/3turn";
 document.getElementById("mainstage_turn_next").addEventListener("click", e => {
     turn = turn + 1
-    document.getElementById("mainstage_turn").textContent = turn + "ターン" + "/3ターン";
+    document.getElementById("mainstage_turn").textContent = turn + "turn" + "/3turn";
 })
