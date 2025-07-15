@@ -54,7 +54,7 @@
     position: absolute;
     height: 60px;
     width: 1427px;
-    top: 990px;
+    top: 960px;
     left: 261px;
     color: black;
     font-size: 60px;
@@ -62,3 +62,7 @@
     text-align: center;
     cursor: pointer;
 }
+
+rt {
+    font-size: 0.7em; /* 親テキストの70%のサイズに */
+  }
