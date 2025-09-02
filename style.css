@@ -39,10 +39,10 @@ body {
   /* スタートボタン */
   #startscrean_botton_japan {
     position: absolute;
-    width: 720px;
+    width: 790px;
     height: 100px;
     top: 720px;
-    left: 620px;
+    left: 580px;
     font-size: 80px;
     background-color: #99a6c990;
     border: black 1px solid;
@@ -58,10 +58,10 @@ body {
 /* スタートボタン */
 #startscrean_botton {
     position: absolute;
-    width: 720px;
+    width: 790px;
     height: 100px;
     top: 900px;
-    left: 620px;
+    left: 580px;
     font-size: 80px;
     background-color: #99a6c990;
     border: black 1px solid;
